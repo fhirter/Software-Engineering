@@ -1,0 +1,14 @@
+@startuml
+class Foo {
+{static} int counter
++void {abstract} start(int timeout)
+}
+note right of Foo::counter
+  Felder
+end note
+note right of Foo::start
+  Methoden
+end note
+
+note top: Klassenname
+@enduml

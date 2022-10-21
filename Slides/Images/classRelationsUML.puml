@@ -1,0 +1,31 @@
+@startuml
+class Konto {
+bezeichnung
+saldo()
+einzahlen(betrag)
+}
+
+class Kunde {
+}
+
+class Privatkunde {
+vorname
+nachname
+}
+
+class Geschäftskunde {
+firmenname
+}
+
+class Adresse {
+}
+
+Kunde <|-- Privatkunde
+Kunde <|-- Geschäftskunde
+
+Privatkunde "0..*" -- "1" Adresse
+Geschäftskunde "0..*" -- "1" Adresse
+
+Konto "1..*" -- "1..*" Kunde
+
+@enduml

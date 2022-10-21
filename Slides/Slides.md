@@ -3,25 +3,26 @@
 # Vorstellung
 - 2005 Maturität
 - 2008 – 2016 Polymechaniker
-- seit 2010 Selbstständig im Nebenerwerb: Tontechnik, Akustik, Video, Softwareentwicklung
+- seit 2010 selbstständig im Nebenerwerb: Tontechnik, Akustik, Video, Softwareentwicklung
 - seit 2014 Velokurier (Velo, Disposition, IT)
 - 2015: BSc Elektro- und Kommunikationstechnik, Vertiefung Embedded Systems
 - 2015 – 2016 DSP Entwicklung, Akustik
 - seit 2016 Unterricht TEKO (Softwareentwicklung, Betriebssysteme, Netzwerktechnik, Microcomputer)
 
-# Lernziele I
+# Lernziele
+## Lernziele I
 
 Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden.
 Sie sind in der Lage, mittelgrosse, vollständig objektorientierte, grafische Anwendungen zu implementieren, testen und dokumentieren.
 
-# Lernziele II
+## Lernziele II
 
 Die Studierenden
 - kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische Programmierung und können diese in einfachten Beispielen anwenden. können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
 - kennen die SOLID - Prinzipien und können sie in eigenen Worten erklären.
 - kennen die verschiedenen Testarten und können einfache Unit-Tests selber schreiben.
 
-# Lernziele II
+## Lernziele II
 Die Studierenden
 - kennen das Vorgehen beim Test Driven Development und erkennen, dass Refactoring und Testing ein integraler Teil der Softwareentwicklung ist.
 - kennen das Vorgehen sowie Vor- und Nachteile des Pair-Programming.
@@ -67,12 +68,13 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 - Mach die Hausaufgaben
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
 
-# Softwareentwickler bauen Maschinen
+# Einstieg
+## Softwareentwickler bauen Maschinen
 - Unsere Maschinen können nicht angefasst werden: Sie sind nicht materiell
 - Wir sprechen von Programmen oder Systemen (Software)
 - Um eine Softwaremaschine laufen zu lassen brauchen sie eine physische Maschine: den Computer (Hardware)
 
-# Computer
+## Computer
 - Computer sind universelle Maschinen. Sie führen die Programme aus, die wir ihnen füttern.
 - Die einzigen Grenzen sind unsere Vorstellungskraft
 - Gute Nachricht
@@ -82,11 +84,16 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
   - Dein Computer macht genau das was man ihm sagt.
   - Er macht es sehr schnell
 
-# Programme erstellen und laufen lassen
+## Programme erstellen und laufen lassen
+![w:500px](Images/create_and_run_programs.png)
 
-# Programme erstellen und laufen lassen
+## Programme erstellen und laufen lassen
+![w:10000px](Images/create_and_run_programs2.png)
 
-# Verbreitete Mythen und Entschuldigungen
+## Programme erstellen und laufen lassen
+![w:800px](Images/create_and_run_programms3.png)
+
+## Verbreitete Mythen und Entschuldigungen
 - «Computer sind intelligent»
   - Fakt: Computer sind weder intelligent noch dumm. Sie führen Programme aus, die von Menschen entwickelt wurden. 
   - Diese Programme bilden die Intelligenz ihrer Autoren ab. 
@@ -96,11 +103,287 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 - «Der Computer hat ihren Datensatz verloren»
 - [Fireship.io](https://youtu.be/X3jw1JVNdPE)
 
----
-![w:500px](Images/create_and_run_programs.png)
+
+## Software schreiben ist herausfordernd
+- Programme können «abstürzen»
+- Programme, die nicht «abstürzen» funktionieren nicht zwangläufig richtig.
+- Fehlerhafte Programme können Menschen töten, (medizinische Geräte, Luftfahrt) → Boeing 737 MCAS
+- Ariane5 Rakete, 1996: $10 Milliarden verloren aufgrund eines Programmfehlers.
+- Programmierer sind veranwortlich für das korrekte Funktionieren der Programme
+- Das Ziel dieses Fachs ist, nicht nur programmieren zu lernen, sondern gut programmieren zu lernen.
+
+## Grundsätzliche Organisation
+<!-- Bild -->
+
+## Computer
+- Computer sind universelle Maschinen, sie führen Programme aus, die wir ihnen "füttern"
+<!-- Bild -->
+
+## Informationen und Daten
+- Information ist das, was wir Menschen wollen und verstehen, z.B. ein Lied oder einen Text
+  - Interpretation von Daten für Menschen
+- Daten bezeichnet, wie dies im Computer gespeichert wird, z.B. als MP3 Datei.
+  - Ansammlung von Symbolen in einem Computer
+
+## Informationen und Daten
+- Daten werden gespeichert
+- Eingabegeräte produzieren Daten aus Informationen
+- Ausgabegeräte produzieren Informationen aus Daten
+<!-- Bild -->
+
+## Wo ist das Programm?
+- Stored-program computer: Das Programm ist im Speicher
+  - “ausführbare Daten”
+- Ein Programm kann in verschiedenen Formen im Speicher auftreten:
+  - Quellcode / Sourcecode: durch Menschen lesbare Form (Programmiersprache)
+  - Maschinencode: Ausführbar durch Computer
+- Compiler / Interpreter transformieren von Sourcecode zu Maschinencode
+- Der Computer findet das Programm im Speicher und führt es aus.
+
+## Software Engineering
+Software sollte folgende Merkmale haben:
+- Korrekt: Machen, was es sollte!
+- Erweiterbar: Einfach zu ändern sein!
+- Lesbar: durch Menschen!
+- Wiederverwertbar: Das Rad nicht neu erfinden!
+- Robust: Korrekt auf Fehler reagieren!
+- Sicher: Angreifer abwehren!
+
+## Software schreiben ist herausfordernd
+- Es ist schwierig, das Programm korrekt zu schreiben 
+- Trial-and-error ist ineffizient
+
+## Software schreiben macht Spass
+- Entwickle deine eigene Maschine!
+- Kreativität und Vorstellungsvermögen kann ausgelebt werden!
+- Programme retten leben und machen die Welt besser!
+
+# Entwicklungswerkzeuge
+
+## Entwicklungsumgebungen
+![w:1200px](Images/IDEs.png)
+
+## Entwicklungsumgebungen
+### Eclipse
+- JavaScript/TypeScript, C/C++, PHP, Rust etc
+- Open Source 
+
+### Microsoft Visual Studio
+- VB, C, C++, C##, SQL, TypeScript, Python, HTML, JavaScript, CSS
+- Closed Source
 
 ---
-![w:10000px](Images/create_and_run_programs2.png)
+
+### Microsoft Visual Studio Code
+- JavaScript, TypeScript, HTML, CSS, etc
+- Open Source, Proprietär, frei
+
+### JetBrains
+- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm), iOS (AppCode), Android (AndroidStudio), C## (Rider)
+- Teilweise OpenSource (Community Version)
+
+## Jetbrains PyCharm
+![w:800px](Images/PyCharm.png)
+
+## Debugging
+![w:800px](Images/Debugging.png)
+
+## Versionsverwaltung
+- Protokollierung von Änderungen
+- Wiederherstellung von alten Ständen
+- Archivierung
+- Koordinierung des gemeinsamen Zugriffs 
+- Entwicklungszweige (Branches) -> Don’t Branch!
+- [CI/CD](https://www.redhat.com/cms/managed-files/ci-cd-flow-desktop_edited_0.png)
+- [GitOps](https://www.atlassian.com/git/tutorials/gitops)
+
+## Git
+- Fast jede Funktion arbeitet lokal
+- Git stellt Integrität sicher
+- Git fügt im Regelfall nur Daten hinzu
+- [Download](https://git-scm.com/downloads)
+![w:800px](https://git-scm.com/book/en/v2/images/snapshots.png)
+[Was ist Git](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
+
+## Die drei Zustände
+- Modified
+- Staged
+- Committed
+![w:800px](https://git-scm.com/book/en/v2/images/areas.png)
+
+
+## Arbeiten mit Git
+### Intialisieren
+- Auf Github oder Gitlab ein leeres Projekt erstellen
+- [Dieses Projekt lokal klonen](https://git-scm.com/docs/git-clone)
+- User name setzen: `git config user.name <name>`
 
 ---
-![w:1000px](Images/create_and_run_programms3.png)
+
+### Arbeitsablauf
+- [Lokales Repository aktualisieren](https://git-scm.com/docs/git-pull) `git pull origin`
+- Source Dateien erstellen oder editieren
+- [Änderungen zum Staging Area hinzufügen](https://git-scm.com/docs/git-add) `git add <directory>` (z.B. ".")
+- [Änderungen im Repository festhalten](https://git-scm.com/docs/git-commit) `git commit -m "<message>"` (z.B. "change data type")
+- [Lokales Repository aktualisieren](https://git-scm.com/docs/git-pull) `git pull <remote>` (z.B. "origin")
+  - Mit Rebase bleibt die History aufgeräumter: `git pull --rebase`
+- [Änderungen auf Github/Gitlab/Bitbucket laden](https://git-scm.com/docs/git-push) `git push <remote> <branch>` (z.B. "origin main")
+
+## PyCharm Git Integration
+![w:600px](Images/GitIntegration.png)
+
+---
+![](Images/GitIntegration2.png)
+
+## Ressourcen
+- [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
+- [Git Tutorials](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
+
+# Klassen und Objekte
+## Eine Klasse: eine Software Maschine
+<!-- bild -->
+
+## Was ist ein Objekt?
+Es gibt verschiedene Arten von Objekten:
+- “physische Objekte”: bilden physische Objekte ab, z.B. eine Ampel oder ein Auto
+- “abstrakte Objekte”: Beschreiben abstrakte Dinge aus der modelierten Welt, z.B. eine Route oder eine Himmelsrichtung
+- “Softwareobjekte”: Reine Softwareelemente, z.B.“Datenstrukturen wie Arrays oder Listen
+- Ein grosser Vorteil der objektorientierten Programmierung ist, dass die Software anhand der «echten» Welt modeliert werden kann.
+
+## Was ist ein Objekt?
+- Ein Objekt besitzt Daten → Eigenschaften / Felder
+- Ein Objekt kann Operationen ausführen → Funktionen / Methoden 
+
+Ein Objekt kann Operationen ausführen und dazu auf seine Daten zugreifen und diese ändern.
+
+## Methoden
+- Entspricht dem Begriff "Funktion" der strukturierten Programmierung
+- Eine Operation, die von Objekten ausgeführt werden kann.
+- Abfragen, Befehle
+- Name der Methode kann, mit Einschränkungen, frei gewählt werden.
+
+## Methoden
+- Methoden können Argumente haben:
+  - primaryStage.setTitle("Ampelsteuerung");
+- Mehrere Argumente werde durch Komma getrennt:
+  - primaryStage.add(crossroadController, 1100, 900);
+- Weniger Argumente sind übersichtlicher! (Faustregel: Max. 3)
+
+## Ein Objekt hat eine Schnittstelle (Interface)
+![w:1000px](Images/Interface.png)
+
+## Ein Objekt hat eine Implementierung
+![w:800px](Images/InterfaceImplementation.png)
+
+## Kapselung
+- Grundsätzlich sind alle Felder (Daten) privat, d.h. nur für das eigene Objekt zugänglich
+- Zugriff auf Felder wird mit Methoden gewährt (sogenannte Setter und Getter, z.B. setColor(), getSize()
+- Es werden nur die nötigen Methoden öffentlicht Zugänglich gemacht.
+- Die Programmiersprache stellt den Zugriffsschutz sicher.
+
+## Objektorientierung: Geschichte
+- Untergruppe der imperativen Programmierung (Abfolge von Befehlen)
+- Ursprung: Simula67, Oslo, 60er Jahre
+- Kaum verbreitet in den 70er Jahren
+- Smalltalk (Xerox PARC, 1970s) machte OOP Populärer
+
+---
+
+- Grosser Verbreitung in den 90er Jahren
+- Die meisten heute verbreiteten Sprachen sind objektorientiert: Objective C, C++, Java, C#, Python, Kotlin, Go, JavaScript, uvm
+- Heute das meistverbreitete Konzept der Softwareentwicklung
+- Andere Programmierparadigmen:
+  - Imperative Programmierung
+    - Strukturierte Programmierung
+    - Prozedurale Programmierung
+  - Deklarative Programmierung
+    - funktionale Programmierung
+
+## Java
+- Plattformunabhängigkeit / Bytecode 
+- Zeiger und Referenzen
+- Garbage Collection
+- Angebot an Bibliotheken und Werkzeugen 
+- Einfache Syntax 
+- Java != JavaScript 
+- statische Typisierung 
+
+## Python
+- Plattformunabhängig: Interpreter
+- Grosses Angebot an Bibliotheken und Werkzeugen
+- Einfache Syntax, schlanke Programme, wenig Ballast
+- Multi-Paradigma (OOP, funktionale Programmierung)
+- Garbage Collection
+- dynamische Typisierung
+
+---
+
+![w:1000px](Images/TiobeIndex.png)
+[Tiobe Index](https://www.tiobe.com/tiobe-index/)
+
+## Syntaktische Struktur einer Klasse
+![w:1000px](Images/Klasse.png)
+
+## Klasse
+- Jedes Objekt gehört zu einer Klasse, welche die zur Verfügung stehenden Methoden und Felder definiert.
+- Eine Klasse ist eine Beschreibung von Laufzeit-Objekten, welche die selben Eigenschaften und Methoden besitzen.
+- Eine Klasse ist eine Kategorie von Dingen
+- Ein Objekt ist eines von diesen Dingen
+
+## Objekte
+Wenn ein Objekt O ein Objekt der Klasse C ist:
+- O ist ein Exemplar von C
+- O ist eine Instanz von C
+![](Images/Baum.png)
+
+## Objekte und Klassen
+- Klassen existieren nur im Source Code
+  - Bauplan für konkrete Objekte
+- Objekte existieren nur zur Laufzeit
+
+---
+
+- Ein zentraler Aspekt der Softwareentwicklung ist das Bilden von sinnvollen Klassen für die Aufgabenstellung (Softwarearchitektur, OOD)
+- Das Schreiben der Details wird Implementierung genannt.
+
+## Interface (de: Schnittstelle)
+- Die Schnittstelle (engl. interface) ist der Teil eines Systems, welcher der Kommunikation dient.
+- Der Begriff stammt ursprünglich aus der Naturwissenschaft [...]. Er beschreibt bildhaft die Eigenschaft eines Systems als Black Box, von der nur die „Oberfläche“ sichtbar ist, und daher auch nur darüber eine Kommunikation möglich ist. [...]
+- Daneben bedeutet das Wort „Zwischenschicht“: Für die beiden beteiligten Boxes ist es ohne Belang, wie die jeweils andere intern mit den Botschaften umgeht, und wie die Antworten darauf zustande kommen.
+
+![w:100px](Images/HDMI_Interface.png)
+
+## Interfaces
+- User interface: Wenn die Clients Menschen sind
+  - GUI: Graphical User Interface
+  - Text interfaces, command line interfaces.
+- Program interface: Wenn die Clients Software sind
+  - API: Application Program Interface
+
+## API
+- Eine Schnittstelle gibt an, welche Methoden vorhanden sind oder vorhanden sein müssen.
+- Zusätzlich zu dieser syntaktischen Definition sollten Vorbedingungen und Nachbedingungen der verschiedenen Methoden definiert werden.
+- Heute werden dazu in der Regel automatisierte Tests geschrieben.
+- Es kann auch in der Dokumentation festgehalten werden.
+
+## Schnittstellen definieren
+- Nicht jede Methode ist für jeden möglichen Parameter geeignet
+- Lösungen:
+  - immer: gute Wahl der Bezeichner
+  - möglichst immer: Tests
+  - Einschränkung durch Datentyp
+  - wenn nötig: Kommentare: JavaDoc
+  - falls erforderlich: Exceptions
+
+## Javadoc
+![w:800px](Images/Javadoc.png)
+
+## UML Klassendiagramm
+![](Images/class.png)
+[PlantUML](https://www.plantuml.com/)
+
+## UML Klassendiagramm
+![](Images/classRelationsUML.png)
+
+## Testing
