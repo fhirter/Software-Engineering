@@ -1,0 +1,4 @@
+@startuml
+:A programmer writes a program;
+:A user runs the program;
+@enduml
