@@ -18,15 +18,15 @@ Sie sind in der Lage, mittelgrosse, vollständig objektorientierte, grafische An
 ## Lernziele II
 
 Die Studierenden
-- kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische Programmierung und können diese in einfachten Beispielen anwenden. können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
+- kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische Programmierung und können diese in einfachen Beispielen anwenden. können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
 - kennen die SOLID - Prinzipien und können sie in eigenen Worten erklären.
 - kennen die verschiedenen Testarten und können einfache Unit-Tests selber schreiben.
 
 ## Lernziele II
 Die Studierenden
-- kennen das Vorgehen beim Test Driven Development und erkennen, dass Refactoring und Testing ein integraler Teil der Softwareentwicklung ist.
+- kennen das Vorgehen beim Test Driven Development und kennen die Bedeutung von Refactoring und Testing als integralen Teil der Softwareentwicklung.
 - kennen das Vorgehen sowie Vor- und Nachteile des Pair-Programming.
-- können eine GUI-Applikation entwickeln. Sie können dabei gängige Objektorientierte Konzepte anwenden und den Code sinnvoll strukturieren.
+- können eine GUI-Applikation entwickeln. Sie können dabei gängige objektorientierte Konzepte anwenden und den Code sinnvoll strukturieren.
 - wissen, worauf sie bei der Auswahl eines Frameworks achten müssen.
 
 # Zeitplan
@@ -63,9 +63,7 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 
 # Benotung
 
-# Ratschläge
-- Sei anwesend im Unterricht
-- Mach die Hausaufgaben
+# Ratschlag
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
 
 # Einstieg
@@ -189,7 +187,7 @@ Software sollte folgende Merkmale haben:
 ![w:800px](Images/Debugging.png)
 
 ## Versionsverwaltung
-- Protokollierung von Änderungen
+- Protokollierung von Änderungen
 - Wiederherstellung von alten Ständen
 - Archivierung
 - Koordinierung des gemeinsamen Zugriffs 
