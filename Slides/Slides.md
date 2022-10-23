@@ -237,6 +237,7 @@ Software sollte folgende Merkmale haben:
 - [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [Git Tutorials](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
+- [Simulationstool](https://learngitbranching.js.org/)
 
 # Klassen und Objekte
 ## Eine Klasse: eine Software Maschine
