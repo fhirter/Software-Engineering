@@ -266,14 +266,22 @@ Software sollte folgende Merkmale haben:
 ## Debugging
 ![w:800px](Images/Debugging.png)
 
-## Versionsverwaltung
+## Versionsverwaltung Basics
 - Protokollierung von Änderungen
 - Wiederherstellung von alten Ständen
 - Archivierung
 - Koordinierung des gemeinsamen Zugriffs 
-- Entwicklungszweige (Branches) -> Don’t Branch!
+- Entwicklungszweige (Branches) -> [Don’t Branch!](https://www.youtube.com/watch?v=v4Ijkq6Myfc)
+
+## Moderne Versionsverwaltung
 - [CI/CD](https://www.redhat.com/cms/managed-files/ci-cd-flow-desktop_edited_0.png)
 - [GitOps](https://www.atlassian.com/git/tutorials/gitops)
+- [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+- Documentation as Code 
+  - [Markdown](https://www.markdownguide.org/)
+  - [MKDocs](https://www.mkdocs.org/) 
+  - [PlantUML](https://plantuml.com/de/)
+- Everything as Code
 
 ## Git
 - Fast jede Funktion arbeitet lokal
@@ -293,7 +301,7 @@ Software sollte folgende Merkmale haben:
 ## Arbeiten mit Git
 ### Intialisieren
 - Auf Github oder Gitlab ein leeres Projekt erstellen
-- [Dieses Projekt lokal klonen](https://git-scm.com/docs/git-clone)
+- [Dieses Projekt lokal klonen](https://git-scm.com/docs/git-clone) `git clone`
 - User name setzen: `git config user.name <name>`
 
 ---
