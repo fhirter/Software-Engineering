@@ -388,7 +388,23 @@ Ein Objekt kann Operationen ausführen und dazu auf seine Daten zugreifen und di
     - funktionale Programmierung
 
 ## Syntaktische Struktur einer Klasse
-![w:1000px](Images/Klasse.png)
+```
+class Vehicle:                                 # Class Name
+    def __init__(self, brand, model, type):    # Constructor
+        self.brand = brand
+        self.model = model
+        self.type = type
+        self.gas_tank_size = 14
+        self.fuel_level = 0
+
+    def fuel_up(self):                          # Method declaration
+        self.fuel_level = self.gas_tank_size    # Method implementation
+        print('Gas tank is now full.')
+
+    def drive(self):
+        print(f'The {self.model} is now driving.')
+
+```
 
 ## Klasse
 - Jedes Objekt gehört zu einer Klasse, welche die zur Verfügung stehenden Methoden und Felder definiert.
