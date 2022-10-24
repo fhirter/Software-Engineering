@@ -1,6 +1,8 @@
 <!-- headingDivider: 2 -->
 
-# Vorstellung
+# Organisatorisches
+
+## Vorstellung
 - 2005 Maturität
 - 2008 – 2016 Polymechaniker
 - seit 2010 selbstständig im Nebenerwerb: Tontechnik, Akustik, Video, Softwareentwicklung
@@ -9,7 +11,6 @@
 - 2015 – 2016 DSP Entwicklung, Akustik
 - seit 2016 Unterricht TEKO (Softwareentwicklung, Betriebssysteme, Netzwerktechnik, Microcomputer)
 
-# Lernziele
 ## Lernziele I
 
 Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden.
@@ -29,7 +30,7 @@ Die Studierenden
 - können eine GUI-Applikation entwickeln. Sie können dabei gängige objektorientierte Konzepte anwenden und den Code sinnvoll strukturieren.
 - wissen, worauf sie bei der Auswahl eines Frameworks achten müssen.
 
-# Zeitplan
+## Zeitplan
 
 Montag 18:30 – 20:00 / 20:15 – 21:45
 
@@ -41,12 +42,12 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 6. KW 48: Repetition MVC
 7. KW 49: statische/dynamische Bindung
 8. KW 50: Clean Code
-9. KW 51: Hardware, binäre Zahlendarstellung, Programmiersprachen und -werkzeuge
+9. KW 51: Hardware, binäre Zahlendarstellung, Programmiersprachen
 
 ---
 
 10. KW 2: 
-11. KW 3:  Exceptions, Fehlerbehandlung
+11. KW 3: Exceptions, Fehlerbehandlung
 12. KW 4:  
 13. KW 5: SOLID: Single-Responsibility
 14. KW 7: SOLID: Open Closed
@@ -54,20 +55,19 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 16. KW 9: SOLID: Interface-Segregation
 17. KW 10: SOLID:  Dependency-Inversion
 18. KW 11: Frameworks
-19. KW 12:
+19. KW 12: 
 
-# Unterlagen
-
+## Unterlagen
 - [github.com/fhirter](https://github.com/fhirter/ObjektorientierteProgrammierung)
 - Literatur.pdf
 
-# Benotung
+## Benotung
 
-# Ratschlag
+## Ratschlag
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
 
 # Einstieg
-## Softwareentwickler bauen Maschinen
+## Softwareentwickler:innen bauen Maschinen
 - Unsere Maschinen können nicht angefasst werden: Sie sind nicht materiell
 - Wir sprechen von Programmen oder Systemen (Software)
 - Um eine Softwaremaschine laufen zu lassen brauchen sie eine physische Maschine: den Computer (Hardware)
@@ -76,11 +76,11 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 - Computer sind universelle Maschinen. Sie führen die Programme aus, die wir ihnen füttern.
 - Die einzigen Grenzen sind unsere Vorstellungskraft
 - Gute Nachricht
-  - Dein Computer macht genau das was man ihm sagt.
+  - Dein Computer macht genau das, was man ihm sagt.
   - Er macht es sehr schnell.
 - Schlechte Nachricht
-  - Dein Computer macht genau das was man ihm sagt.
-  - Er macht es sehr schnell
+  - Dein Computer macht genau das, was man ihm sagt.
+  - Er macht es sehr schnell.
 
 ## Programme erstellen und laufen lassen
 ![w:500px](Images/create_and_run_programs.png)
@@ -99,12 +99,11 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 - «Der Computer ist abgestürzt»
 - [«Der Computer erlaubt das nicht»](https://youtu.be/0n_Ty_72Qds)
 - «Der Computer hat ihren Datensatz verloren»
-- [Fireship.io](https://youtu.be/X3jw1JVNdPE)
-
+- [how to never write bug - Fireship.io](https://youtu.be/X3jw1JVNdPE)
 
 ## Software schreiben ist herausfordernd
 - Programme können «abstürzen»
-- Programme, die nicht «abstürzen» funktionieren nicht zwangläufig richtig.
+- Programme, die nicht «abstürzen» funktionieren nicht zwangsläufig richtig.
 - Fehlerhafte Programme können Menschen töten, (medizinische Geräte, Luftfahrt) → Boeing 737 MCAS
 - Ariane5 Rakete, 1996: $10 Milliarden verloren aufgrund eines Programmfehlers.
 - Programmierer sind veranwortlich für das korrekte Funktionieren der Programme
@@ -131,7 +130,7 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 
 ## Wo ist das Programm?
 - Stored-program computer: Das Programm ist im Speicher
-  - “ausführbare Daten”
+  - „ausführbare Daten“
 - Ein Programm kann in verschiedenen Formen im Speicher auftreten:
   - Quellcode / Sourcecode: durch Menschen lesbare Form (Programmiersprache)
   - Maschinencode: Ausführbar durch Computer
@@ -157,6 +156,84 @@ Software sollte folgende Merkmale haben:
 - Programme retten leben und machen die Welt besser!
 
 # Entwicklungswerkzeuge
+## Programmiersprachen
+![w:1000px](Images/TiobeIndex.png)
+[Tiobe Index](https://www.tiobe.com/tiobe-index/)
+
+## C
+- 1972, Dennis Ritchie, Bell Labs
+- Kompiliert
+- Imperativ, Stukturiert
+- statisch Typisiert
+- Grosse Verbreitung in Betriebssystemen und Embedded
+- Sehr schnell und effizient
+
+## C++
+- 1985, Bjarne Stroustrup, Bell Labs
+- Kompiliert
+- Objektorientiert
+- Erweiterung von C
+- Schnell und effizient
+- Hochkomplex
+- Grosse Verbreitung in Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter
+
+## Java
+- 1995, James Gosling, Sun Microsystems
+- Kompiliert / Virtuelle Maschine (Plattformunabhängigkeit)
+- Objektorientiert
+- statisch Typisiert
+- Grosses angebot an Bibliotheken und Werkzeugen 
+- Einfache Syntax
+
+## C#
+- 2000, Anders Hejlsberg, Microsoft
+- Kompiliert
+- Objektorientiert
+- statisch Typisiert
+- Game Entwicklung (Unity), Microsoft Ökosystem
+
+## Python
+- 1991, Guido van Rossum, Centrum Wiskunde & Informatica
+- Interpretiert
+- Objektorientiert
+- dynamische Typisierung
+- Einfache Syntax, schlanke Programme, wenig Ballast
+- Grosses Angebot an Bibliotheken und Werkzeugen
+
+## PHP
+- 1995, Rasmus Lerdorf
+- Interpretiert
+- Objektorientiert
+- dynamische Typisierung
+- Im Web weit verbreitet (Backend)
+
+## JavaScript / TypeScript
+- 1995, Brendan Eich, Netscape
+- Interpretiert
+- Objektorientiert (Prototypenbasiert)
+- dynamische Typisierung
+- statische Typisierung mit TypeScript, 2014, Microsoft
+- Hohe Verbreitung im Web (Frontend und Backend)
+
+## Rust
+- 2015, Graydon Hoare, Mozilla
+- Kompiliert
+- Objektorientiert, nebenläufig
+- statische Typisierung
+- Keine Garbage Collection
+- Sicher, Nebenläufig
+- Seit 2022 im Linux Kernel verwendet
+
+## Go
+- 2012, Rob Pike / Ken Thompson / Robert Griesemer, Google
+- Kompiliert
+- Objektorientiert, nebenläufig
+- statische Typisierung
+- Keine Vererbung
+- Effizienz, Lesbarkeit / DX, Networking, Multiprocessing
+
+## Energy, Time, Memory Comparision
+![w:500px](Images/EnergyTimeMemoryComparision.png)
 
 ## Entwicklungsumgebungen
 ![w:1200px](Images/IDEs.png)
@@ -298,28 +375,6 @@ Ein Objekt kann Operationen ausführen und dazu auf seine Daten zugreifen und di
     - Prozedurale Programmierung
   - Deklarative Programmierung
     - funktionale Programmierung
-
-## Java
-- Plattformunabhängigkeit / Bytecode 
-- Zeiger und Referenzen
-- Garbage Collection
-- Angebot an Bibliotheken und Werkzeugen 
-- Einfache Syntax 
-- Java != JavaScript 
-- statische Typisierung 
-
-## Python
-- Plattformunabhängig: Interpreter
-- Grosses Angebot an Bibliotheken und Werkzeugen
-- Einfache Syntax, schlanke Programme, wenig Ballast
-- Multi-Paradigma (OOP, funktionale Programmierung)
-- Garbage Collection
-- dynamische Typisierung
-
----
-
-![w:1000px](Images/TiobeIndex.png)
-[Tiobe Index](https://www.tiobe.com/tiobe-index/)
 
 ## Syntaktische Struktur einer Klasse
 ![w:1000px](Images/Klasse.png)
