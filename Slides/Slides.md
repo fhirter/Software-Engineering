@@ -53,15 +53,17 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 14. KW 7: SOLID: Open Closed
 15. KW 8: SOLID: Liskov
 16. KW 9: SOLID: Interface-Segregation
-17. KW 10: SOLID:  Dependency-Inversion
+17. KW 10: SOLID: Dependency-Inversion
 18. KW 11: Frameworks
 19. KW 12: 
 
 ## Unterlagen
 - [github.com/fhirter](https://github.com/fhirter/ObjektorientierteProgrammierung)
 - Literatur.pdf
+- OneNote Klassennotizbuch
 
 ## Benotung
+
 
 ## Ratschlag
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
@@ -159,6 +161,7 @@ Software sollte folgende Merkmale haben:
 ## Programmiersprachen
 ![w:1000px](Images/TiobeIndex.png)
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
+[God-Tier Developer Roadmap](https://www.youtube.com/watch?v=pEfrdAtAmqk)
 
 ## C
 - 1972, Dennis Ritchie, Bell Labs
