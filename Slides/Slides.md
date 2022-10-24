@@ -6,7 +6,7 @@
 - 2005 Maturität
 - 2008 – 2016 Polymechaniker
 - seit 2010 selbstständig im Nebenerwerb: Tontechnik, Akustik, Video, Softwareentwicklung
-- seit 2014 Velokurier (Velo, Disposition, IT)
+- seit 2014 Velokurier Bern (Velo, Disposition, IT)
 - 2015: BSc Elektro- und Kommunikationstechnik, Vertiefung Embedded Systems
 - 2015 – 2016 DSP Entwicklung, Akustik
 - seit 2016 Unterricht TEKO (Softwareentwicklung, Betriebssysteme, Netzwerktechnik, Microcomputer)
