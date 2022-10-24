@@ -34,9 +34,9 @@ Die Studierenden
 
 Montag 18:30 – 20:00 / 20:15 – 21:45
 
-1. KW 43: Einstieg, Klassen und Objekte
-2. KW 44: Testing, TDD
-3. KW 45: 
+1. KW 43: Einstieg, Entwicklungswerkzeuge
+2. KW 44: Klassen und Objekte
+3. KW 45: Testing, TDD
 4. KW 46: Datenstrukturen
 5. KW 47: Vererbung, Polymorphismus
 6. KW 48: Repetition MVC
