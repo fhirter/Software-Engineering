@@ -329,7 +329,7 @@ Software sollte folgende Merkmale haben:
 
 # Klassen und Objekte
 ## Eine Klasse: eine Software Maschine
-<!-- bild -->
+<!-- bild? -->
 
 ## Was ist ein Objekt?
 Es gibt verschiedene Arten von Objekten:
@@ -349,6 +349,7 @@ Ein Objekt kann Operationen ausführen und dazu auf seine Daten zugreifen und di
 - Eine Operation, die von Objekten ausgeführt werden kann.
 - Abfragen, Befehle
 - Name der Methode kann, mit Einschränkungen, frei gewählt werden.
+- Eine Methode von einem Objekt wird in den meisten Sprachen mit dem `.` aufgerufen: `<objekt>.<methode> 
 
 ## Methoden
 - Methoden können Argumente haben:
@@ -363,10 +364,15 @@ Ein Objekt kann Operationen ausführen und dazu auf seine Daten zugreifen und di
 ## Ein Objekt hat eine Implementierung
 ![w:800px](Images/InterfaceImplementation.png)
 
+# Abstraktion
+- Ein Objekt kann verwendet werden, ohne die Implementierung der Methoden zu kennen.
+- Die Implementierungsdetails sind abstrahiert
+
 ## Kapselung
-- Grundsätzlich sind alle Felder (Daten) privat, d.h. nur für das eigene Objekt zugänglich
+- Grundsätzlich sind alle Felder (Daten) privat, d.h. nur für das eigene Objekt zugänglich.
+- Diese Felder stellen den Zustand (State) des Objekts dar.
 - Zugriff auf Felder wird mit Methoden gewährt (sogenannte Setter und Getter, z.B. setColor(), getSize()
-- Es werden nur die nötigen Methoden öffentlicht Zugänglich gemacht.
+- Es werden nur die nötigen Methoden zugänglich gemacht.
 - Die Programmiersprache stellt den Zugriffsschutz sicher.
 
 ## Objektorientierung: Geschichte
@@ -408,7 +414,7 @@ class Vehicle:                                 # Class Name
 
 ## Klasse
 - Jedes Objekt gehört zu einer Klasse, welche die zur Verfügung stehenden Methoden und Felder definiert.
-- Eine Klasse ist eine Beschreibung von Laufzeit-Objekten, welche die selben Eigenschaften und Methoden besitzen.
+- Eine Klasse ist eine Beschreibung von Laufzeit-Objekten, welche dieselben Eigenschaften und Methoden besitzen.
 - Eine Klasse ist eine Kategorie von Dingen
 - Ein Objekt ist eines von diesen Dingen
 
@@ -467,4 +473,38 @@ Wenn ein Objekt O ein Objekt der Klasse C ist:
 ## UML Klassendiagramm
 ![](Images/classRelationsUML.png)
 
-## Testing
+## PlantUML
+```
+@startuml
+class Konto {
+    bezeichnung
+    saldo()
+    einzahlen(betrag)
+}
+
+class Kunde {
+}
+
+class Privatkunde {
+    vorname
+    nachname
+}
+
+class Geschäftskunde {
+    firmenname
+}
+
+class Adresse {
+}
+
+Kunde <|-- Privatkunde
+Kunde <|-- Geschäftskunde
+
+Privatkunde "0..*" -- "1" Adresse
+Geschäftskunde "0..*" -- "1" Adresse
+
+Konto "1..*" -- "1..*" Kunde
+@enduml
+```
+
+# Testing
