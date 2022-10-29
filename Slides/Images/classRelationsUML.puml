@@ -1,20 +1,20 @@
 @startuml
 class Konto {
-bezeichnung
-saldo()
-einzahlen(betrag)
+    bezeichnung
+    saldo()
+    einzahlen(betrag)
 }
 
 class Kunde {
 }
 
 class Privatkunde {
-vorname
-nachname
+    vorname
+    nachname
 }
 
 class Geschäftskunde {
-firmenname
+    firmenname
 }
 
 class Adresse {
@@ -27,5 +27,4 @@ Privatkunde "0..*" -- "1" Adresse
 Geschäftskunde "0..*" -- "1" Adresse
 
 Konto "1..*" -- "1..*" Kunde
-
 @enduml
