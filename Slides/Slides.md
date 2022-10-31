@@ -507,4 +507,16 @@ Konto "1..*" -- "1..*" Kunde
 @enduml
 ```
 
+
 # Testing
+
+# Design
+"Any sufficiently advanced technology is indistinguishable from magic."
+
+-- Arthur C. Clarke
+
+# Herausforderungen
+- Menschen sind soziale Wesen, Kommunikation ist integraler Bestandteil sozialer Interaktion
+ - Vermutlich zieht es viele in technische Berufsfelder, die weniger kommunikationsfreudig sind
+- Kommunikation von technischen Themen mit Personen aus anderen Fachgebieten ist herausfordernd
+- In Führungspositionen ist die Kommunikation in alle Richtungen einer der wichtigsten Aufgaben
