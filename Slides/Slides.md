@@ -315,6 +315,22 @@ Software sollte folgende Merkmale haben:
   - Mit Rebase bleibt die History aufgeräumter: `git pull --rebase`
 - [Änderungen auf Github/Gitlab/Bitbucket laden](https://git-scm.com/docs/git-push) `git push <remote> <branch>` (z.B. "origin main")
 
+## CI/CD mit Git
+- Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
+- Mit Tags werden Releases markiert. [semantic versioning](https://semver.org/).
+- Das neuste Release wird automatisch deployed.
+- [Changelogs werden automatisiert anhand der Git Messages generiert](https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742)
+
+
+## Commit Messages
+- [Your Git Commit History Should Read Like a History Book](https://betterprogramming.pub/your-git-commit-history-should-read-like-a-history-book-heres-how-7f44d5df1801)
+```
+feat(logging): added logs for failed signups
+fix(homepage): fixed image gallery
+test(homepage): updated tests
+docs(readme): added new logging table information
+```
+
 ## PyCharm Git Integration
 ![w:600px](Images/GitIntegration.png)
 
