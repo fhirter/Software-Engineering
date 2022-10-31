@@ -299,7 +299,7 @@ Software sollte folgende Merkmale haben:
 
 
 ## Arbeiten mit Git
-### Intialisieren
+### Initialisieren
 - Auf Github oder Gitlab ein leeres Projekt erstellen
 - [Dieses Projekt lokal klonen](https://git-scm.com/docs/git-clone) `git clone`
 - User name setzen: `git config user.name <name>`
