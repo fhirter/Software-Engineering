@@ -69,6 +69,12 @@ Montag 18:30 – 20:00 / 20:15 – 21:45
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
 
 # Einstieg
+
+## Design
+"Any sufficiently advanced technology is indistinguishable from magic."
+
+-- Arthur C. Clarke
+
 ## Softwareentwickler:innen bauen Maschinen
 - Unsere Maschinen können nicht angefasst werden: Sie sind nicht materiell
 - Wir sprechen von Programmen oder Systemen (Software)
@@ -523,16 +529,87 @@ Konto "1..*" -- "1..*" Kunde
 @enduml
 ```
 
+# Moderne Softwareentwicklung
 
-# Testing
+## Software Engineering
+![Margareth Hamilton](Images/MargarethHamilton.png)
+![Apollo Guidance Computer](Images/ApolloGuidance.png)
 
-# Design
-"Any sufficiently advanced technology is indistinguishable from magic."
+## Teamarbeit
+- Mehrere Personen arbeiten am selben Softwareprojekt
+- Versionsverwaltung wird verwendet (Git, SVN)
+- Konflikte entstehen und sind aufwendig
+- Wie können Konflikte möglichst vermieden werden?
 
--- Arthur C. Clarke
+## Kundenorientierung
+**Software soll den Kunden Mehrwert bringen**
+- Software soll stabil laufen
+- Neue Features sollten schnell nutzbar sein
+- Softwaresysteme werden immer komplexer
 
-# Herausforderungen
-- Menschen sind soziale Wesen, Kommunikation ist integraler Bestandteil sozialer Interaktion
- - Vermutlich zieht es viele in technische Berufsfelder, die weniger kommunikationsfreudig sind
-- Kommunikation von technischen Themen mit Personen aus anderen Fachgebieten ist herausfordernd
-- In Führungspositionen ist die Kommunikation in alle Richtungen einer der wichtigsten Aufgaben
+## Lösungen
+- Iteratives Arbeiten
+- Kurzer Feedbackloop
+- Komplexität reduzieren
+- Hohe Qualität der Software
+
+## Manifesto for Agile Software Development
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+https://agilemanifesto.org/
+
+## Iteratives Arbeiten
+![Iterations](Images/Iterations.png)
+
+## Kurzer Feedbackloop: CI/CD
+![img.png](Images/CICD.png)
+
+## CI / CD
+- Ziel: Releases werden vereinfacht
+- Time to market ist kürzer, neue Features sind sofort verfügbar
+- Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
+- Nur möglich mit automatisierten Tests
+
+## Hohe Qualität
+
+### Testing
+![Testing](Images/Testing.png)
+
+### Testing
+![Testing ideal](Testing_ideal.png)
+
+### Pair Programming
+![Pair Programming](Images/PairProgramming.png)
+
+### Test Driven Development (TDD)
+![img.png](Images/TDD.png)
+
+### Refactoring
+Why Should You Refactor?
+* Refactoring Improves the Design of Software
+* Refactoring Makes Software Easier to Understand
+* Refactoring Helps You Find Bugs
+* Refactoring Helps You Program Faster
+
+When Should You Refactor?
+* [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
+* Refactor When You Add Functionality
+* Refactor When You Need to Fix a Bug
+* Refactor As You Do a Code Review
+
+### Testing Quadrant
+![](Images/testing-quadrants.webp)
+
+
+
+
+
+
+## Extreme Programming
+![Extreme Programming](Images/ExtremeProgramming.png)
+
+## Embrace Change
+![EmbraceChange](Images/EmbraceChange.png)
