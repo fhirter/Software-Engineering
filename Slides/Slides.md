@@ -607,6 +607,9 @@ https://agilemanifesto.org/
 * Refactor When You Need to Fix a Bug
 * Refactor As You Do a Code Review
 
+## Testpyramide
+![w: 800px Testpyramide](Testpyramide.png)
+
 ---
 
 ![w:700px TestingPyramid](Images/TestingPyramid)
