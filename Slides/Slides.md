@@ -532,26 +532,31 @@ Konto "1..*" -- "1..*" Kunde
 # Moderne Softwareentwicklung
 
 ## Software Engineering
-![Margareth Hamilton](Images/MargarethHamilton.png)
-![Apollo Guidance Computer](Images/ApolloGuidance.png)
+![Margareth Hamilton](Images/MargarethHamilton.png) ![Apollo Guidance Computer](Images/ApolloGuidance.png)
+
+## Kundenorientierung
+**Software soll den Kunden Mehrwert bringen**
+- Software soll stabil laufen
+- Neue Features sollten schnell umgesetzt und nutzbar sein
+- Softwaresysteme werden immer komplexer
 
 ## Teamarbeit
 - Mehrere Personen arbeiten am selben Softwareprojekt
 - Versionsverwaltung wird verwendet (Git, SVN)
 - Konflikte entstehen und sind aufwendig
-- Wie können Konflikte möglichst vermieden werden?
-
-## Kundenorientierung
-**Software soll den Kunden Mehrwert bringen**
-- Software soll stabil laufen
-- Neue Features sollten schnell nutzbar sein
-- Softwaresysteme werden immer komplexer
 
 ## Lösungen
-- Iteratives Arbeiten
+- Kleine Arbeitspakete iterativ und inkrementell
 - Kurzer Feedbackloop
 - Komplexität reduzieren
-- Hohe Qualität der Software
+- Hohe Qualität
+
+## Alles hängt zusammen
+- Hohe Qualität reduziert Komplexität
+- Hohe Qualität kürzt den Feedbackloop durch schnelle Entwicklung
+- Kleine Arbeitspakete kürzen den Feedbackloop
+- Kleine Arbeitspakete reduzieren Komplexität
+- ...
 
 ## Manifesto for Agile Software Development
 * Individuals and interactions over processes and tools
@@ -561,7 +566,10 @@ Konto "1..*" -- "1..*" Kunde
 
 https://agilemanifesto.org/
 
-## Iteratives Arbeiten
+## Iteratives und inkrementelles Arbeiten
+![w:800px Mona Lisa](Images/MonaLisa.png)
+
+## Iterationen
 ![Iterations](Images/Iterations.png)
 
 ## Kurzer Feedbackloop: CI/CD
@@ -573,39 +581,48 @@ https://agilemanifesto.org/
 - Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
 - Nur möglich mit automatisierten Tests
 
-## Hohe Qualität
+# Testing
 
-### Testing
-![Testing](Images/Testing.png)
+## Testing Quadrant
+![w:800px](Images/testing-quadrants.webp)
 
-### Testing
-![Testing ideal](Testing_ideal.png)
 
-### Pair Programming
+## Kosten von Defekten
+![w:800px Testing](Images/Testing.png)
+
+## Kosten von Defekten
+![w:800px Testing ideal](Images/Testing_ideal.png)
+
+## Pair Programming
 ![Pair Programming](Images/PairProgramming.png)
 
-### Test Driven Development (TDD)
+## Test Driven Development (TDD)
 ![img.png](Images/TDD.png)
 
-### Refactoring
-Why Should You Refactor?
+## Why Should You Refactor?
 * Refactoring Improves the Design of Software
 * Refactoring Makes Software Easier to Understand
 * Refactoring Helps You Find Bugs
 * Refactoring Helps You Program Faster
 
-When Should You Refactor?
+## When Should You Refactor?
 * [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
 * Refactor When You Add Functionality
 * Refactor When You Need to Fix a Bug
 * Refactor As You Do a Code Review
 
-### Testing Quadrant
-![](Images/testing-quadrants.webp)
+---
 
+![w:700px TestingPyramid](Images/TestingPyramid)
 
+## Testing: AAA
+- Arrange: Set up your data
+- Act: Execute code under Test
+- Assert: Verify that the result ist correct
 
-
+## Testing: Further Reading
+- [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
+- [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
 
 
 ## Extreme Programming
