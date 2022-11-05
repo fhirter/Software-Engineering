@@ -583,10 +583,6 @@ https://agilemanifesto.org/
 
 # Testing
 
-## Testing Quadrant
-![w:800px](Images/testing-quadrants.webp)
-
-
 ## Kosten von Defekten
 ![w:800px Testing](Images/Testing.png)
 
