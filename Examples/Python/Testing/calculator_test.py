@@ -1,6 +1,6 @@
 import unittest
 
-from Examples.Python.Testing import calculator
+from Examples.Python.Testing.calculator import Calculator
 
 
 class TestSum(unittest.TestCase):
@@ -10,6 +10,8 @@ class TestSum(unittest.TestCase):
         operand1 = 2
         operand2 = 3
         expected_result = 5
+
+        calculator = Calculator()
 
         # Act
         actual_result = calculator.add(operand1, operand2)
