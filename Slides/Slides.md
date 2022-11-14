@@ -2,15 +2,6 @@
 
 # Organisatorisches
 
-## Vorstellung
-- 2005 Maturität
-- 2008 – 2016 Polymechaniker
-- seit 2010 selbstständig im Nebenerwerb: Tontechnik, Akustik, Video, Softwareentwicklung
-- seit 2014 Velokurier Bern (Velo, Disposition, IT)
-- 2015: BSc Elektro- und Kommunikationstechnik, Vertiefung Embedded Systems
-- 2015 – 2016 DSP Entwicklung, Akustik
-- seit 2016 Unterricht TEKO (Softwareentwicklung, Betriebssysteme, Netzwerktechnik, Microcomputer)
-
 ## Lernziele I
 
 Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden.
@@ -30,40 +21,10 @@ Die Studierenden
 - können eine GUI-Applikation entwickeln. Sie können dabei gängige objektorientierte Konzepte anwenden und den Code sinnvoll strukturieren.
 - wissen, worauf sie bei der Auswahl eines Frameworks achten müssen.
 
-## Zeitplan
-
-Montag 18:30 – 20:00 / 20:15 – 21:45
-
-1. KW 43: Einstieg, Entwicklungswerkzeuge
-2. KW 44: Klassen und Objekte
-3. KW 45: Testing, TDD
-4. KW 46: Datenstrukturen
-5. KW 47: Vererbung, Polymorphismus
-6. KW 48: Repetition MVC
-7. KW 49: statische/dynamische Bindung
-8. KW 50: Clean Code
-9. KW 51: Hardware, binäre Zahlendarstellung, Programmiersprachen
-
----
-
-10. KW 2: 
-11. KW 3: Exceptions, Fehlerbehandlung
-12. KW 4:  
-13. KW 5: SOLID: Single-Responsibility
-14. KW 7: SOLID: Open Closed
-15. KW 8: SOLID: Liskov
-16. KW 9: SOLID: Interface-Segregation
-17. KW 10: SOLID: Dependency-Inversion
-18. KW 11: Frameworks
-19. KW 12: 
-
 ## Unterlagen
 - [github.com/fhirter](https://github.com/fhirter/ObjektorientierteProgrammierung)
 - Literatur.pdf
 - OneNote Klassennotizbuch
-
-## Benotung
-
 
 ## Ratschlag
 - Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
