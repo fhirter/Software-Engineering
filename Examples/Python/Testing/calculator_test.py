@@ -3,7 +3,7 @@ import unittest
 from Examples.Python.Testing.calculator import Calculator
 
 
-class TestSum(unittest.TestCase):
+class TestCalculator(unittest.TestCase):
 
     def test_sum(self):
         # Arrange
