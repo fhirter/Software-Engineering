@@ -202,7 +202,7 @@ Software sollte folgende Merkmale haben:
 - Keine Vererbung
 - Effizienz, Lesbarkeit / DX, Networking, Multiprocessing
 
-## Energy, Time, Memory Comparision
+## Energy, Time, Memory Comparison
 ![w:500px](Images/EnergyTimeMemoryComparision.png)
 
 ## Entwicklungsumgebungen
