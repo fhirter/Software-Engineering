@@ -569,7 +569,7 @@ https://agilemanifesto.org/
 * Refactor As You Do a Code Review
 
 ## Testpyramide
-![w: 800px Testpyramide](Testpyramide.png)
+![w: 800px Testpyramide](Images/Testpyramide.png)
 
 ---
 
@@ -590,3 +590,144 @@ https://agilemanifesto.org/
 
 ## Embrace Change
 ![EmbraceChange](Images/EmbraceChange.png)
+
+# Algorithmen und Datenstrukturen
+
+## Containerdatenstrukturen
+
+- Enthalten andere Objekte («items»)
+- Grundsätzliche Operationen:
+  - Elemente hinzufügen
+  - Elemente entfernen
+  - Ein Element suchen
+  - Über alle Elemente iterieren
+- Verschiedene Implementationen unterscheiden sich
+  - Welche Operationen möglich sind
+  - Wie schnell diese sind
+  - Wie der Speicher ausgenutzt wird
+
+## Record
+- Einfachste Anordnung von Daten
+- Zeile in Datenbank / Tabelle
+- struct in C
+- Datenobjekte
+- Python: `tup1 = ('physics', 'chemistry', 1997, 2000)`
+![](Images/struct.png)
+
+## Set
+- Anordnung von Elementen
+- keine Duplikate
+- keine definierte Ordnung
+- testen, ob Teil des Sets
+- Python: `thisset = {"apple", "banana", "cherry"}`
+
+## List
+- Definierte Ordnung
+- Elemente hinzufügen und entfernen
+- Element mit einem Index abrufen
+- Duplikate möglich
+- Python: 
+  - `list2 = [1, 2, 3, 4, 5, 6, 7 ];`
+  - Zugriff: `list1[0]`, `list1[1:5]`
+
+## Map
+
+- Schlüssel / Wert Paare
+- Hinzufügen, Entfernen, Ändern, Abrufen
+- Assiozatives Array, Lookup Table, Dictionary
+- Python: Dictionaries (hash map)
+  - Erstellen: `dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}`
+  - Zugriff: `dict['Name']`
+
+## Queue
+
+- FIFO: First In, First Out
+- Warteschlange, Pipe
+![](Images/queue.png)
+
+## Stack
+- LIFO: Last In, First Out
+- push: Neues Element speichern
+- pop: Letztes Element abrufen und entfernen
+- Stapelspeicher, Kellerspeicher
+![](Images/stack.png)
+
+## Stack
+
+![](Images/ProgramStack.png)
+
+
+## Tree
+![](Images/Tree.png)
+
+## Konkrete Datenstrukturen
+- Array
+- Graph
+
+## Big O Natation
+
+![](Images/BigO.png)
+
+## Komplexität von Algorithmen
+- O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente 
+- O(n): Operation ist linear abhängig von der Anzahl der Elemenente (Je mehr Elemente in der Liste, desto länger dauert die Operation) 
+- [Big O Cheatsheet](https://www.bigocheatsheet.com/)
+
+## Speicher und Rechenaufwand
+![img_1.png](Images/Complexity.png)
+
+# Objektorientierte Prinzipien
+
+## statische Typisierung
+- Zur Laufzeit hat jedes Objekt einen (Daten)typ
+- Im Programmtext hat jeder Ausdruck einen Typ → Der Typ ist zum Zeitpunkt der Kompilierung bekannt
+- Vorteile
+  - Fehler können früher erkannt werden
+  - Effizientere Programme, da keine Typprüfung während der Laufzeit
+  - Mehr Optimierungsmöglichkeiten durch Compiler
+- statisch typisierte Sprachen: Java, Kotlin, C#, C, Go, Rust
+![](Images/staticTyping.png)
+
+## dynamische Typisierung
+
+- Zur Laufzeit hat jedes Objekt einen Typ
+- Der Typ wird zur Laufzeit geprüft
+- Duck Typing: 
+- “When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.” 
+- Vorteile
+  - Einfachere Programmierung
+- Durch Typehints kann die IDE uns bei der Entwicklung dennoch unterstützen
+  - `def greeting(name: str) -> str:`
+- dynamisch typisierte Sprachen: PHP, Python, Ruby, JavaScript
+
+## Polymorphismus
+
+- Bis jetzt war bei einer Zuweisung der Ausdruck rechts immer vom gleichen Typ wie das Ziel links: `ziel = ausdruck`
+- Mit Polymorphismus kann der Ausdruck rechts auch eine Unterklasse vom Typ des Ziels sein.
+- Das gilt auch bei Argumenten von Methoden
+- Variablen, Felder und Parameter von Methoden sollten möglichst einen allgemeinen Datentyp haben (Interface)
+
+
+
+## Vererbung
+![](Images/Inheritance.png)
+
+# Grundlegende O-O Prinzipien
+
+- Vererbung
+- Polymorphismus
+- Dynamische / statische Bindung
+- Dynamische / statische Typisierung
+- Generische Programmierung
+
+
+
+# SOLID Principles
+
+## Single Responsibility Principle
+
+## Open Closed Principle
+
+## Liskov's Substitution Principle
+
+## Interface Segregation Principle
