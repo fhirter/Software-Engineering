@@ -609,10 +609,10 @@ https://agilemanifesto.org/
 ## Record
 - Einfachste Anordnung von Daten
 - Zeile in Datenbank / Tabelle
-- struct in C
+- struct in C ![](Images/struct.png)
 - Datenobjekte
 - Python: `tup1 = ('physics', 'chemistry', 1997, 2000)`
-![](Images/struct.png)
+
 
 ## Set
 - Anordnung von Elementen
