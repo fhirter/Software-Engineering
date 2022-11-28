@@ -833,6 +833,67 @@ Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und be
 «Exakt ausgedrückt bezeichnet Turing-Vollständigkeit in der Berechenbarkeitstheorie die Eigenschaft einer Programmiersprache oder eines anderen logischen Systems, sämtliche Funktionen berechnen zu können, die eine universelle Turingmaschine berechnen kann.» 
 (https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit)
 
+## Halteproblem
+
+- «Das Halteproblem beschreibt die Frage, ob die Ausführung eines Algorithmus zu einem Ende gelangt.
+- Obwohl das für viele Algorithmen leicht beantwortet werden kann, konnte der Mathematiker Alan Turing beweisen, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet.»
+- (https://de.wikipedia.org/wiki/Halteproblem)
+- Wir Programmieren müssen sicherstellen, dass unsere Programme nicht unabsichtlich endlos weiterlaufen!
+
+## Von-Neumann-Architektur
+- Befehle werden aus einer Zelle des Speichers gelesen und dann ausgeführt.
+- Normalerweise wird dann der Inhalt des Befehlszählers um Eins erhöht.
+- Es gibt einen oder mehrere Sprung-Befehle, die den Inhalt des Befehlszählers um einen anderen Wert als +1 verändern.
+- Es gibt einen oder mehrere Verzweigungs-Befehle, die in Abhängigkeit vom Wert eines Entscheidungs-Bit den Befehlszähler um Eins erhöhen oder einen Sprung-Befehl ausführen
+
+## paralleler Bus
+
+## Intel 4004, 1971
+![](Intel4004.png)
+
+## Arithmetic Logic Unit (ALU)
+Mindestens:
+- Addition
+- Negation
+- Konjunktion (AND)
+Zusätzlich (Auwahl):
+- Subtraktion
+- Vergleich
+- Multiplikationen
+- Division
+- Oder-Verknüpfung
+- Exklusiv-Oder-Verknüpfung
+- Rechts-, Linksshift
+- Links- und Rechtsrotation- 
+
+## ALU
+![](Images/ALU.png)
+
+## Einfache n-Bit ALU
+![](Images/ALU2.png)
+![](Images/ALU3.png)
+
+## Carrie-Look-Ahead-Addierer
+![](Images/Adder.png)
+
+## CMOS Gatter
+![](Images/Gates.png)
+
+## Control Unit (CU)
+![](Images/control_unit.png)
+
+## AMD Zen 3
+![img_1.png](Images/amd_zen_3.png)
+
+## Apple M1
+![img_2.png](Images/apple_m1.png)
+
+## Maschinensprache (1. Generation)
+![img_3.png](Images/Machine_Code.png)
+
+## Assembler (2. Generation)
+![img_4.png](Images/Assembler.png)
+
 ## statische Typisierung
 - Zur Laufzeit hat jedes Objekt einen (Daten)typ
 - Im Programmtext hat jeder Ausdruck einen Typ → Der Typ ist zum Zeitpunkt der Kompilierung bekannt
