@@ -759,7 +759,7 @@ r2d2.say_hi()
 ## Vererbung: Beispiel I
 ![img.png](Images/InheritanceExample.png)
 
-## Vererbung: Beispiel I
+## Vererbung: Beispiel II
 ![img.png](Images/InheritanceExample2.png)
 
 ## Liskovsches Substitutionsprinzip
@@ -781,14 +781,15 @@ Für einen Methodenaufruf `x.f()`:
 - Dynamische Bindung: Jeder Aufruf verwendet die best passende Version von f
 → Methode des Objekts, nicht des Typs
 
+## Vererbung: Coupling
+Durch Vererbung werden zwei Klassen sehr eng gekoppelt (coupling).
+Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Problemen führen.
+
 ## Vererbung: Zusammenfassung
 - Datentypen können gruppiert und geordnet werden
 - Neue Klassen können Bestehende erweitern
 - Dynamisches Binden: Automatische Auswahl der korrekten Methode
 
-## Vererbung: Coupling
-Durch Vererbung werden zwei Klassen sehr eng gekoppelt (coupling).
-Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Problemen führen.
 
 # Grundlegende O-O Prinzipien
 
