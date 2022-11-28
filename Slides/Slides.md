@@ -678,6 +678,161 @@ https://agilemanifesto.org/
 
 # Objektorientierte Prinzipien
 
+## Polymorphismus
+
+- Bis jetzt war bei einer Zuweisung der Ausdruck rechts immer vom gleichen Typ wie das Ziel links: `ziel = ausdruck`
+- Mit Polymorphismus kann der Ausdruck rechts auch eine Unterklasse vom Typ des Ziels sein.
+- Das gilt auch bei Argumenten von Methoden
+- Variablen, Felder und Parameter von Methoden sollten möglichst einen allgemeinen Datentyp haben (Interface)
+
+
+
+## Vererbung
+![](Images/Inheritance.png)
+
+## Vererbung
+- Generalisierung / Spezialisierung
+- Polymorphismus
+- Dynamisches Binden
+
+## Vererbung
+
+Eine Klasse ist ein Modul:
+- Eine Sammlung von Funktionalität (Methoden)
+- Kapselung (nicht alle Funktionalität ist sichtbar)
+
+Eine Klasse ist ein Datentyp:
+- Beschreibt die Art einer Objektinstanz
+- Kann bei Variablen, Methoden oder Feldern verwendet werden
+
+## Vererbung
+
+- Eine neue Klasse kann als Erweiterung oder Spezialisierung einer existierenden Klasse beschrieben werden.
+- `Bar` erbt von `Foo`
+  - Modul: Alle Funktionalität von A steht in B zur Verfügung
+  - Typ: Immer wenn eine Instanz von A benötigt wird, wird eine Instanz von B akzeptiert
+- Oder umgekehrt: Eine neue Klasse kann eine existierende Klasse generalisieren
+
+## Vererbung
+
+![](Images/InheritanceUML.png)
+```
+@startuml
+Foo : equals()
+Bar : size()
+
+Foo <|-- Bar
+@enduml
+```
+
+## Vererbung: Terminologie
+
+`Bar` erbt von `Foo`
+- `Bar` ist eine Kindklasse/'child' von `Foo`
+- `Bar` ist eine Unterklasse/'Subclass' von `Foo`
+- `Bar` ist eine von `Foo` abgeleitete Klasse
+- `Foo` ist die Elternklasse/'parent' von `Bar`
+- `Foo` ist die 'superclass' von `Bar`
+- `Foo` ist die 'base class' von `Bar`
+
+## Vererbung in Python
+```
+class Robot:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hi(self):
+        print("Hi, I am " + self.name)
+
+
+class PhysicianRobot(Robot):
+    def say_hi(self):
+        print("Everything will be okay!")
+        print(self.name + " takes care of you!")
+        
+r2d2 = Robot("r2d2")
+james = PhysicianRobot("James")
+james.say_hi()
+r2d2.say_hi()
+```
+
+## Vererbung: Beispiel I
+![img.png](Images/InheritanceExample.png)
+
+## Vererbung: Beispiel I
+![img.png](Images/InheritanceExample2.png)
+
+## Liskovsches Substitutionsprinzip
+"Subtype Requirement: Let ϕ ( x ) be a property provable about objects x of type T. Then ϕ ( y ) should be true for objects y of type S where S is a subtype of T."
+
+S ist ein Untertyp von T. Ein Objekt des Typs S sollte sich, wo ein Objekt vom Typ T erwartet wird, gleich verhalten wie ein Objekt des Typs T.
+
+## Dynamisches Binden
+Es können mehrere Methoden mit demselben Namen existieren:
+- Durch Vererbung
+- Durch verschiedene Methodensignaturen (unterschiedliche Anzahl oder Typen der Argumente)
+
+Bei einem Methodenaufruf wird immer die bestgeeignete Methode ausgewählt.
+
+## Bindung und Typen
+Für einen Methodenaufruf `x.f()`:
+- Statische Typisierung: Es gibt mindestens eine Version der Methode f
+- Dynamische Typisierung: Während der Laufzeit wird geprüft ob f existiert
+- Dynamische Bindung: Jeder Aufruf verwendet die best passende Version von f
+→ Methode des Objekts, nicht des Typs
+
+## Vererbung: Zusammenfassung
+- Datentypen können gruppiert und geordnet werden
+- Neue Klassen können Bestehende erweitern
+- Dynamisches Binden: Automatische Auswahl der korrekten Methode
+
+## Vererbung: Coupling
+Durch Vererbung werden zwei Klassen sehr eng gekoppelt (coupling).
+Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Problemen führen.
+
+# Grundlegende O-O Prinzipien
+
+- Vererbung
+- Polymorphismus
+- Dynamische / statische Bindung
+- Dynamische / statische Typisierung
+- Generische Programmierung
+
+# SOLID Principles
+
+## Single Responsibility Principle
+
+## Open Closed Principle
+
+## Liskov's Substitution Principle
+
+## Interface Segregation Principle
+
+# Computer Hardware
+
+## Moore's Law
+![](Images/MooresLaw.png)
+
+## Alan Touring
+- *1912 - †1954
+- Turing- maschine / Entscheidungsproblem
+- Begründer der «Computer Science»
+- WWII: Massgeblich am Knacken der deutschen Enigma Verschlüsselung beteiligt
+- Turing Test
+- Verfolgt und «therapiert» wegen Homosexualität
+- Vermutlich Selbstmord
+- The Imitation Game, Benedict Cumberbatch
+
+## Turing Maschine
+Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und besteht außerdem aus 
+- einem unendlich langen Speicherband mit unendlich vielen sequentiell angeordneten Feldern.
+- einem programmgesteuerten Lese- und Schreibkopf, der sich auf dem Speicherband feldweise bewegen und die Zeichen verändern kann.
+- Turing bewies, dass solch ein Gerät in der Lage ist, „jedes vorstellbare mathematische Problem zu lösen, sofern dieses auch durch einen Algorithmus gelöst werden kann“. 
+
+## Turing Vollständigkeit
+«Exakt ausgedrückt bezeichnet Turing-Vollständigkeit in der Berechenbarkeitstheorie die Eigenschaft einer Programmiersprache oder eines anderen logischen Systems, sämtliche Funktionen berechnen zu können, die eine universelle Turingmaschine berechnen kann.» 
+(https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit)
+
 ## statische Typisierung
 - Zur Laufzeit hat jedes Objekt einen (Daten)typ
 - Im Programmtext hat jeder Ausdruck einen Typ → Der Typ ist zum Zeitpunkt der Kompilierung bekannt
@@ -699,35 +854,3 @@ https://agilemanifesto.org/
 - Durch Typehints kann die IDE uns bei der Entwicklung dennoch unterstützen
   - `def greeting(name: str) -> str:`
 - dynamisch typisierte Sprachen: PHP, Python, Ruby, JavaScript
-
-## Polymorphismus
-
-- Bis jetzt war bei einer Zuweisung der Ausdruck rechts immer vom gleichen Typ wie das Ziel links: `ziel = ausdruck`
-- Mit Polymorphismus kann der Ausdruck rechts auch eine Unterklasse vom Typ des Ziels sein.
-- Das gilt auch bei Argumenten von Methoden
-- Variablen, Felder und Parameter von Methoden sollten möglichst einen allgemeinen Datentyp haben (Interface)
-
-
-
-## Vererbung
-![](Images/Inheritance.png)
-
-# Grundlegende O-O Prinzipien
-
-- Vererbung
-- Polymorphismus
-- Dynamische / statische Bindung
-- Dynamische / statische Typisierung
-- Generische Programmierung
-
-
-
-# SOLID Principles
-
-## Single Responsibility Principle
-
-## Open Closed Principle
-
-## Liskov's Substitution Principle
-
-## Interface Segregation Principle
