@@ -10,7 +10,8 @@ Sie sind in der Lage, mittelgrosse, vollständig objektorientierte, grafische An
 ## Lernziele II
 
 Die Studierenden
-- kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische Programmierung und können diese in einfachen Beispielen anwenden. können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
+- kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische Programmierung und können diese in einfachen Beispielen anwenden. 
+- können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
 - kennen die SOLID - Prinzipien und können sie in eigenen Worten erklären.
 - kennen die verschiedenen Testarten und können einfache Unit-Tests selber schreiben.
 
@@ -678,15 +679,6 @@ https://agilemanifesto.org/
 
 # Objektorientierte Prinzipien
 
-## Polymorphismus
-
-- Bis jetzt war bei einer Zuweisung der Ausdruck rechts immer vom gleichen Typ wie das Ziel links: `ziel = ausdruck`
-- Mit Polymorphismus kann der Ausdruck rechts auch eine Unterklasse vom Typ des Ziels sein.
-- Das gilt auch bei Argumenten von Methoden
-- Variablen, Felder und Parameter von Methoden sollten möglichst einen allgemeinen Datentyp haben (Interface)
-
-
-
 ## Vererbung
 ![](Images/Inheritance.png)
 
@@ -709,8 +701,8 @@ Eine Klasse ist ein Datentyp:
 
 - Eine neue Klasse kann als Erweiterung oder Spezialisierung einer existierenden Klasse beschrieben werden.
 - `Bar` erbt von `Foo`
-  - Modul: Alle Funktionalität von A steht in B zur Verfügung
-  - Typ: Immer wenn eine Instanz von A benötigt wird, wird eine Instanz von B akzeptiert
+  - Modul: Alle Funktionalität von `Foo` steht in `Bar` zur Verfügung
+  - Typ: Immer wenn eine Instanz von `Foo` benötigt wird, wird eine Instanz von `Bar` akzeptiert
 - Oder umgekehrt: Eine neue Klasse kann eine existierende Klasse generalisieren
 
 ## Vererbung
@@ -766,6 +758,13 @@ r2d2.say_hi()
 "Subtype Requirement: Let ϕ ( x ) be a property provable about objects x of type T. Then ϕ ( y ) should be true for objects y of type S where S is a subtype of T."
 
 S ist ein Untertyp von T. Ein Objekt des Typs S sollte sich, wo ein Objekt vom Typ T erwartet wird, gleich verhalten wie ein Objekt des Typs T.
+
+## Polymorphismus
+
+- Bis jetzt war bei einer Zuweisung der Ausdruck rechts immer vom gleichen Typ wie das Ziel links: `ziel = ausdruck`
+- Mit Polymorphismus kann der Ausdruck rechts auch eine Unterklasse vom Typ des Ziels sein.
+- Das gilt auch bei Argumenten von Methoden
+- Variablen, Felder und Parameter von Methoden sollten möglichst einen allgemeinen Datentyp haben (Interface)
 
 ## Dynamisches Binden
 Es können mehrere Methoden mit demselben Namen existieren:
