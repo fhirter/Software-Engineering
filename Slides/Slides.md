@@ -801,8 +801,13 @@ Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Proble
 # SOLID Principles
 
 ## Single Responsibility Principle
+- "A module should be responsible to one, and only one, actor." The term actor refers to a group (consisting of one or more stakeholders or users) that requires a change in the module.
+- "A class should have only one reason to change"
+[wikipedia](https://en.wikipedia.org/wiki/Single-responsibility_principle)
 
 ## Open Closed Principle
+"Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
+[wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
 ## Liskov's Substitution Principle
 
