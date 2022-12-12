@@ -1,0 +1,20 @@
+@startuml
+class Observer {
+    update()
+}
+
+class Subject {
+    observers
+    attach(Observer)
+    detach(Observer)
+    notify()
+}
+
+Observer <|-- Controller
+
+Subject <|-- Model
+Subject <|-- View
+
+Subject --> Observer
+
+@enduml
