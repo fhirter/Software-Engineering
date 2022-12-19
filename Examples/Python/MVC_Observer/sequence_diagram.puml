@@ -1,0 +1,11 @@
+@startuml
+actor Bob
+
+Bob -> View: Push Button
+View -> View: notify()
+View -> Controller: update()
+Controller -> Model ++ : get_random_word()
+Model --> Controller --
+Controller -> View: set_button_text();
+
+@enduml
