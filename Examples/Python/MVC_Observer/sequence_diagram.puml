@@ -1,6 +1,7 @@
 @startuml
 actor Bob
 
+Controller -> View: attach()
 Bob -> View: Push Button
 View -> View: notify()
 View -> Controller: update()
