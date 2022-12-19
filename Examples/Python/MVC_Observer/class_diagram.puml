@@ -8,17 +8,20 @@ class Subject {
     attach(Observer)
     detach(Observer)
     notify()
+
 }
+note right of Subject::notify
+    for all o in observers {
+        o->update()
+    }
+end note
 
 Observer <|-- Controller
 
 Subject <|-- Model
 Subject <|-- View
 
-Subject --> "Update" Observer
-
-Model --> "Notify" Model
-View --> "Notify" View
+Subject --> Observer
 
 Controller --> Model
 Controller --> View
