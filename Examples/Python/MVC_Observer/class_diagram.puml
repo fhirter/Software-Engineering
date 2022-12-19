@@ -15,6 +15,12 @@ Observer <|-- Controller
 Subject <|-- Model
 Subject <|-- View
 
-Subject --> Observer
+Subject --> "Update" Observer
+
+Model --> "Notify" Model
+View --> "Notify" View
+
+Controller --> Model
+Controller --> View
 
 @enduml
