@@ -1,0 +1,27 @@
+@startuml
+class Observer {
+    update()
+}
+
+class Subject {
+    observers
+    attach(Observer)
+    detach(Observer)
+    notify()
+
+}
+note right of Subject::notify
+    for all o in observers {
+        o->update()
+    }
+end note
+
+Observer <|-- ConcreteObserver
+
+Subject <|-- ConcreteSubject
+
+Subject --> Observer
+
+ConcreteObserver --> ConcreteSubject
+
+@enduml
