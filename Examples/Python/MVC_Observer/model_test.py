@@ -1,6 +1,6 @@
 import unittest
 
-from Examples.Python.MVC_Observer.model import Model
+from model import Model
 
 
 class UiTest(unittest.TestCase):
