@@ -849,8 +849,8 @@ Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Proble
 ## Funktionen
 - Kurz!
 - Machen nur etwas
-- Höchstens 3 Parameter
 - Keine Nebenwirkungen
+- Höchstens 3 Parameter
 - Don't Repeat Yourself
 
 ## Kommentare
