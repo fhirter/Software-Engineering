@@ -826,6 +826,49 @@ Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Proble
 
 ## Interface Segregation Principle
 
+# Clean Code
+[https://cleancoders.com/](https://cleancoders.com/)
+[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+
+## Bezeichner
+
+> There are only two hard things in Computer Science: cache invalidation and naming things.
+-- Phil Karlton
+
+## Bezeichner
+
+- Zweck erkennbar
+- Keine Falschinformation
+- Unterscheidbar
+- Aussprechbar
+- Suchbar
+- Klassen: Nomen
+- Methoden: Verben
+- Länge dem Scope entsprechend
+
+## Funktionen
+- Kurz!
+- Machen nur etwas
+- Höchstens 3 Parameter
+- Keine Nebenwirkungen
+- Don't Repeat Yourself
+
+## Kommentare
+- Code sollte selbsterklärend sein
+- Informativ
+- Absicht erklären
+- Erläuterung
+- Warnung
+- Todo
+
+# Design Patterns
+
+## Observer
+![](Images/observer_class_diagram.png)
+
+
+
+
 # Computer Hardware
 
 ## Moore's Law
