@@ -1,0 +1,46 @@
+@startuml
+
+rectangle "Humble Object"
+
+rectangle "Test Driven Development"
+
+rectangle "Observer"
+rectangle "Model View Controller"
+rectangle "Low Coupling / High Cohesion"
+rectangle "Refactoring"
+rectangle "Single Responsibilty Principle"
+rectangle "Version Control"
+rectangle "Liskov's Substitution Principle"
+rectangle "Open Closed Principle"
+rectangle "Encapsulation"
+rectangle "Pair Programming"
+rectangle "Polymorphism"
+rectangle "Inheritance"
+rectangle "Abstraction"
+
+"Humble Object" --> "Test Driven Development": simplifies
+
+"Observer" <--> "Model View Controller"
+
+"Test Driven Development" --> "Single Responsibilty Principle": leads to
+"Test Driven Development" --> "Low Coupling / High Cohesion": simplifies
+"Test Driven Development" --> "Open Closed Principle": simplifies
+"Test Driven Development" --> "Liskov's Substitution Principle": simplifies
+"Test Driven Development" --> "Refactoring": simplifies
+
+"Version Control" --> "Refactoring": simplifies
+
+"Liskov's Substitution Principle" <-- "Polymorphism": base of
+"Liskov's Substitution Principle" <-- "Inheritance": base of
+
+"Inheritance" --> "Abstraction": allows
+
+"Open Closed Principle" <-- "Encapsulation": enables
+
+"Model View Controller" --> "Low Coupling / High Cohesion": enables
+
+"Pair Programming" --> "Test Driven Development": simplifies
+"Pair Programming" --> "Low Coupling / High Cohesion": simplifies
+"Pair Programming" --> "Version Control": simplifies
+
+@enduml
