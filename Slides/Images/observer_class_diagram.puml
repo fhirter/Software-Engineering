@@ -5,9 +5,9 @@ class Observer {
 
 class Subject {
     observers
+    notify()
     attach(Observer)
     detach(Observer)
-    notify()
 
 }
 note right of Subject::notify
@@ -15,6 +15,18 @@ note right of Subject::notify
         o->update()
     }
 end note
+
+class ConcreteSubject {
+    observers
+    attach(Observer)
+    detach(Observer)
+    notify()
+    update()
+}
+
+class ConcreteObserver {
+    update()
+}
 
 Observer <|-- ConcreteObserver
 
