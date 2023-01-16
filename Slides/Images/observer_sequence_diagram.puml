@@ -1,0 +1,13 @@
+@startuml
+actor Bob
+
+Observer1 -> Subject: attach()
+Observer2 -> Subject: attach()
+Bob -> Subject: change
+Subject -> Subject: notify()
+Subject -> Observer1: update()
+Subject -> Observer2: update()
+Observer1 -> Subject: getState()
+Observer2 -> Subject: getState()
+
+@enduml
