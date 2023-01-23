@@ -826,6 +826,11 @@ Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Proble
 
 ## Interface Segregation Principle
 
+## Dependency Inversion Principle
+
+# Dependency Inversion
+![img.png](Images/dependency_inversion.png)
+
 # Clean Code
 [https://cleancoders.com/](https://cleancoders.com/)
 [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
