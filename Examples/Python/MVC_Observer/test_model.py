@@ -3,7 +3,7 @@ import unittest
 from model import Model
 
 
-class UiTest(unittest.TestCase):
+class TestModel(unittest.TestCase):
     def test_get_random_word(self):
         words = ["foo", "bar", "fubar", "bazl"]
         model = Model(words)
