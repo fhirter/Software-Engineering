@@ -6,7 +6,7 @@ set -o pipefail
 
 if [[ "${1-}" =~ ^-*h(elp)?$ ]]; then
     echo 'Usage: ./run_tests.sh
-Runs tests with coverage
+Runs tests with coverage. Make sure test plugin is installed: pip install pytest-cov
 '
     exit
 fi
