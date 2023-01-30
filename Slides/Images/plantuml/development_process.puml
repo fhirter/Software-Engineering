@@ -1,0 +1,20 @@
+@startuml
+
+(*) --> "write failing acceptance test"
+note right
+    should be automated,
+    but structured manual is okay too
+end note
+--> "write a failing unit test"
+--> "make the test pass"
+--> "refactor"
+--> "write a failing unit test"
+--> [hard to write test?]  "refactor"
+
+"write failing acceptance test" --> [lost?] "draw diagrams"
+--> "write failing acceptance test"
+
+"write a failing unit test" --> [lost?] "draw diagrams"
+--> "write a failing unit test"
+
+@enduml
