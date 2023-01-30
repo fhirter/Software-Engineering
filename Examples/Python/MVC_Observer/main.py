@@ -8,5 +8,4 @@ if __name__ == '__main__':
     model = Model(words)
     view = View()
     controller = Controller(model, view)
-
-    view.run()
+    controller.run()
