@@ -12,6 +12,6 @@ Runs tests with coverage. Make sure test plugin is installed: pip install pytest
 fi
 cd "$(dirname "$0")"
 
-python -m coverage run -m unittest;
+python -m coverage run --source=. -m unittest;
 python -m coverage report;
 python -m coverage html;
