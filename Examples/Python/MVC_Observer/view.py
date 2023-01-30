@@ -14,8 +14,9 @@ class View(Subject):
 
         self.button.pack()
 
-    def run(self):
-        self.root.mainloop()
+    def update(self):
+        self.root.update_idletasks()
+        self.root.update()
 
     def set_button_text(self, text):
         self.button_text = text
