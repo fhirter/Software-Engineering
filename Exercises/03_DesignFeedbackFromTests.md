@@ -14,6 +14,8 @@ Achte dich insbesondere auf folgende Themen:
 - Coupling / Cohesion
 
 ## 1
+Es wird die Methode `snake.move()` obwohl `snake_grow()` getestet werden soll. Es ist nicht ersichtlich, wieso dies nötig ist.
+
 ```python
 def test_snake_grow(self):
 
@@ -29,6 +31,7 @@ def test_snake_grow(self):
 ```
 
 ## 2
+
 ```python
 def test_snake_direction(self):
 
@@ -41,6 +44,11 @@ def test_snake_direction(self):
     # Act
 
     actual_result_direction = snake.set_direction(direction)
+
+    # Assert
+    self.assertEqual(actual_result_direction, 'Left')
+
+    print(actual_result_direction)
 ```
 
 ## 3
