@@ -877,6 +877,44 @@ Hohpe, Gregor; Woolf, Bobby (2003): Enterprise Integration Patterns: Designing, 
 ## Observer
 ![w:400px](Images/observer_class_diagram.png) ![w:400px](Images/observer_sequence_diagram.png)
 
+# Fehlerbehandlung
+- Es gibt Bedingungen, die erfüllt werden müssen, damit eine Methode überhaupt korrekt funktionieren kann.	
+- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen, es handelt sich um einen Fehler.
+
+## Arten von Fehlerbehandlung
+- Fehler über Rückgabewerte zu kommunizieren funktioniert nur sinnvoll, wenn mehrere Rückgabewerte möglich sind: (Go)
+```go
+swagger, err := api.GetSwagger()
+if err != nil {
+    fmt.Fprintf(os.Stderr, "Error loading swagger spec\n: %s", err)
+    os.Exit(1)
+}
+```
+- Viele Sprachen unterstützen das Konzept der "Exceptions":
+```javascript
+  if ( !(new.target) ) {
+      throw new Error("Constructor called as a function");
+  }
+```
+
+## Exceptions
+- Ausnahmen (Fehler) werden beim Auftreten geworfen (throw) und können gefangen (catch) werden.
+- Exceptions werden weitergereicht bis sie gefangen werden.
+- Werden sie bis zur `main` Methode nicht gefangen, stürzt das Programm ab.
+- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline) müssen gefangen und behandelt werden.
+- Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
+- Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
+
+## Exceptions in Python
+- Werfen von Exceptions: `raise Exception('<error message>')`
+- Fangen von Exceptions:
+```python
+try:
+    foo() ## method that might raise an exception
+except:
+    ## handle exception
+```
+
 # Computer Hardware
 
 ## Moore's Law
