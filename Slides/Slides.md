@@ -880,7 +880,7 @@ Hohpe, Gregor; Woolf, Bobby (2003): Enterprise Integration Patterns: Designing, 
 # Computer Hardware
 
 ## Moore's Law
-![](Images/MooresLaw.png)
+![w:800px](Images/MooresLaw.png)
 
 ## Alan Touring
 - *1912 - †1954
@@ -904,10 +904,13 @@ Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und be
 
 ## Halteproblem
 
-- «Das Halteproblem beschreibt die Frage, ob die Ausführung eines Algorithmus zu einem Ende gelangt.
-- Obwohl das für viele Algorithmen leicht beantwortet werden kann, konnte der Mathematiker Alan Turing beweisen, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet.»
-- (https://de.wikipedia.org/wiki/Halteproblem)
-- Wir Programmieren müssen sicherstellen, dass unsere Programme nicht unabsichtlich endlos weiterlaufen!
+«Das Halteproblem beschreibt die Frage, ob die Ausführung eines Algorithmus zu einem Ende gelangt. Obwohl das für viele Algorithmen leicht beantwortet werden kann, konnte der Mathematiker Alan Turing beweisen, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet.»
+(https://de.wikipedia.org/wiki/Halteproblem)
+
+Wir Programmieren müssen sicherstellen, dass unsere Programme nicht unabsichtlich endlos weiterlaufen!
+
+## Von-Neumann-Architektur
+![w:800px](Images/CPU.png)
 
 ## Von-Neumann-Architektur
 - Befehle werden aus einer Zelle des Speichers gelesen und dann ausgeführt.
@@ -915,47 +918,42 @@ Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und be
 - Es gibt einen oder mehrere Sprung-Befehle, die den Inhalt des Befehlszählers um einen anderen Wert als +1 verändern.
 - Es gibt einen oder mehrere Verzweigungs-Befehle, die in Abhängigkeit vom Wert eines Entscheidungs-Bit den Befehlszähler um Eins erhöhen oder einen Sprung-Befehl ausführen
 
-## paralleler Bus
-
-## Intel 4004, 1971
-![](Intel4004.png)
+## Instruction Cycle
+- Fetch
+- Decode
+- Execute
 
 ## Arithmetic Logic Unit (ALU)
 Mindestens:
 - Addition
 - Negation
 - Konjunktion (AND)
-Zusätzlich (Auwahl):
+
+Zusätzlich (Auswahl):
 - Subtraktion
 - Vergleich
 - Multiplikationen
 - Division
-- Oder-Verknüpfung
-- Exklusiv-Oder-Verknüpfung
+- (Exklusiv-)Oder-Verknüpfung
 - Rechts-, Linksshift
-- Links- und Rechtsrotation- 
 
 ## ALU
-![](Images/ALU.png)
+![w:800px](Images/ALU.png)
 
 ## Einfache n-Bit ALU
-![](Images/ALU2.png)
-![](Images/ALU3.png)
+![w:600px](Images/ALU2.png)![w:300px](Images/ALU3.png)
 
 ## Carrie-Look-Ahead-Addierer
-![](Images/Adder.png)
+![w:800px](Images/Adder.png)
 
 ## CMOS Gatter
-![](Images/Gates.png)
-
-## Control Unit (CU)
-![](Images/control_unit.png)
+![w:1000px](Images/Gates.png)
 
 ## AMD Zen 3
-![img_1.png](Images/amd_zen_3.png)
+![w:1000px](Images/amd_zen_3.png)
 
 ## Apple M1
-![img_2.png](Images/apple_m1.png)
+![w:800px](Images/apple_m1.png)
 
 ## Maschinensprache (1. Generation)
 ![img_3.png](Images/Machine_Code.png)
@@ -963,7 +961,13 @@ Zusätzlich (Auwahl):
 ## Assembler (2. Generation)
 ![img_4.png](Images/Assembler.png)
 
-## statische Typisierung
+## Zahlendarstellung
+- Binäre Zahlen
+- Negative Zahlen
+- Floating Point
+
+## Statische Typisierung
+
 - Zur Laufzeit hat jedes Objekt einen (Daten)typ
 - Im Programmtext hat jeder Ausdruck einen Typ → Der Typ ist zum Zeitpunkt der Kompilierung bekannt
 - Vorteile
@@ -973,12 +977,21 @@ Zusätzlich (Auwahl):
 - statisch typisierte Sprachen: Java, Kotlin, C#, C, Go, Rust
 ![](Images/staticTyping.png)
 
-## dynamische Typisierung
+## Datentypen in Go (Auswahl)
+`bool` boolean, 1-bit, true or false
+`int8`	8-bit signed integer
+`int16`	16-bit signed integer
+`int32`	32-bit signed integer
+`int64`	64-bit signed integer
+`uint8`	8-bit unsigned integer
+`float32` 32-bit IEEE 754 floating-point number
+`string` "Sequence of Unicode code points"
+
+## Dynamische Typisierung
 
 - Zur Laufzeit hat jedes Objekt einen Typ
 - Der Typ wird zur Laufzeit geprüft
-- Duck Typing: 
-- “When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.” 
+- Duck Typing: “When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.” 
 - Vorteile
   - Einfachere Programmierung
 - Durch Typehints kann die IDE uns bei der Entwicklung dennoch unterstützen
