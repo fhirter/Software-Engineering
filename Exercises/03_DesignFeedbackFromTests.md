@@ -14,8 +14,6 @@ Achte dich insbesondere auf folgende Themen:
 - Coupling / Cohesion
 
 ## 1
-Es wird die Methode `snake.move()` obwohl `snake_grow()` getestet werden soll. Es ist nicht ersichtlich, wieso dies nötig ist.
-
 ```python
 def test_snake_grow(self):
 
