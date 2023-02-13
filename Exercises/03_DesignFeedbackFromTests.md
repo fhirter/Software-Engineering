@@ -5,6 +5,14 @@ Beantworte für die folgenden Code-Ausschnitte folgende Fragen:
 1. Was sagt uns der Test hier?
 2. Was sollte geändert werden?
 
+Achte dich insbesondere auf folgende Themen:
+- Encapsulation
+- Separation of Concerns
+- Polymorphism
+- Naming
+- Comments
+- Coupling / Cohesion
+
 ## 1
 ```python
 def test_snake_grow(self):
@@ -54,6 +62,43 @@ actual_result = [[], [], []]
 for column in range(3):
     for row in range(2, 6):
         actual_result[column].append(board.fields[column][row].highlighted)
+
+# Assert
+self.assertEqual(expected_result, actual_result)
+```
+
+## 5
+```python
+def test_build_game(self):
+
+    expected_result_food = self.creat_field()
+    field = Field()
+
+    game = field.build_game(None)
+
+    actual_result_game_snake, actual_result_game_food, counter, game_over = game
+
+    # Assert
+
+    print(actual_result_game_snake)
+
+    expected_result_snake = [(-1, 0), (0, 0), (1, 0)]
+
+    self.assertEqual(actual_result_game_snake, expected_result_snake)
+    self.assertIn(actual_result_game_food, expected_result_food)
+```
+
+## 6
+```python
+def test_get_possible_directions_move(self):
+# Arrange
+piece = Pawn(True)
+is_attack = False
+is_white = True
+expected_result = [(0, 1)]
+
+# Act
+actual_result = piece.get_possible_directions(is_attack, is_white)
 
 # Assert
 self.assertEqual(expected_result, actual_result)
