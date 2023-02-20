@@ -922,21 +922,19 @@ except:
 
 ## Alan Touring
 - *1912 - †1954
-- Turing- maschine / Entscheidungsproblem
 - Begründer der «Computer Science»
-- WWII: Massgeblich am Knacken der deutschen Enigma Verschlüsselung beteiligt
-- Turing Test
+- WWII: Massgeblich am Knacken der deutschen Enigma-Verschlüsselung beteiligt
 - Verfolgt und «therapiert» wegen Homosexualität
 - Vermutlich Selbstmord
 - The Imitation Game, Benedict Cumberbatch
-
-## Turing Maschine
+- 
+## Turingmaschine
 Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und besteht außerdem aus 
 - einem unendlich langen Speicherband mit unendlich vielen sequentiell angeordneten Feldern.
 - einem programmgesteuerten Lese- und Schreibkopf, der sich auf dem Speicherband feldweise bewegen und die Zeichen verändern kann.
 - Turing bewies, dass solch ein Gerät in der Lage ist, „jedes vorstellbare mathematische Problem zu lösen, sofern dieses auch durch einen Algorithmus gelöst werden kann“. 
 
-## Turing Vollständigkeit
+## Turingvollständigkeit
 «Exakt ausgedrückt bezeichnet Turing-Vollständigkeit in der Berechenbarkeitstheorie die Eigenschaft einer Programmiersprache oder eines anderen logischen Systems, sämtliche Funktionen berechnen zu können, die eine universelle Turingmaschine berechnen kann.» 
 (https://de.wikipedia.org/wiki/Turing-Vollst%C3%A4ndigkeit)
 
@@ -945,7 +943,10 @@ Die Turingmaschine hat ein Steuerwerk, in dem sich das Programm befindet, und be
 «Das Halteproblem beschreibt die Frage, ob die Ausführung eines Algorithmus zu einem Ende gelangt. Obwohl das für viele Algorithmen leicht beantwortet werden kann, konnte der Mathematiker Alan Turing beweisen, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet.»
 (https://de.wikipedia.org/wiki/Halteproblem)
 
-Wir Programmieren müssen sicherstellen, dass unsere Programme nicht unabsichtlich endlos weiterlaufen!
+Wir müssen sicherstellen, dass unsere Programme nicht unabsichtlich endlos weiterlaufen!
+
+## Turing-Test
+![img.png](Images/TuringTest.png)
 
 ## Von-Neumann-Architektur
 ![w:800px](Images/CPU.png)
@@ -953,13 +954,15 @@ Wir Programmieren müssen sicherstellen, dass unsere Programme nicht unabsichtli
 ## Von-Neumann-Architektur
 - Befehle werden aus einer Zelle des Speichers gelesen und dann ausgeführt.
 - Normalerweise wird dann der Inhalt des Befehlszählers um Eins erhöht.
-- Es gibt einen oder mehrere Sprung-Befehle, die den Inhalt des Befehlszählers um einen anderen Wert als +1 verändern.
-- Es gibt einen oder mehrere Verzweigungs-Befehle, die in Abhängigkeit vom Wert eines Entscheidungs-Bit den Befehlszähler um Eins erhöhen oder einen Sprung-Befehl ausführen
+- Es gibt Verzweigungs-Befehle, die in Abhängigkeit vom Wert eines Entscheidungs-Bit den Befehlszähler um Eins erhöhen oder um einen anderen Wert verändern
 
 ## Instruction Cycle
 - Fetch
 - Decode
 - Execute
+
+## Instruction Pipelines
+![w:600px img.png](Images/Pipeline.png)
 
 ## Arithmetic Logic Unit (ALU)
 Mindestens:
@@ -973,16 +976,10 @@ Zusätzlich (Auswahl):
 - Multiplikationen
 - Division
 - (Exklusiv-)Oder-Verknüpfung
-- Rechts-, Linksshift
-
-## ALU
-![w:800px](Images/ALU.png)
+- Rechts-, Links-Shift
 
 ## Einfache n-Bit ALU
 ![w:600px](Images/ALU2.png)![w:300px](Images/ALU3.png)
-
-## Carrie-Look-Ahead-Addierer
-![w:800px](Images/Adder.png)
 
 ## CMOS Gatter
 ![w:1000px](Images/Gates.png)
@@ -996,13 +993,77 @@ Zusätzlich (Auswahl):
 ## Maschinensprache (1. Generation)
 ![img_3.png](Images/Machine_Code.png)
 
+## RISC vs CISC
+### RISC
+- Ausführung der Instruktionen dauert meistens nur 1 Takt
+- Nur spezifische Load und Store Befehle greifen auf den Speicher zu
+- Grosse Anzahl Register
+- Befehle mit fester Länge
+
+### CISC
+Alles was nicht RISC ist.
+
+## RISC
+- Besser geeignet für "moderne" Compiler
+- Intel / AMD haben lange den CPU Markt mit CISC CPUs dominiert
+- Im mobile und embedded Bereich ist ARM (RISC) extrem verbreitet
+- Seit 2020 gibt es auch im Desktop wieder RISC Systeme (Apple M1) mit grossen Vorteilen in der Effizienz
+- Verschiedene Hersteller bieten auch für RISC Server-CPUs an die v.a. bei Cloud Anbietern (AWS, Google, etc) Verbreitung finden
+
 ## Assembler (2. Generation)
 ![img_4.png](Images/Assembler.png)
 
-## Zahlendarstellung
-- Binäre Zahlen
-- Negative Zahlen
-- Floating Point
+## Programmiersprachen der 3. Generation
+- ALGOL
+- Cobol
+- Fortran
+- C, C++
+- C#
+- Java
+- Python
+- etc.
+
+## 4. Generation
+- SQL
+- Unix Shell
+- LabVIEW
+- Stata
+- R
+- MATLAB
+- MaxMSP
+
+# Zahlendarstellung
+- Binäre Zahlen: Für Maschinen einfach darstellbar (2 mögliche Zustände, idR. Spannungen)
+
+## Integer
+- Ganze Zahlen
+- Natürliche Zahlen (Negativ): Das MSB (most significant bit) wird für das Vorzeichen verwendet
+
+## Fliesskommazahlen
+- Normiert in IEEE 754
+- `x = s • m • b^e`
+  - Vorzeichen s
+  - Mantisse m
+  - Basis b (b=2)
+  - Exponent e
+
+![img.png](Images/FloatingPoint.png)
+
+## Floating Point: Präzision
+![img.png](Images/FloatingPointPrecision.png)
+
+# Strings
+- Array von Buchstaben (Char)
+![w:600px img.png](Images/ASCIITable.png)
+
+## Datentypen in Go (Auswahl)
+`bool` boolean, 1-bit, true or false
+`int8`	8-bit signed integer (-128 bis 127)
+`int16`	16-bit signed integer (-32'768 bis 32'767)
+`int32`	32-bit signed integer (−2'147'483'648 bis 2'147'483'647)
+`uint8`	8-bit unsigned integer (0 bis 255)
+`float32` 32-bit IEEE 754 floating-point number (1.2E−38 bis 3.4E38)
+`string` "Sequence of Unicode code points"
 
 ## Statische Typisierung
 
@@ -1015,15 +1076,14 @@ Zusätzlich (Auswahl):
 - statisch typisierte Sprachen: Java, Kotlin, C#, C, Go, Rust
 ![](Images/staticTyping.png)
 
-## Datentypen in Go (Auswahl)
-`bool` boolean, 1-bit, true or false
-`int8`	8-bit signed integer
-`int16`	16-bit signed integer
-`int32`	32-bit signed integer
-`int64`	64-bit signed integer
-`uint8`	8-bit unsigned integer
-`float32` 32-bit IEEE 754 floating-point number
-`string` "Sequence of Unicode code points"
+
+## Datentypen in Python (Auswahl)
+- `str`
+- `int` (Kein Limit)
+- `float` (64Bit IEEE 754))
+- `complex`
+- `bool`
+
 
 ## Dynamische Typisierung
 
