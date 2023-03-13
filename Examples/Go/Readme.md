@@ -19,6 +19,5 @@ func main() {
 }
 ```
 
-## Create Module
-1. Ein Verzeichnis mit dem Modulnamen erstellen
-2. 
+## Modul initialisieren
+`go mod init github.com/fhirter/ObjektorientierteProgrammierung
