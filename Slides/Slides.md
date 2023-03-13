@@ -915,6 +915,19 @@ except:
     ## handle exception
 ```
 
+## Exceptions in Go
+Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf unterbrechen.
+In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
+```
+func (p Eurobox) setWeight(weight int) error {
+	if weight <= 0 {
+		return errors.New("Weight must be greater than zero")
+	}
+	p.weight = weight
+	return nil
+}
+```
+
 # Computer Hardware
 
 ## Moore's Law
