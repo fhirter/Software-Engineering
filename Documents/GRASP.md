@@ -55,52 +55,43 @@ Variante zwei hat eine tiefere Kopplung.
 <i>Manchmal schlagen verschiedene Patterns sich wiedersprechende Lösungen für das 
 gleiche Problem vor.</i>
 
-## Creator
+## Factory
 
 Erzeuger-Prinzip
 
-Das Creator-Pattern ist ein Entwurfsmuster das sich auf die Erstellung von Objekten konzentriert. 
+Das Factory-Pattern ist ein Entwurfsmuster das sich auf die Erstellung von Objekten konzentriert. 
 Es gehört zur Kategorie der Erzeugungsmuster (engl. "Creational Patterns").
 
 ### Problem das das Pattern löst 
 
-Das Creator-Pattern definiert eine Schnittstelle für die Erstellung von Objekten, 
-aber gibt den konkreten Klassen, die tatsächlich die Objekte erstellen, 
-die Entscheidungsfreiheit über die Art und Weise, wie die Objekte erstellt werden. 
-Es ermöglicht somit eine Flexibilität in der Erstellung von Objekten, 
-ohne die Schnittstelle für die Erstellung der Objekte zu verändern.
+Das Factory-Pattern definiert eine Schnittstelle für die Erstellung von Objekten, aber gibt den konkreten Klassen, die tatsächlich die Objekte erstellen, die Entscheidungsfreiheit über die Art und Weise, wie die Objekte erstellt werden. 
+Es ermöglicht somit eine Flexibilität in der Erstellung von Objekten, ohne die Schnittstelle für die Erstellung der Objekte zu verändern.
 
-Das Creator-Pattern wird oft verwendet, um die Erstellung von Objekten zu abstrahieren und 
-die Komplexität in großen Systemen zu reduzieren. Es ermöglicht auch eine bessere Wartbarkeit, 
-da Änderungen an der Art und Weise, wie Objekte erstellt werden, nur in einer Klasse vorgenommen werden müssen, 
-anstatt in vielen verschiedenen Klassen.
+Das Factory-Pattern wird oft verwendet, um die Erstellung von Objekten zu abstrahieren und die Komplexität in großen Systemen zu reduzieren. 
+Es ermöglicht auch eine bessere Wartbarkeit, da Änderungen an der Art und Weise, wie Objekte erstellt werden, nur in einer Klasse vorgenommen werden müssen, anstatt in vielen verschiedenen Klassen.
 
 ### Eigenes Beispiel
 
-Um das Creator-Pattern anzuwenden würde man zum Beispiel eine Klasse VehicleCreator erstellen.
+Um das Factory-Pattern anzuwenden würde man zum Beispiel eine Klasse VehicleFactory erstellen.
 In dieser Klasse ist eine Methode createVehicle() definiert, welche ein Objekt vom Typ Vehicle zurückgibt. 
-Die Methode wird aber nicht direkt implementiert. Sie wird von andern Unterklassen aufgerufen wie Beispielsweise CarCreator,
-TruckCreator oder MotorcycleCreator heissen könnten.
-Diese implementiert dann die Grundeigenschaften der Methode createVehicle(). Jede dieser konkreten Klassen entscheidet dann,
-welches spezifische Fahrzeugobjekt erstellt werden soll und ergänzt die spezifischen Eigenschaften 
-der Fahrzeugart.
+Die Methode entscheidet, welches spezifische Fahrzeugobjekt erstellt werden soll und erzeugt Objekte von konkreten Klassen wie Beispielsweise Car, Truck oder Motorcycle.
 
-Das Creator-Patter stellt sozusagen den Grundbauplan für die Fahrzeuge zur Verfügung.
+Das Factory-Pattern stellt sozusagen den Grundbauplan für die Fahrzeuge zur Verfügung.
 
 ### Kontext zu anderen Patterns (Grasp oder SOLID) 
 - Geringe Kopplung wird unterstützt, was geringere Wartungsabhängigkeiten und bessere Möglichkeiten der Wiederverwendung
   mit sich bringt.
 
-- Creator-Pattern kann auch in Verbindung mit dem Polymorphismus-Pattern verwendet werden. Das Polymorphismus-Pattern 
+- Factory-Pattern kann auch in Verbindung mit dem Polymorphismus-Pattern verwendet werden. Das Polymorphismus-Pattern 
   schlägt vor, dass Klassen in der Lage sein sollten, unterschiedliche Formen anzunehmen und sich auf unterschiedliche 
   Weise zu verhalten.
 
 - Das Single Responsibility Prinzip besagt, dass eine Klasse nur eine einzige Verantwortung haben sollte. 
-  Das Creator-Pattern unterstützt dieses Prinzip, indem es die Erstellung von Objekten aus anderen Klassen auslagert und
+  Das Factory-Pattern unterstützt dieses Prinzip, indem es die Erstellung von Objekten aus anderen Klassen auslagert und
   so sicherstellt, dass jede Klasse nur für eine einzige Aufgabe verantwortlich ist. 
 
 - Das Open/Closed Prinzip besagt, dass eine Klasse offen für Erweiterungen, aber geschlossen für Modifikationen sein sollte. 
-  Das Creator-Pattern unterstützt dieses Prinzip, indem es eine abstrakte Klasse oder Schnittstelle bereitstellt, 
+  Das Factory-Pattern unterstützt dieses Prinzip, indem es eine abstrakte Klasse oder Schnittstelle bereitstellt, 
   über die neue Objekte erstellt werden können, ohne dass die bestehenden Klassen geändert werden müssen.
 
 
