@@ -1,5 +1,5 @@
 # Arbeit mit Go und Goland
-## Download
+## IDE
 [jetbrains.com/de-de/go/](https://www.jetbrains.com/de-de/go/)
 
 ## Tutorials
