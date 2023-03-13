@@ -1,15 +1,34 @@
 package main
 
-type Parcel struct {
-	weight     int
-	dimensions Dimension
+type Parcel interface {
+	setWeight(weight int)
+	getWeight() int
+	setDimensions(dimensions Dimensions)
+	getDimensions() Dimensions
 }
 
-func (p Parcel) setWeight(weight int) {
+type Eurobox struct {
+	weight     int
+	dimensions Dimensions
+}
+
+func (p Eurobox) getWeight() int {
+	return p.weight
+}
+
+func (p Eurobox) setWeight(weight int) {
 	p.weight = weight
 }
 
-type Dimension struct {
+func (p Eurobox) setDimensions(dimension Dimensions) {
+	p.dimensions = dimension
+}
+
+func (p Eurobox) getDimensions() Dimensions {
+	return p.dimensions
+}
+
+type Dimensions struct {
 	width  int
 	height int
 	depth  int
