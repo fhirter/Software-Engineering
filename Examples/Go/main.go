@@ -11,5 +11,8 @@ func main() {
 }
 
 func setup(parcel Parcel) {
-	parcel.setWeight(5)
+	err := parcel.setWeight(5)
+	if err != nil {
+		panic("Weight could not be set!")
+	}
 }
