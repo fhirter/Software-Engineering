@@ -608,6 +608,18 @@ Konto "1..*" -- "1..*" Kunde
 @enduml
 ```
 
+# C4 Model
+![img.png](Images/C4Overview.png)
+https://c4model.com/
+
+----
+
+![img.png](Images/C4-overview.png)
+
+----
+
+![img.png](Images/C4Abstractions.png)
+
 # Moderne Softwareentwicklung
 
 ## Software Engineering
