@@ -251,13 +251,13 @@ Software sollte folgende Merkmale haben:
   - [PlantUML](https://plantuml.com/de/)
 - Everything as Code
 
-## Git
-- Fast jede Funktion arbeitet lokal
+## [Git](https://git-scm.com/downloads)
+- Fast jede Funktion arbeitet lokal -> Repository wird repliziert
+- Optimistic Locking
 - Git stellt Integrität sicher
-- Git fügt im Regelfall nur Daten hinzu
-- [Download](https://git-scm.com/downloads)
+- [Git fügt im Regelfall nur Daten hinzu](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
+- Snapshots statt Unterschiede
 ![w:800px](https://git-scm.com/book/en/v2/images/snapshots.png)
-[Was ist Git](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
 
 ## Die drei Zustände
 - Modified
@@ -310,6 +310,28 @@ docs(readme): added new logging table information
 - [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [Git Tutorials](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
 - [Simulationstool](https://learngitbranching.js.org/)
+
+## Github / Gitlab
+- Git Server
+- CI/CD Plattform
+- Issue Tracking / Projektmanagemetn
+- Dokumentation
+- Webhosting
+- Release Management
+
+---
+
+### CI/CD Plattform
+![img.png](Images/GitlabPipelines.png)
+
+---
+
+### Issue Tracking
+![img.png](Images/GitlabIssueBoard.png)
+
+---
+
+![img_1.png](Images/GitlabIssue.png)
 
 # Klassen und Objekte
 ## Eine Klasse: eine Software Maschine
