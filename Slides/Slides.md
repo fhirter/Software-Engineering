@@ -868,15 +868,15 @@ dict['Name']  # Zara
 
 ### Alternative Big O Notation
 
-```
-O(1) = O(yeah)
-O(logn) = O(nice)
-O(n) = O(k)
-O(n^2) = O(my)
-O(2^n) = O(no)
-O(n!) = O(mg)
-O(n^n) = O(sh*t!)
-```
+|         |          |
+|---------|----------|
+| O(1)    | O(yeah)  |
+| O(logn) | O(nice)  |
+| O(n)    | O(k)     |
+| O(n^2)  | O(my)    |
+| O(2^n)  | O(no)    |
+| O(n!)   | O(mg)    |
+| O(n^n)  | O(sh*t!) |
 
 https://quanticdev.com/algorithms/primitives/alternative-big-o-notation/
 
