@@ -3,3 +3,5 @@ fileignoreconfig:
   checksum: f47d01960157bf685f83784c28532a160c90404108da789494940c46829a7fa6
 - filename: Slides/Images/Comparison_computational_complexity.svg
   checksum: 47858c3f0e3e4e16335101120621089a6e6194404ec3965227beff2a37813d6e
+- filename: Slides/Slides.md
+  checksum: 3d2e6223db9e51cdb73861b25e432992be6f8d3774c12751d7dacf7447983c71
