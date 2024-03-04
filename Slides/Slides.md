@@ -814,7 +814,7 @@ list2[1:5]  # select items 2 to 6
 
 - Schlüssel / Wert Paare
 - Hinzufügen, Entfernen, Ändern, Abrufen
-- Assiozatives Array, Lookup Table, Dictionary
+- Assoziatives Array, Lookup Table, Dictionary
 
 ### Beispiel
 
