@@ -856,7 +856,11 @@ dict['Name']  # Zara
 
 ## Komplexität von Algorithmen
 
-## Big O Notation
+### Speicher und Rechenaufwand von Datenstrukturen
+
+![Complexity.png](Images/Complexity.png)
+
+### Big O Notation
 
 ![w:600px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
@@ -877,9 +881,6 @@ dict['Name']  # Zara
 | O(n^n)  | O(sh*t!) |
 
 https://quanticdev.com/algorithms/primitives/alternative-big-o-notation/
-
-## Speicher und Rechenaufwand von Datenstrukturen
-![Complexity.png](Images/Complexity.png)
 
 # Objektorientierte Prinzipien
 
