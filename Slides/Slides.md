@@ -4,9 +4,8 @@
 
 ## Lernziele I
 
-Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden.
-Sie sind in der Lage, mittelgrosse, vollständig objektorientierte, grafische Anwendungen zu implementieren, testen und
-dokumentieren.
+Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden. Sie sind in der
+Lage, mittelgrosse, vollständig objektorientierte, grafische Anwendungen zu implementieren, testen und dokumentieren.
 
 ## Lernziele II
 
@@ -862,9 +861,8 @@ dict['Name']  # Zara
 ![w:600px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
-- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert die Operation)
-
----
+- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
+  die Operation)
 
 ### Alternative Big O Notation
 
@@ -885,12 +883,14 @@ https://quanticdev.com/algorithms/primitives/alternative-big-o-notation/
 
 # Objektorientierte Prinzipien
 
-> I thought of objects being like biological cells and/or individual computers on a network, only able to communicate with messages (so messaging came at the very beginning – it took a while to see how to do messaging in a programming language efficiently enough to be useful).
+> I thought of objects being like biological cells and/or individual computers on a network, only able to communicate
+> with messages (so messaging came at the very beginning – it took a while to see how to do messaging in a programming
+> language efficiently enough to be useful).
 
-> OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.
+> OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding
+> of all things.
 
 beide Alan Kay, http://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en
-
 
 ## Vererbung
 
@@ -1006,13 +1006,12 @@ Für einen Methodenaufruf `x.f()`:
 
 - Statische Typisierung: Es gibt mindestens eine Version der Methode f
 - Dynamische Typisierung: Während der Laufzeit wird geprüft ob f existiert
-- Dynamische Bindung: Jeder Aufruf verwendet die best passende Version von f
-  → Methode des Objekts, nicht des Typs
+- Dynamische Bindung: Jeder Aufruf verwendet die best passende Version von f → Methode des Objekts, nicht des Typs
 
 ## Vererbung: Coupling
 
-Durch Vererbung werden zwei Klassen sehr eng gekoppelt (coupling).
-Sie sind dadurch stark voneinander abhängig. Das kann bei Änderungen zu Problemen führen.
+Durch Vererbung werden zwei Klassen sehr eng gekoppelt (coupling). Sie sind dadurch stark voneinander abhängig. Das kann
+bei Änderungen zu Problemen führen.
 
 ## Vererbung: Zusammenfassung
 
@@ -1155,8 +1154,7 @@ except:
 ## Exceptions in Go
 
 Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf
-unterbrechen.
-In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
+unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
 
 ```
 func (p Eurobox) setWeight(weight int) error {
