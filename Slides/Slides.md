@@ -1,4 +1,4 @@
-<!-- headingDivider: 2 -->
+<!-- headingDivider: 3 -->
 
 # Organisatorisches
 
