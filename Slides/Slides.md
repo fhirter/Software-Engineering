@@ -858,6 +858,10 @@ dict['Name']  # Zara
 
 ![](Images/Tree.png)
 
+---
+
+![img_1.png](Images/tree_example.png)
+
 ## Konkrete Datenstrukturen: Array
 
 ![w:400px](Images/Array.svg)
