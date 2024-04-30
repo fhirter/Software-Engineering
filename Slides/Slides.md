@@ -640,6 +640,11 @@ https://c4model.com/
 - Versionsverwaltung wird verwendet (Git, SVN)
 - Konflikte entstehen und sind aufwendig
 
+## "Soft"-Ware
+
+- Softwareentwicklung ist meistens Kreativarbeit
+- Die Herausforderung der "Produktion" existiert kaum
+
 ## Lösungen
 
 - Kleine Arbeitspakete iterativ und inkrementell
