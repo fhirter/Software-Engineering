@@ -680,12 +680,35 @@ https://agilemanifesto.org/
 
 ![img.png](Images/CICD.png)
 
-## CI / CD
+## Continuous Integration
+
+- Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
+- Dieser Branch ist jederzeit lauffähig
+- Dadurch werden die Releases vereinfachen
+- Eine sehr hohe, automatische Testabdeckung ist zwingend
+
+## Continuous Delivery
 
 - Ziel: Releases werden vereinfacht
 - Time to market ist kürzer, neue Features sind sofort verfügbar
 - Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
-- Nur möglich mit automatisierten Tests
+- Higher quality
+- Lower costs
+- Better products
+- Happier teams
+
+## Principles
+
+- Build quality in
+- Work in small batches
+- Computers perform repetitive tasks, people solve problems
+- Relentlessly pursue continuous improvement
+- Everyone is responsible
+
+https://www.continuousdelivery.com/
+
+[Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
+
 
 ## Pair Programming
 
