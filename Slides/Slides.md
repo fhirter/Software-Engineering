@@ -664,6 +664,10 @@ https://c4model.com/
 
 https://agilemanifesto.org/
 
+## Kosten von Defekten
+
+![cost_of_defects.svg](Images/excalidraw/cost_of_defects.svg)
+
 ## Iteratives und inkrementelles Arbeiten
 
 ![w:800px Mona Lisa](Images/MonaLisa.png)
@@ -683,49 +687,47 @@ https://agilemanifesto.org/
 - Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
 - Nur möglich mit automatisierten Tests
 
-# Testing
-
-## Kosten von Defekten
-
-![w:800px Testing](Images/Testing.png)
-
-## Kosten von Defekten
-
-![w:800px Testing ideal](Images/Testing_ideal.png)
-
 ## Pair Programming
 
 ![Pair Programming](Images/PairProgramming.png)
 
+## Extreme Programming
+
+![Extreme Programming](Images/ExtremeProgramming.png)
+
+## Embrace Change
+
+![EmbraceChange](Images/EmbraceChange.png)
+
+# Testing
+
 ## Test Driven Development (TDD)
 
-Following 3 Drawings from Growing Object-Oriented Software by Nat Pryce and Steve Freeman.
+
+- Test First: Fokus auf die Problemstellung und Schnittstelle
+- Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
+- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
+  werden.
+- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem
+  minimalen Objekt isolieren
 
 ---
 
 ![bg fit](Images/tdd-simple.svg)
 
+Growing Object-Oriented Software by Nat Pryce and Steve Freeman
+
 ---
 
 ![bg fit](Images/listening-to-tests.svg)
+
+Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
 ---
 
 ![bg fit](Images/tdd-with-acceptance-tests.svg)
 
-## Why Should You Refactor?
-
-* Refactoring Improves the Design of Software
-* Refactoring Makes Software Easier to Understand
-* Refactoring Helps You Find Bugs
-* Refactoring Helps You Program Faster
-
-## When Should You Refactor?
-
-* [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
-* Refactor When You Add Functionality
-* Refactor When You Need to Fix a Bug
-* Refactor As You Do a Code Review
+Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
 ## Testpyramide
 
@@ -746,13 +748,24 @@ Following 3 Drawings from Growing Object-Oriented Software by Nat Pryce and Stev
 - [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
 - [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
 
-## Extreme Programming
 
-![Extreme Programming](Images/ExtremeProgramming.png)
+### IDE Integration
 
-## Embrace Change
+![height:500px](Images/TestRunner.png)
 
-![EmbraceChange](Images/EmbraceChange.png)
+## Why Should You Refactor?
+
+* Refactoring Improves the Design of Software
+* Refactoring Makes Software Easier to Understand
+* Refactoring Helps You Find Bugs
+* Refactoring Helps You Program Faster
+
+## When Should You Refactor?
+
+* [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
+* Refactor When You Add Functionality
+* Refactor When You Need to Fix a Bug
+* Refactor As You Do a Code Review
 
 # Algorithmen und Datenstrukturen
 

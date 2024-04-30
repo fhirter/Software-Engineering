@@ -5,3 +5,5 @@ fileignoreconfig:
   checksum: 47858c3f0e3e4e16335101120621089a6e6194404ec3965227beff2a37813d6e
 - filename: Slides/Slides.md
   checksum: 3d2e6223db9e51cdb73861b25e432992be6f8d3774c12751d7dacf7447983c71
+- filename: Slides/Images/excalidraw/cost_of_defects.svg
+  checksum: 26ce93dfbc556aec9d5ed4bfbc01abf64f54d8461d30c5e582f9b98758a18f4c
