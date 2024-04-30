@@ -1121,6 +1121,51 @@ Solutions, Addison-Wesley
 
 ![w:400px](Images/observer_class_diagram.png) ![w:400px](Images/observer_sequence_diagram.png)
 
+# Architekturen
+
+
+## High Cohesion - Low Coupling
+
+![img_1.png](Images/High_cohesion_loose_coupling.png)
+
+## Ports and Adapters
+
+![w:500px](Images/ports-and-adapters-architecture.svg)
+[growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
+
+## Traditional Monolithic Design
+
+![](Images/traditional_monolithic_design.png)
+
+## Schichtenarchitektur im Client Server Modell
+
+![](Images/client_server_II.png)
+
+## Microservices
+
+![img_2.png](Images/microservices.png)
+[martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
+
+## Microservices
+
+- Maximale Skalierbarkeit
+- Einzelne Services können von **kleinen[^1]** Teams **unabhängig entwickelt und deployed** werden
+- Bessere Wart- und Erweiterbarkeit
+- Unterschiedliche Technologien können eingesetzt werden
+- Kommunikation nicht trivial
+- Höhere Wahrscheinlichkeit eines Ausfalls
+- **Hohe Komplexität**
+
+[^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
+
+### Monolith First
+
+- Vorsicht vor [Cargo-Kult](https://de.wikipedia.org/wiki/Cargo-Kult): Amazon, Google, Meta etc. haben heute andere
+  Herausforderungen als Startups
+- Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
+  ![w:600px](Images/route_to_microservices.png)
+  [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
+
 # Fehlerbehandlung
 
 - Es gibt Bedingungen, die erfüllt werden müssen, damit eine Methode überhaupt korrekt funktionieren kann.
