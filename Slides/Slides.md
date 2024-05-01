@@ -667,11 +667,15 @@ https://c4model.com/
 * Customer collaboration over contract negotiation
 * Responding to change over following a plan
 
-https://agilemanifesto.org/
+https://agilemanifesto.org/ (2001)
 
-## Kosten von Defekten
+## Extreme Programming
 
-![cost_of_defects.svg](Images/excalidraw/cost_of_defects.svg)
+![Extreme Programming](Images/ExtremeProgramming.png)
+
+## Embrace Change
+
+![EmbraceChange](Images/EmbraceChange.png)
 
 ## Iteratives und inkrementelles Arbeiten
 
@@ -715,19 +719,15 @@ https://www.continuousdelivery.com/
 [Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
 
 
+# Testing
+
+## Kosten von Defekten
+
+![cost_of_defects.svg](Images/excalidraw/cost_of_defects.svg)
+
 ## Pair Programming
 
 ![Pair Programming](Images/PairProgramming.png)
-
-## Extreme Programming
-
-![Extreme Programming](Images/ExtremeProgramming.png)
-
-## Embrace Change
-
-![EmbraceChange](Images/EmbraceChange.png)
-
-# Testing
 
 ## Test Driven Development (TDD)
 
