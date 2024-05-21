@@ -731,7 +731,6 @@ https://www.continuousdelivery.com/
 
 ## Test Driven Development (TDD)
 
-
 - Test First: Fokus auf die Problemstellung und Schnittstelle
 - Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
 - Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
@@ -757,29 +756,24 @@ Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
 Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
-## Testpyramide
+### Testpyramide
 
-![w: 800px Testpyramide](Images/Testpyramide.png)
+![TestPyramid.svg](Images/TestPyramid.svg)
 
----
-
-![w:700px TestingPyramid](Images/TestingPyramid)
-
-## Testing: AAA
+### Testing: AAA
 
 - Arrange: Set up your data
 - Act: Execute code under Test
 - Assert: Verify that the result ist correct
 
-## Testing: Further Reading
-
-- [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
-- [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
-
-
 ### IDE Integration
 
 ![height:500px](Images/TestRunner.png)
+
+### Testing: Further Reading
+
+- [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
+- [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
 
 ## Why Should You Refactor?
 
