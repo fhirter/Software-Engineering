@@ -723,7 +723,7 @@ https://www.continuousdelivery.com/
 
 ## Kosten von Defekten
 
-![cost_of_defects.svg](Images/excalidraw/cost_of_defects.svg)
+![cost_of_defects.svg](Images/cost_of_defects.svg)
 
 ## Pair Programming
 
@@ -742,19 +742,17 @@ https://www.continuousdelivery.com/
 
 ![bg fit](Images/tdd-simple.svg)
 
-Growing Object-Oriented Software by Nat Pryce and Steve Freeman
-
 ---
 
 ![bg fit](Images/listening-to-tests.svg)
-
-Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
 ---
 
 ![bg fit](Images/tdd-with-acceptance-tests.svg)
 
-Growing Object-Oriented Software by Nat Pryce and Steve Freeman
+---
+
+Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Freeman
 
 ### Testpyramide
 
