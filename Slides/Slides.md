@@ -396,7 +396,24 @@ docs(readme): added new logging table information
 
 ![img_1.png](Images/GitlabIssue.png)
 
-# Klassen und Objekte
+# Objektorientierte Programmierung
+
+  1. Everything is an object, 
+  2. Objects communicate by sending and receiving messages (in terms of objects),
+  3. Objects have their own memory (in terms of objects), 
+  4. Every object is an instance of a class (which must be an object), 
+  5. The class holds the shared behavior for its instances (in the form of objects in a program list), 
+  6. To eval a program list, control is passed to the first object and the remainder is treated as its message
+
+
+  1. Alles ist ein Objekt, 
+  2. Objekte kommunizieren durch das Senden und Empfangen von Nachrichten (welche aus Objekten bestehen), 
+  3. Objekte haben ihren eigenen Speicher (strukturiert als Objekte), 
+  4. Jedes Objekt ist die Instanz einer Klasse (welche ein Objekt sein muss), 
+  5. Die Klasse beinhaltet das Verhalten aller ihrer Instanzen (in der Form von Objekten in einer Programmliste), 
+  6. Um eine Programmliste auszuführen, wird die Ausführungskontrolle dem ersten Objekt gegeben und das Verbleibende als dessen Nachricht behandelt
+
+– Alan Kay: The Early History of Smalltalk (1993)
 
 ## Eine Klasse: eine Software Maschine
 
