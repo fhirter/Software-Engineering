@@ -736,6 +736,27 @@ https://www.continuousdelivery.com/
 
 [Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
 
+# Deployment
+
+## Deployment Pipelines
+
+
+![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
+
+![w:800px](Images/Deployment_Pipeline.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
+
+![w:1000px](Images/GitlabPipelines.png)
+
+### Weitere Informationen
+
+- [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
+- Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley Signature Series (Fowler)
 
 # Testing
 
