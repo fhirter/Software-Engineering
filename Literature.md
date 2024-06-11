@@ -7,6 +7,7 @@
 - Douglas Crockford (2008): JavaScript: The Good Parts, O`Reilly
 - Douglas Crockford (2018): How JavaScript Works, virgule solidus
 - Brian W.Kernighan, Dennis M. Ritchie (1988): The C Programming Language, Person Addison-Wesley
+- Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design, O'Reilly
 
 ## Architecture
 - Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Structure and Design, Prentice Hall

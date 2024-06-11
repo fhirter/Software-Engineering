@@ -1200,6 +1200,10 @@ Solutions, Addison-Wesley
 
 ![img_1.png](Images/High_cohesion_loose_coupling.png)
 
+## Schichtenarchitektur
+
+![w:600px](Images/excalidraw/LayeredArchitecture.svg)
+
 ## Ports and Adapters
 
 ![w:500px](Images/ports-and-adapters-architecture.svg)
