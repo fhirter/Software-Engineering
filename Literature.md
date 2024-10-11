@@ -10,11 +10,18 @@
 - Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design, O'Reilly
 
 ## Architecture
+
+### Books
+
 - Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Structure and Design, Prentice Hall
 - Erich Gamma et al. Design Patterns (1994): Elements of Reusable Object-Oriented Software, Addison-Wesley Professional
 - Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Education
 - M. van Steen and A.S. Tanenbaum (2017): Distributed Systems, 3rd ed., distributed-systems.net
 - Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
+
+### Podcasts
+
+- SE Radio 637: Steve Smith on Software Quality: https://se-radio.net/2024/10/se-radio-637-steve-smith-on-software-quality/
 
 ## Deployment
 - Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley Signature Series (Fowler)
