@@ -1,6 +1,7 @@
 # Literature
 
 ## Software Development
+
 - Steve Freeman, Nat Price (2009): Growing Object-Oriented Software Guided by Tests, Addison-Wesley
 - Robert C. Martin (2009): Clean Code: A Handbook of Agile Software Craftsmanship, Pearson Education
 - Martin Fowler (2018): Refactoring: Improving the Design of Existing Code, Addison-Wesley Professional
@@ -24,4 +25,5 @@
 - SE Radio 637: Steve Smith on Software Quality: https://se-radio.net/2024/10/se-radio-637-steve-smith-on-software-quality/
 
 ## Deployment
+
 - Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley Signature Series (Fowler)
