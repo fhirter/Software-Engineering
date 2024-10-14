@@ -3,8 +3,10 @@ fileignoreconfig:
   checksum: f47d01960157bf685f83784c28532a160c90404108da789494940c46829a7fa6
 - filename: Slides/Images/Comparison_computational_complexity.svg
   checksum: 47858c3f0e3e4e16335101120621089a6e6194404ec3965227beff2a37813d6e
-- filename: Slides/Slides.md
-  checksum: 3d2e6223db9e51cdb73861b25e432992be6f8d3774c12751d7dacf7447983c71
 - filename: Slides/Images/excalidraw/cost_of_defects.svg
   checksum: 26ce93dfbc556aec9d5ed4bfbc01abf64f54d8461d30c5e582f9b98758a18f4c
+- filename: Slides/Architecture.md
+  checksum: d7169e79b10670f03364b19a30bf9801f71c52e3f30b891830a76e8d58454d9b
+- filename: Slides/ObjectorientedProgramming.md
+  checksum: 8289985158455f002ca6ed62ea4fbf04537c0bf68b5c88f645c9e5ba95ec15ce
 threshold: high
