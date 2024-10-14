@@ -1,6 +1,6 @@
 import unittest
 
-from Examples.Python.Testing.calculator import Calculator
+from ObjectOrientedProgramming.Examples.Python.Testing.calculator import Calculator
 
 
 class TestCalculator(unittest.TestCase):

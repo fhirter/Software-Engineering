@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from Examples.Python.MVC_Observer.subject import Subject
+from ObjectOrientedProgramming.Examples.Python.MVC_Observer.subject import Subject
 
 
 class View(Subject):

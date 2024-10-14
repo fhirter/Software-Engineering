@@ -1,4 +1,4 @@
-from Examples.Python.MVC_Observer.observer import Observer
+from ObjectOrientedProgramming.Examples.Python.MVC_Observer.observer import Observer
 
 
 class Subject:

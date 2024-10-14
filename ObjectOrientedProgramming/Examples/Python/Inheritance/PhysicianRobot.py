@@ -1,4 +1,4 @@
-from Examples.Python.Inheritance.Robot import Robot
+from ObjectOrientedProgramming.Examples.Python.Inheritance.Robot import Robot
 
 
 class PhysicianRobot(Robot):

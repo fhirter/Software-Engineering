@@ -1,6 +1,6 @@
-from Examples.Python.MVC_Observer.model import Model
-from Examples.Python.MVC_Observer.observer import Observer
-from Examples.Python.MVC_Observer.view import View
+from ObjectOrientedProgramming.Examples.Python.MVC_Observer.model import Model
+from ObjectOrientedProgramming.Examples.Python.MVC_Observer.observer import Observer
+from ObjectOrientedProgramming.Examples.Python.MVC_Observer.view import View
 
 import time
 
