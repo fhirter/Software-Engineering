@@ -1,43 +1,5 @@
 <!-- headingDivider: 3 -->
 
-# Organisatorisches
-
-## Lernziele I
-
-Die Studierenden kennen die Methoden der objektorientierten Programmierung und können diese anwenden. Sie sind in der
-Lage, mittelgrosse, vollständig objektorientierte, grafische Anwendungen zu implementieren, testen und dokumentieren.
-
-## Lernziele II
-
-Die Studierenden
-
-- kennen die Konzepte Kapselung, Vererbung, Polymorphie, dynamisches Binden, abstrakte Klassen und generische
-  Programmierung und können diese in einfachen Beispielen anwenden.
-- können den Kontrollfluss eines Programmes mit Ausnahmebehandlung verstehen und die Vorteile erläutern.
-- kennen die SOLID - Prinzipien und können sie in eigenen Worten erklären.
-- kennen die verschiedenen Testarten und können einfache Unit-Tests selber schreiben.
-
-## Lernziele II
-
-Die Studierenden
-
-- kennen das Vorgehen beim Test Driven Development und kennen die Bedeutung von Refactoring und Testing als integralen
-  Teil der Softwareentwicklung.
-- kennen das Vorgehen sowie Vor- und Nachteile des Pair-Programming.
-- können eine GUI-Applikation entwickeln. Sie können dabei gängige objektorientierte Konzepte anwenden und den Code
-  sinnvoll strukturieren.
-- wissen, worauf sie bei der Auswahl eines Frameworks achten müssen.
-
-## Unterlagen
-
-- [github.com/fhirter](https://github.com/fhirter/ObjektorientierteProgrammierung)
-- Literatur.pdf
-- OneNote Klassennotizbuch
-
-## Ratschlag
-
-- Wenn du etwas nicht verstehst, frage! Dumme Fragen sind nur die, die nicht gestellt werden.
-
 # Einstieg
 
 ## Design
