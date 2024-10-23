@@ -19,6 +19,7 @@
 - Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Education
 - M. van Steen and A.S. Tanenbaum (2017): Distributed Systems, 3rd ed., distributed-systems.net
 - Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
+- David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
 
 ### Podcasts
 
