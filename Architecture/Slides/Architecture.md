@@ -2,15 +2,23 @@
 
 # Einstieg
 
-## Was ist Architektur
+## Softwaredebakel
 
-## Moderne Softwareentwicklung
+#### VBS
 
-### Software Engineering
+- [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035)
 
-![Margareth Hamilton](Images/MargarethHamilton.png) ![Apollo Guidance Computer](Images/ApolloGuidance.png)
+- [Armee-Debakel: 300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
 
-### Kundenorientierung
+#### Kantonsverwaltung
+ 
+- [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
+
+#### Crowdstrike
+
+- [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
+
+## Kundenorientierung
 
 **Software soll den Kunden Mehrwert bringen**
 
@@ -18,44 +26,144 @@
 - Neue Features sollten schnell umgesetzt und nutzbar sein
 - Softwaresysteme werden immer komplexer
 
-### Teamarbeit
+## Teamarbeit
 
-- Mehrere Personen arbeiten am selben Softwareprojekt
+**Mehrere Personen arbeiten am selben Softwareprojekt**
+
 - Versionsverwaltung wird verwendet (Git, SVN)
 - Konflikte entstehen und sind aufwendig
 
-### "Soft"-Ware
+## Ab 1961: Margaret Hamilton, Apollo Guidance Computer
 
-- Softwareentwicklung ist meistens Kreativarbeit
-- Die Herausforderung der "Produktion" existiert kaum
+![h:300px](Images/MargarethHamilton.png) ![w:400px](Images/ApolloGuidance.png)
 
-### Lösungen
-
-- Kleine Arbeitspakete iterativ und inkrementell
-- Kurzer Feedbackloop
-- Komplexität reduzieren
-- Hohe Qualität
-
-### Alles hängt zusammen
-
-- Hohe Qualität reduziert Komplexität
-- Hohe Qualität kürzt den Feedbackloop durch schnelle Entwicklung
-- Kleine Arbeitspakete kürzen den Feedbackloop
-- Kleine Arbeitspakete reduzieren Komplexität
-- ...
-
-### Manifesto for Agile Software Development
+## 2001: Manifesto for Agile Software Development
 
 * Individuals and interactions over processes and tools
 * Working software over comprehensive documentation
 * Customer collaboration over contract negotiation
 * Responding to change over following a plan
 
-https://agilemanifesto.org/ (2001)
+https://agilemanifesto.org/
+
+## Software Engineering / Software Architecture
+
+> Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems in software
+
+(Farley, 2022, S.4)
+
+> The goal of software architecture is to minimize the human resources required to build and maintain the required system
+
+(Martin, 2018)
+
+Übergang zwischen Software Entwicklung und Software Architektur ist fliessend
+
+## Learning
+
+- Iteratives und inkrementelles Arbeiten
+- Feedback
+- Empirisches und experimentelles Arbeiten
+
+(vgl. Farley, 2022, S.4)
+
+## Managing Complexity
+
+- Modularity & Separation of Concerns
+- Cohesion & Coupling
+- Abstraction
+
+(vgl. Farley, 2022, S.5)
+
+## Production Is Not Our Problem
+
+- Softwareentwicklung ist meistens Kreativarbeit
+- Die Herausforderung der "Produktion" existiert kaum
+
+## Space X Starship
+
+[How Not to Land an Orbital Rocket Booser, 2017](https://www.youtube.com/watch?v=bvim4rsNHkQ)
+[WOW! Watch SpaceX Catch A Starship Booster In Air, 2024](https://www.youtube.com/watch?v=NpjLfUoiT_w)
+
+Finanzierung: **ca 3 Mrd. Dollar**
+
+Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne Mercury und Gemini)
 
 # Lernen
 
-## Empirie und Feedback
+## Iteratives und inkrementelles Arbeiten
+
+![w:800px Mona Lisa](Images/MonaLisa.png)
+
+## Iterationen
+
+![Iterations](Images/Iterations.png)
+
+## Embrace Change
+
+![EmbraceChange](Images/EmbraceChange.png)
+
+### Extreme Programming
+
+![Extreme Programming](Images/ExtremeProgramming.png)
+
+
+## Feedback 
+
+### CI/CD
+
+![img.png](Images/CICD.png)
+
+### Continuous Integration
+
+- Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
+- Dieser Branch ist jederzeit lauffähig
+- Dadurch werden die Releases vereinfachen
+- Eine sehr hohe, automatische Testabdeckung ist zwingend
+
+### Continuous Delivery
+
+- Ziel: Releases werden vereinfacht
+- Time to market ist kürzer, neue Features sind sofort verfügbar
+- Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
+- Higher quality
+- Lower costs
+- Better products
+- Happier teams
+
+### Principles
+
+- Build quality in
+- Work in small batches
+- Computers perform repetitive tasks, people solve problems
+- Relentlessly pursue continuous improvement
+- Everyone is responsible
+
+https://www.continuousdelivery.com/
+
+[Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
+
+### Deployment Pipelines
+
+![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
+
+![w:800px](Images/Deployment_Pipeline.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
+
+![w:1000px](Images/GitlabPipelines.png)
+
+--- 
+
+- [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
+- Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
+  Automation, Addison-Wesley Signature Series (Fowler)
+
+
+## Empirisches und experimentelles Arbeiten
 
 ## Domain Driven Design
 
@@ -105,7 +213,7 @@ Konto "1..*" -- "1..*" Kunde
 @enduml
 ```
 
-# C4 Model
+## C4 Model
 
 ![img.png](Images/C4Overview.png)
 https://c4model.com/
@@ -120,74 +228,13 @@ https://c4model.com/
 
 # Komplexität
 
-## Extreme Programming
+## Modularity & Separation of Concerns
 
-![Extreme Programming](Images/ExtremeProgramming.png)
+## Cohesion & Coupling
 
-## Embrace Change
+![img_1.png](Images/High_cohesion_loose_coupling.png)
 
-![EmbraceChange](Images/EmbraceChange.png)
-
-## Iteratives und inkrementelles Arbeiten
-
-![w:800px Mona Lisa](Images/MonaLisa.png)
-
-## Iterationen
-
-![Iterations](Images/Iterations.png)
-
-## Kurzer Feedbackloop: CI/CD
-
-![img.png](Images/CICD.png)
-
-## Continuous Integration
-
-- Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
-- Dieser Branch ist jederzeit lauffähig
-- Dadurch werden die Releases vereinfachen
-- Eine sehr hohe, automatische Testabdeckung ist zwingend
-
-## Continuous Delivery
-
-- Ziel: Releases werden vereinfacht
-- Time to market ist kürzer, neue Features sind sofort verfügbar
-- Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
-- Higher quality
-- Lower costs
-- Better products
-- Happier teams
-
-## Principles
-
-- Build quality in
-- Work in small batches
-- Computers perform repetitive tasks, people solve problems
-- Relentlessly pursue continuous improvement
-- Everyone is responsible
-
-https://www.continuousdelivery.com/
-
-[Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
-
-## Deployment Pipelines
-
-![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
-(Jez Humble, David Farley (2010): Continuous Delivery)
-
----
-
-![w:800px](Images/Deployment_Pipeline.jpeg)
-(Jez Humble, David Farley (2010): Continuous Delivery)
-
----
-
-![w:1000px](Images/GitlabPipelines.png)
-
-### Weitere Informationen
-
-- [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
-- Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
-  Automation, Addison-Wesley Signature Series (Fowler)
+## Abstraction
 
 ## Testing
 
@@ -259,9 +306,6 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 
 ## Architekturen
 
-### High Cohesion - Low Coupling
-
-![img_1.png](Images/High_cohesion_loose_coupling.png)
 
 ### Schichtenarchitektur
 
@@ -305,3 +349,10 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
   ![w:600px](Images/route_to_microservices.png)
   [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
 
+# Quellen
+
+Farley, 2022
+: David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
+
+Martin, 2018
+: Robert C. Martin (2018): Clean Architecture: A Craftman's Guide to Software Structure and Design, Prentice Hall
