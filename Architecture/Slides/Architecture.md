@@ -1,3 +1,65 @@
+<!-- headingDivider: 3 -->
+
+# Einstieg
+
+## Was ist Architektur
+
+## Moderne Softwareentwicklung
+
+### Software Engineering
+
+![Margareth Hamilton](Images/MargarethHamilton.png) ![Apollo Guidance Computer](Images/ApolloGuidance.png)
+
+### Kundenorientierung
+
+**Software soll den Kunden Mehrwert bringen**
+
+- Software soll stabil laufen
+- Neue Features sollten schnell umgesetzt und nutzbar sein
+- Softwaresysteme werden immer komplexer
+
+### Teamarbeit
+
+- Mehrere Personen arbeiten am selben Softwareprojekt
+- Versionsverwaltung wird verwendet (Git, SVN)
+- Konflikte entstehen und sind aufwendig
+
+### "Soft"-Ware
+
+- Softwareentwicklung ist meistens Kreativarbeit
+- Die Herausforderung der "Produktion" existiert kaum
+
+### Lösungen
+
+- Kleine Arbeitspakete iterativ und inkrementell
+- Kurzer Feedbackloop
+- Komplexität reduzieren
+- Hohe Qualität
+
+### Alles hängt zusammen
+
+- Hohe Qualität reduziert Komplexität
+- Hohe Qualität kürzt den Feedbackloop durch schnelle Entwicklung
+- Kleine Arbeitspakete kürzen den Feedbackloop
+- Kleine Arbeitspakete reduzieren Komplexität
+- ...
+
+### Manifesto for Agile Software Development
+
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+https://agilemanifesto.org/ (2001)
+
+# Lernen
+
+## Empirie und Feedback
+
+## Domain Driven Design
+
+# Kommunikation
 
 ## UML Klassendiagramm
 
@@ -44,6 +106,7 @@ Konto "1..*" -- "1..*" Kunde
 ```
 
 # C4 Model
+
 ![img.png](Images/C4Overview.png)
 https://c4model.com/
 
@@ -55,54 +118,7 @@ https://c4model.com/
 
 ![img.png](Images/C4Abstractions.png)
 
-# Moderne Softwareentwicklung
-
-## Software Engineering
-
-![Margareth Hamilton](Images/MargarethHamilton.png) ![Apollo Guidance Computer](Images/ApolloGuidance.png)
-
-## Kundenorientierung
-
-**Software soll den Kunden Mehrwert bringen**
-
-- Software soll stabil laufen
-- Neue Features sollten schnell umgesetzt und nutzbar sein
-- Softwaresysteme werden immer komplexer
-
-## Teamarbeit
-
-- Mehrere Personen arbeiten am selben Softwareprojekt
-- Versionsverwaltung wird verwendet (Git, SVN)
-- Konflikte entstehen und sind aufwendig
-
-## "Soft"-Ware
-
-- Softwareentwicklung ist meistens Kreativarbeit
-- Die Herausforderung der "Produktion" existiert kaum
-
-## Lösungen
-
-- Kleine Arbeitspakete iterativ und inkrementell
-- Kurzer Feedbackloop
-- Komplexität reduzieren
-- Hohe Qualität
-
-## Alles hängt zusammen
-
-- Hohe Qualität reduziert Komplexität
-- Hohe Qualität kürzt den Feedbackloop durch schnelle Entwicklung
-- Kleine Arbeitspakete kürzen den Feedbackloop
-- Kleine Arbeitspakete reduzieren Komplexität
-- ...
-
-## Manifesto for Agile Software Development
-
-* Individuals and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
-
-https://agilemanifesto.org/ (2001)
+# Komplexität
 
 ## Extreme Programming
 
@@ -153,18 +169,37 @@ https://www.continuousdelivery.com/
 
 [Modern Software Engineering](https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914)
 
+## Deployment Pipelines
 
-# Testing
+![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
 
-## Kosten von Defekten
+---
+
+![w:800px](Images/Deployment_Pipeline.jpeg)
+(Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
+
+![w:1000px](Images/GitlabPipelines.png)
+
+### Weitere Informationen
+
+- [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
+- Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
+  Automation, Addison-Wesley Signature Series (Fowler)
+
+## Testing
+
+### Kosten von Defekten
 
 ![cost_of_defects.svg](Images/cost_of_defects.svg)
 
-## Pair Programming
+### Pair Programming
 
 ![Pair Programming](Images/PairProgramming.png)
 
-## Test Driven Development (TDD)
+### Test Driven Development (TDD)
 
 - Test First: Fokus auf die Problemstellung und Schnittstelle
 - Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
@@ -208,115 +243,49 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 - [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
 - [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
 
-## Why Should You Refactor?
+### Why Should You Refactor?
 
 * Refactoring Improves the Design of Software
 * Refactoring Makes Software Easier to Understand
 * Refactoring Helps You Find Bugs
 * Refactoring Helps You Program Faster
 
-## When Should You Refactor?
+### When Should You Refactor?
 
 * [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
 * Refactor When You Add Functionality
 * Refactor When You Need to Fix a Bug
 * Refactor As You Do a Code Review
 
-# Deployment
+## Architekturen
 
-## Deployment Pipelines
-
-
-![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
-(Jez Humble, David Farley (2010): Continuous Delivery)
-
----
-
-![w:800px](Images/Deployment_Pipeline.jpeg)
-(Jez Humble, David Farley (2010): Continuous Delivery)
-
----
-
-![w:1000px](Images/GitlabPipelines.png)
-
-### Weitere Informationen
-
-- [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
-- Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley Signature Series (Fowler)
-
-
-
-# SOLID Principles
-
-## Single Responsibility Principle
-
-- "A module should be responsible to one, and only one, actor." The term actor refers to a group (consisting of one or
-  more stakeholders or users) that requires a change in the module.
-- "A class should have only one reason to change"
-  [wikipedia](https://en.wikipedia.org/wiki/Single-responsibility_principle)
-
-## Open Closed Principle
-
-"Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
-[wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
-
-## Liskov's Substitution Principle
-
-## Interface Segregation Principle
-
-## Dependency Inversion Principle
-
-# Dependency Inversion
-
-![img.png](Images/dependency_inversion.png)
-
-
-
-# Design Patterns
-
-Gang of Four:
-Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides (1995): Design Patterns, Elements of Reusable Object-Oriented
-Software, Addison-Wesley
-
-Fowler, Martin (2002): Patterns of Enterprise Application Architecture, Addison-Wesley
-
-Hohpe, Gregor; Woolf, Bobby (2003): Enterprise Integration Patterns: Designing, Building, and Deploying Messaging
-Solutions, Addison-Wesley
-
-## Observer
-
-![w:400px](Images/observer_class_diagram.png) ![w:400px](Images/observer_sequence_diagram.png)
-
-# Architekturen
-
-
-## High Cohesion - Low Coupling
+### High Cohesion - Low Coupling
 
 ![img_1.png](Images/High_cohesion_loose_coupling.png)
 
-## Schichtenarchitektur
+### Schichtenarchitektur
 
-![w:600px](Images/excalidraw/LayeredArchitecture.svg)
+![w:600px](Images/LayeredArchitecture.svg)
 
-## Ports and Adapters
+### Ports and Adapters
 
 ![w:500px](Images/ports-and-adapters-architecture.svg)
 [growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
 
-## Traditional Monolithic Design
+### Traditional Monolithic Design
 
 ![](Images/traditional_monolithic_design.png)
 
-## Schichtenarchitektur im Client Server Modell
+### Schichtenarchitektur im Client Server Modell
 
 ![](Images/client_server_II.png)
 
-## Microservices
+### Microservices
 
-![img_2.png](Images/microservices.png)
+![img_2.png](../../Slides/Images/microservices.png)
 [martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
 
-## Microservices
+### Microservices
 
 - Maximale Skalierbarkeit
 - Einzelne Services können von **kleinen[^1]** Teams **unabhängig entwickelt und deployed** werden
@@ -335,3 +304,4 @@ Solutions, Addison-Wesley
 - Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
   ![w:600px](Images/route_to_microservices.png)
   [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
+

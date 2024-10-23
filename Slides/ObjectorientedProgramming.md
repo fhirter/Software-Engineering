@@ -333,3 +333,43 @@ bei Änderungen zu Problemen führen.
 - Dynamische / statische Bindung
 - Dynamische / statische Typisierung
 - Generische Programmierung
+
+
+# SOLID Principles
+
+## Single Responsibility Principle
+
+- "A module should be responsible to one, and only one, actor." The term actor refers to a group (consisting of one or
+  more stakeholders or users) that requires a change in the module.
+- "A class should have only one reason to change"
+  [wikipedia](https://en.wikipedia.org/wiki/Single-responsibility_principle)
+
+## Open Closed Principle
+
+"Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
+[wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+
+## Liskov's Substitution Principle
+
+## Interface Segregation Principle
+
+## Dependency Inversion Principle
+
+# Dependency Inversion
+
+![img.png](../../Slides/Images/dependency_inversion.png)
+
+# Design Patterns
+
+Gang of Four:
+Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides (1995): Design Patterns, Elements of Reusable Object-Oriented
+Software, Addison-Wesley
+
+Fowler, Martin (2002): Patterns of Enterprise Application Architecture, Addison-Wesley
+
+Hohpe, Gregor; Woolf, Bobby (2003): Enterprise Integration Patterns: Designing, Building, and Deploying Messaging
+Solutions, Addison-Wesley
+
+## Observer
+
+![w:400px](../../Slides/Images/observer_class_diagram.png) ![w:400px](../../Slides/Images/observer_sequence_diagram.png)

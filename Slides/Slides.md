@@ -339,7 +339,7 @@ docs(readme): added new logging table information
 
 ### CI/CD Plattform
 
-![img.png](Images/GitlabPipelines.png)
+![img.png](../Architecture/Slides/Images/GitlabPipelines.png)
 
 ---
 
