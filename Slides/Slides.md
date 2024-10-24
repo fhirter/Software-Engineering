@@ -115,86 +115,19 @@ Software sollte folgende Merkmale haben:
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 [God-Tier Developer Roadmap](https://www.youtube.com/watch?v=pEfrdAtAmqk)
 
-## C
+---
 
-- 1972, Dennis Ritchie, Bell Labs
-- Kompiliert
-- Imperativ, Stukturiert
-- statisch Typisiert
-- Grosse Verbreitung in Betriebssystemen und Embedded
-- Sehr schnell und effizient
-
-## C++
-
-- 1985, Bjarne Stroustrup, Bell Labs
-- Kompiliert
-- Objektorientiert
-- Erweiterung von C
-- Schnell und effizient
-- Hochkomplex
-- Grosse Verbreitung in Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter
-
-## Java
-
-- 1995, James Gosling, Sun Microsystems
-- Kompiliert / Virtuelle Maschine (Plattformunabhängigkeit)
-- Objektorientiert
-- statisch Typisiert
-- Grosses angebot an Bibliotheken und Werkzeugen
-- Einfache Syntax
-
-## C#
-
-- 2000, Anders Hejlsberg, Microsoft
-- Kompiliert
-- Objektorientiert
-- statisch Typisiert
-- Game Entwicklung (Unity), Microsoft Ökosystem
-
-## Python
-
-- 1991, Guido van Rossum, Centrum Wiskunde & Informatica
-- Interpretiert
-- Objektorientiert
-- dynamische Typisierung
-- Einfache Syntax, schlanke Programme, wenig Ballast
-- Grosses Angebot an Bibliotheken und Werkzeugen
-
-## PHP
-
-- 1995, Rasmus Lerdorf
-- Interpretiert
-- Objektorientiert
-- dynamische Typisierung
-- Im Web weit verbreitet (Backend)
-
-## JavaScript / TypeScript
-
-- 1995, Brendan Eich, Netscape
-- Interpretiert
-- Objektorientiert (Prototypenbasiert)
-- dynamische Typisierung
-- statische Typisierung mit TypeScript, 2014, Microsoft
-- Hohe Verbreitung im Web (Frontend und Backend)
-
-## Rust
-
-- 2015, Graydon Hoare, Mozilla
-- Kompiliert
-- Objektorientiert, nebenläufig
-- statische Typisierung
-- Keine Garbage Collection
-- Sicher, Nebenläufig
-- Seit 2022 im Linux Kernel verwendet
-
-## Go
-
-- 2012, Rob Pike / Ken Thompson / Robert Griesemer, Google
-- Kompiliert
-- Objektorientiert, nebenläufig
-- statische Typisierung
-- Keine Vererbung
-- Effizienz, Lesbarkeit / DX, Networking, Multiprocessing
+|            |      |                                |                 |                     |                                                       | Anwendungsgebiet                                                                      | Eigenschaften                                                                                                 |
+|------------|------|--------------------------------|-----------------|---------------------|-------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| C          | 1972 | Bell Labs                      | Kompiliert      | statisch typisiert  | imperativ, strukturiert                               | Betriebssystemen und Embedded                                                         | Sehr schnell und effizient                                                                                    |
+| C++        | 1985 | Bell Labs                      | Kompiliert      | statisch typisiert  | imperativ, objektorientiert                           | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter              | Schnell und effizient, Hochkomplex                                                                            |
+| Java       | 1995 | Sun                            | Kompiliert (VM) | statisch typisiert  | imperativ, objektorientiert                           | Enterprise Umfeld                                                                     | Virtuelle Maschine (Plattformunabhängig), Grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
+| C#         | 2000 | Microsoft                      | Kompiliert      | statisch typisiert  | imperativ, objektorientiert                           | Game Entwicklung (Unity), Microsoft Ökosystem, Enterprise Umfeld                      |                                                                                                               |
+| Python     | 1991 | Centrum Wiskunde & Informatica | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert             | Wissenschaften, Machine Learning, Big Data, Einsteiger, Automation                    | Einfache Syntax, grosses Angebot an Bibliotheken und Werkzeugen                                               |
+| JavaScript | 1995 | Netscape                       | Interpretiert   | dynamisch typisiert | imperativ, objektorientiert                           | Web Frontend und Backend                                                              | Relativ performant, grosse Verbreitung, enorme Auswahl an Bibliotheken und Werkzeugen, Leistungsfähige Syntax |
+| PHP        | 1995 | Rasmus Lerdorf                 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert             | Web                                                                                   |                                                                                                               |
+| Go         | 2012 | Google                         | Kompiliert      | statisch typisiert  | imperativ, strukturiert, objektorientiert             | Web Backend, Tooling, DevOps                                                          | Keine Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing                                      |
+| Rust       | 2015 | Mozilla                        | Kompiliert      | statisch typisiert  | imperativ, strukturiert, funktional, objektorientiert | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend | Keine Garbage Collection, Sicher, Nebenläufig Seit 2022 im Linux Kernel verwendet                             |
 
 ## Energy, Time, Memory Comparison
 
@@ -225,8 +158,7 @@ Software sollte folgende Merkmale haben:
 
 ### JetBrains
 
-- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm),
-  iOS (AppCode), Android (AndroidStudio), C## (Rider)
+- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm), iOS (AppCode), Android (AndroidStudio), C## (Rider)
 - Teilweise OpenSource (Community Version)
 
 ## Jetbrains PyCharm
@@ -287,8 +219,8 @@ Software sollte folgende Merkmale haben:
 - [Lokales Repository aktualisieren](https://git-scm.com/docs/git-pull) `git pull origin`
 - Source Dateien erstellen oder editieren
 - [Änderungen zum Staging Area hinzufügen](https://git-scm.com/docs/git-add) `git add <directory>` (z.B. ".")
-- [Änderungen im Repository festhalten](https://git-scm.com/docs/git-commit) `git commit -m "<message>"` (z.B. "change
-  data type")
+- [Änderungen im Repository festhalten](https://git-scm.com/docs/git-commit)
+  `git commit -m "<message>"` (z.B. "change data type")
 - [Lokales Repository aktualisieren](https://git-scm.com/docs/git-pull) `git pull <remote>` (z.B. "origin")
     - Mit Rebase bleibt die History aufgeräumter: `git pull --rebase`
 - [Änderungen auf Github/Gitlab/Bitbucket laden](https://git-scm.com/docs/git-push) `git push <remote> <branch>` (z.B. "
@@ -476,8 +408,7 @@ dict['Name']  # Zara
 ![w:600px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
-- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
-  die Operation)
+- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert die Operation)
 
 ### Alternative Big O Notation
 
@@ -580,8 +511,7 @@ except:
 
 ## Exceptions in Go
 
-Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf
-unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
+Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
 
 ```
 func (p Eurobox) setWeight(weight int) error {
