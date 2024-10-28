@@ -1,5 +1,5 @@
 
-![img_1.png](Images/GitlabIssue.png)
+
 
 # Objektorientierte Programmierung
 
@@ -357,7 +357,7 @@ bei Änderungen zu Problemen führen.
 
 # Dependency Inversion
 
-![img.png](../../Slides/Images/dependency_inversion.png)
+![img.png](./Images/dependency_inversion.png)
 
 # Design Patterns
 
@@ -372,4 +372,4 @@ Solutions, Addison-Wesley
 
 ## Observer
 
-![w:400px](../../Slides/Images/observer_class_diagram.png) ![w:400px](../../Slides/Images/observer_sequence_diagram.png)
+![w:400px](./observer_class_diagram.png) ![w:400px](./observer_sequence_diagram.png)

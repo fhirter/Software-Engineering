@@ -1,5 +1,7 @@
 <!-- headingDivider: 3 -->
 
+![img_1.png](Images/GitlabIssue.png)
+
 # Einstieg
 
 ## Softwareentwickler:innen bauen Maschinen
