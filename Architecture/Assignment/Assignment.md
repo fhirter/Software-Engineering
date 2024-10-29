@@ -16,6 +16,13 @@ Folgende Arbeiten werden von den Studierenden im Verlauf des Semesters ausgefüh
 - Entwicklung von [POCs](https://de.wikipedia.org/wiki/Proof_of_Concept) (Proof of Concept) zur Technologieevaluation Entwicklung eines 
 [MVP](https://de.wikipedia.org/wiki/Minimum_Viable_Product) (Minimal Viable Product).
 
+## Projektpitch
+
+Die Projektideen werden in der Form von einem [Elevator Pitch](https://en.wikipedia.org/wiki/Elevator_pitch) der Klasse
+vorgestellt. Dieser darf maximal zwei Minuten dauern. Begleitend ist ein Handout zu erstellen.
+
+Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
+
 ## Bericht
 
 Der Bericht behandelt die theoretischen Grundlagen, dokumentiert die erstellten Prototypen und legt die daraus
