@@ -44,7 +44,8 @@ persönliche Reflexion wird separat verfasst und bewertet.
 
 ## Präsentationen und Fragerunde
 
-Das erarbeitete Thema wird der Klasse präsentiert.
+Das erarbeitete Thema wird der Klasse präsentiert. Im Anschluss an die Präsentation gibt es eine Frage und
+Diskussionsrunde.
 
 ## Zeitplan
 
