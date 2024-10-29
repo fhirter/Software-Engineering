@@ -76,16 +76,18 @@ berechnet sich aus $0.25*Gruppenarbeit + 0.25*Mündliche Prüfung + 0.5*Reflexio
 
 ### Gruppennote für das Projekt
 
-Aufsatz und Präsentation gemäss folgendem Bewertungsraster
+Aufsatz und Präsentation gemäss folgendem Bewertungsraster:
 
-| Kapitel                 | Punkte | Bewertung |
-|-------------------------|--------|-----------|
-| Einleitung              | 10     | Gruppe    |
-| Material und Methoden   | 10     | Gruppe    |
-| Ergebnisse              | 10     | Gruppe    |
-| Diskussion              | 10     | Gruppe    |
-| Empfehlung und Ausblick | 10     | Gruppe    |
-| Präsentation            | 10     | Gruppe    |
+| Kapitel                 | Punkte |
+|-------------------------|--------|
+| Einleitung              | 10     |
+| Material und Methoden   | 10     |
+| Ergebnisse              | 10     |
+| Diskussion              | 10     |
+| Empfehlung und Ausblick | 10     |
+| Präsentation            | 10     |
+
+Die ganze Gruppe erhält dieselbe Note.
 
 ### Einzelnote Lessons Learnt und persönliche Reflexion aus dem Projekt
 
