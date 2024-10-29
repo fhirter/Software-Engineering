@@ -63,16 +63,16 @@ Der Bericht wird nach der Bewertung einmalig überarbeitet werden können bis zu
 
 Die Bewertung besteht aus drei Teilen:
 
-| Prüfung           | Bewertung |
-|-------------------|-----------|
-| Gruppenarbeit     | Gruppe    |
-| Reflexion         | Einzeln   |
-| Mündliche Prüfung | Einzeln   |
+| Prüfung           | Bewertung | Gewichtung |
+|-------------------|-----------|------------|
+| Gruppenarbeit     | Gruppe    | 25%        |
+| Mündliche Prüfung | Einzeln   | 25%        |
+| Reflexion         | Einzeln   | 50%        |
 
 ### Notenberechnung
 
-Die einzelnen Noten werden mit $\frac{Gesamtpunkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1. Die Zeugnisnote ist
-der Mittelwert aus diesen drei Noten, gerundet auf 0.5.
+Die einzelnen Noten werden mit $\frac{Gesamtpunkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1. Die Zeugnisnote
+berechnet sich aus $0.25*Gruppenarbeit + 0.25*Mündliche Prüfung + 0.5*Reflexion$ und wird auf halbe Noten gerundet.
 
 ### Gruppennote für das Projekt
 
