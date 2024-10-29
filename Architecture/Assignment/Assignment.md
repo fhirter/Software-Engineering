@@ -39,8 +39,8 @@ Folgende Kapitel müssen vorkommen:
 - Diskussion
 - Empfehlung und Ausblick
 
-Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. 
-Die persönliche Reflexion wird separat verfasst und bewertet.
+Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
+persönliche Reflexion wird separat verfasst und bewertet.
 
 ## Präsentationen und Fragerunde
 
