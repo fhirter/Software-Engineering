@@ -8,8 +8,8 @@ der Erarbeitung des Ergebnisses an.
 
 ## Auftrag
 
-Die Projektarbeit ist eine Einzelarbeit zu einer vom jeweiligen Fachdozenten vorgegebenen Aufgabenstellung und wird
-innerhalb des Semesters erarbeitet.
+Die Projektarbeit ist eine Gruppenarbeit (2-3 Personen) zu einer vom jeweiligen Fachdozenten vorgegebenen
+Aufgabenstellung und wird innerhalb des Semesters erarbeitet.
 
 ## Umfang
 
@@ -23,4 +23,4 @@ eine Frage- und Diskussionsrunde.
 ## Benotung
 
 Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige
-Note im Zeugniss aufgeführt wird.
+Note im Zeugnis aufgeführt wird.
