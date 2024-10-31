@@ -77,3 +77,16 @@ Visualisiere den Algorithmus mit [matplotlib](https://matplotlib.org/).
 
 Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein 
 Handout. Präsentiere die Arbeit der Klasse.
+
+## Bewertung
+
+| Bereich                                                                                                                | Punkte |
+|------------------------------------------------------------------------------------------------------------------------|--------|
+| Sinnvolle und atomare Commit Messages                                                                                  | 10     |
+| Pipeline: Applikation wird automatisch getestet                                                                        | 10     |
+| Testing: Applikation wird vollständig und sinnvoll getestet                                                            | 10     |
+| Recherche: Verständlich und korrekt erläutert (Text und Flussdiagramm), Quellen vorhanden und Aussagen nachvollziehbar | 10     |
+| Implementierung                                                                                                        | 10     |
+| Korrekte und nachvollziehbare Messungen, Korrekte Schlussfolgerung (Komplexitätsklasse)                                | 10     |
+| Ansprechende und korrekte Visualisierung                                                                               | 10     |
+| Präsentation: Verständlich und ansprechend (Präsentation und Handout)                                                  | 10     |
