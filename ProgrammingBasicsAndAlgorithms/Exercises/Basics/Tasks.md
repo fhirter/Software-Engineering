@@ -35,8 +35,9 @@ Erstelle ein Projekt auf Github oder Gitlab und klone es in der Entwicklungsumge
 
 Erstelle eine Pipeline mit einem Test Job.
 
-Erstelle bei jeder Änderung sogenannte "[Atomic Commits](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention)". 
-Erstelle also Commits, die nur eine einzelne Änderung umfassen.
+Erstelle bei jeder Änderung
+sogenannte "[Atomic Commits](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention)". Erstelle also
+Commits, die nur eine einzelne Änderung umfassen.
 
 ### Testing
 
@@ -58,24 +59,24 @@ Recherchiere, mit welchem Algorithmus das Problem gelöst werden kann.
 Halte deine Erkenntnisse nachvollziehbar (d.h. mit genauer Quellenangabe) in einem Markdown Dokument fest. Erstelle ein
 Flussdiagramm vom Algorithmus in Mermaid oder PlantUML. Erfasse die Dokumente in Git.
 
-## Implementierung
+### Implementierung
 
-Implementiere den Algorithmus anhand von Code Beispielen und dem Fluss-Diagramm. Stelle sicher, dass du den Ablauf 
+Implementiere den Algorithmus anhand von Code Beispielen und dem Fluss-Diagramm. Stelle sicher, dass du den Ablauf
 verstehst. Halte Erkenntnisse in Markdown Files fest.
 
-## Komplexitätsanalyse
+### Komplexitätsanalyse
 
-Untersuche die Komplexität des implementierten Algorithmus mittels belastbaren Messungen, nutze dazu z.B. 
-"[pytest-benchmark](https://pytest-benchmark.readthedocs.io/en/latest/)".
-Bestimme anhand der Messungen, zu welcher [Komplexitätsklasse](https://www.bigocheatsheet.com/) der Algorithmus gehört.
+Untersuche die Komplexität des implementierten Algorithmus mittels belastbaren Messungen, nutze dazu z.B.
+"[pytest-benchmark](https://pytest-benchmark.readthedocs.io/en/latest/)". Bestimme anhand der Messungen, zu
+welcher [Komplexitätsklasse](https://www.bigocheatsheet.com/) der Algorithmus gehört.
 
-## Visualisierung
+### Visualisierung
 
 Visualisiere den Algorithmus mit [matplotlib](https://matplotlib.org/).
 
-## Präsentation
+### Präsentation
 
-Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein 
+Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein
 Handout. Präsentiere die Arbeit der Klasse.
 
 ## Bewertung
