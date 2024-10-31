@@ -43,5 +43,5 @@ Diskutiere in der Gruppe, wie die Zusammenarbeit funktioniert hat. Halte die Erk
 
 ## Präsentation
 
-Präsentiere die Erkenntnisse der Klasse.
+Präsentiere die Erkenntnisse der Klasse möglichst **ansprechend und verständlich**.
 
