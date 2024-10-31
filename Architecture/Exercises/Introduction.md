@@ -27,7 +27,7 @@ Folgende Fragestellungen sollen bearbeitet werden, wobei weitere formuliert werd
 ### 2. **Recherche**
 
 Recherchiere Online und im Buch von David Farley zur gewählten Fragestellung. Halte zu den gefundenen Informationen 
-die Quelle fest.
+die Quellen fest.
 
 ### 3. **Hypothese** formulieren
 
