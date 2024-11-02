@@ -1,7 +1,5 @@
 <!-- headingDivider: 3 -->
 
-![img_1.png](Images/GitlabIssue.png)
-
 # Einstieg
 
 ## Softwareentwickler:innen bauen Maschinen
@@ -13,7 +11,13 @@
 ## Computer
 
 - Computer sind universelle Maschinen. Sie führen die Programme aus, die wir ihnen füttern.
+- Der Computer findet das Programm im Speicher und führt es aus.
 - Die einzigen Grenzen sind unsere Vorstellungskraft
+
+![w:400px](Images/ComputerBasic.png)
+
+## Computer
+
 - Gute Nachricht
     - Dein Computer macht genau das, was man ihm sagt.
     - Er macht es sehr schnell.
@@ -23,85 +27,34 @@
 
 ## Programme erstellen und laufen lassen
 
-![w:500px](Images/create_and_run_programs.png)
+![w:600px](Images/AProgrammerAUser.png)
 
 ## Programme erstellen und laufen lassen
 
-![w:10000px](Images/create_and_run_programs2.png)
+![w:600px](Images/ManyProgrammersManyUsers.png)
 
 ## Programme erstellen und laufen lassen
 
-![w:800px](Images/create_and_run_programms3.png)
+![w:600px](Images/ManyProgrammersManyUsersUsingComputers.png)
 
-## Verbreitete Mythen und Entschuldigungen
+## Software sollte folgende Merkmale haben:
 
-- «Computer sind intelligent»
-    - Fakt: Computer sind weder intelligent noch dumm. Sie führen Programme aus, die von Menschen entwickelt wurden.
-    - Diese Programme bilden die Intelligenz ihrer Autoren ab.
-    - Die grundlegenden Computeroperationen sind elementar (Speichere diesen Wert, Addiere diese beiden Zahlen...)
-- «Der Computer ist abgestürzt»
-- [«Der Computer erlaubt das nicht»](https://youtu.be/0n_Ty_72Qds)
-- «Der Computer hat ihren Datensatz verloren»
+- **Korrekt**: Machen, was es sollte.
+- **Erweiterbar**: Einfach zu ändern sein.
+- **Lesbar**: durch Menschen.
+- **Wiederverwertbar**: Das Rad nicht neu erfinden.
+- **Robust**: Korrekt auf Fehler reagieren.
+- **Sicher**: Angreifer abwehren.
 
 ## Software schreiben ist herausfordernd
 
 - Programme können «abstürzen»
 - Programme, die nicht «abstürzen» funktionieren nicht zwangsläufig richtig.
-- Fehlerhafte Programme können Menschen töten, (medizinische Geräte, Luftfahrt) → Boeing 737 MCAS
-- Ariane5 Rakete, 1996: $10 Milliarden verloren aufgrund eines Programmfehlers.
-- Programmierer sind veranwortlich für das korrekte Funktionieren der Programme
+  - [Ariane5 Rakete, 1996](https://www.youtube.com/watch?v=PK_yguLapgA)
+- Fehlerhafte Programme können Menschen töten (medizinische Geräte, Luftfahrt).
+  - [Boeing 737 MCAS](https://www.youtube.com/watch?v=H2tuKiiznsY)
+- Programmierer sind verantwortlich für das korrekte Funktionieren der Programme.
 - Das Ziel dieses Fachs ist, nicht nur programmieren zu lernen, sondern gut programmieren zu lernen.
-
-## Grundsätzliche Organisation
-
-<!-- Bild -->
-
-## Computer
-
-- Computer sind universelle Maschinen, sie führen Programme aus, die wir ihnen "füttern"
-
-<!-- Bild -->
-
-## Informationen und Daten
-
-- Information ist das, was wir Menschen wollen und verstehen, z.B. ein Lied oder einen Text
-    - Interpretation von Daten für Menschen
-- Daten bezeichnet, wie dies im Computer gespeichert wird, z.B. als MP3 Datei.
-    - Ansammlung von Symbolen in einem Computer
-
-## Informationen und Daten
-
-- Daten werden gespeichert
-- Eingabegeräte produzieren Daten aus Informationen
-- Ausgabegeräte produzieren Informationen aus Daten
-
-<!-- Bild -->
-
-## Wo ist das Programm?
-
-- Stored-program computer: Das Programm ist im Speicher
-    - „ausführbare Daten“
-- Ein Programm kann in verschiedenen Formen im Speicher auftreten:
-    - Quellcode / Sourcecode: durch Menschen lesbare Form (Programmiersprache)
-    - Maschinencode: Ausführbar durch Computer
-- Compiler / Interpreter transformieren von Sourcecode zu Maschinencode
-- Der Computer findet das Programm im Speicher und führt es aus.
-
-## Software Engineering
-
-Software sollte folgende Merkmale haben:
-
-- Korrekt: Machen, was es sollte!
-- Erweiterbar: Einfach zu ändern sein!
-- Lesbar: durch Menschen!
-- Wiederverwertbar: Das Rad nicht neu erfinden!
-- Robust: Korrekt auf Fehler reagieren!
-- Sicher: Angreifer abwehren!
-
-## Software schreiben ist herausfordernd
-
-- Es ist schwierig, das Programm korrekt zu schreiben
-- Trial-and-error ist ineffizient
 
 ## Software schreiben macht Spass
 
@@ -119,17 +72,60 @@ Software sollte folgende Merkmale haben:
 
 ---
 
-|            |      |                                |                 |                     |                                                       | Anwendungsgebiet                                                                      | Eigenschaften                                                                                                 |
-|------------|------|--------------------------------|-----------------|---------------------|-------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| C          | 1972 | Bell Labs                      | Kompiliert      | statisch typisiert  | imperativ, strukturiert                               | Betriebssystemen und Embedded                                                         | Sehr schnell und effizient                                                                                    |
-| C++        | 1985 | Bell Labs                      | Kompiliert      | statisch typisiert  | imperativ, objektorientiert                           | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter              | Schnell und effizient, Hochkomplex                                                                            |
-| Java       | 1995 | Sun                            | Kompiliert (VM) | statisch typisiert  | imperativ, objektorientiert                           | Enterprise Umfeld                                                                     | Virtuelle Maschine (Plattformunabhängig), Grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
-| C#         | 2000 | Microsoft                      | Kompiliert      | statisch typisiert  | imperativ, objektorientiert                           | Game Entwicklung (Unity), Microsoft Ökosystem, Enterprise Umfeld                      |                                                                                                               |
-| Python     | 1991 | Centrum Wiskunde & Informatica | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert             | Wissenschaften, Machine Learning, Big Data, Einsteiger, Automation                    | Einfache Syntax, grosses Angebot an Bibliotheken und Werkzeugen                                               |
-| JavaScript | 1995 | Netscape                       | Interpretiert   | dynamisch typisiert | imperativ, objektorientiert                           | Web Frontend und Backend                                                              | Relativ performant, grosse Verbreitung, enorme Auswahl an Bibliotheken und Werkzeugen, Leistungsfähige Syntax |
-| PHP        | 1995 | Rasmus Lerdorf                 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert             | Web                                                                                   |                                                                                                               |
-| Go         | 2012 | Google                         | Kompiliert      | statisch typisiert  | imperativ, strukturiert, objektorientiert             | Web Backend, Tooling, DevOps                                                          | Keine Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing                                      |
-| Rust       | 2015 | Mozilla                        | Kompiliert      | statisch typisiert  | imperativ, strukturiert, funktional, objektorientiert | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend | Keine Garbage Collection, Sicher, Nebenläufig Seit 2022 im Linux Kernel verwendet                             |
+|            |      |                 |                     |                                           |
+|------------|------|-----------------|---------------------|-------------------------------------------|
+| C          | 1972 | Kompiliert      | statisch typisiert  | imperativ, strukturiert                   |
+| C++        | 1985 | Kompiliert      | statisch typisiert  | imperativ, objektorientiert               |
+| Python     | 1991 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert |
+| JavaScript | 1995 | Interpretiert   | dynamisch typisiert | imperativ, objektorientiert               |
+| PHP        | 1995 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert |
+| Java       | 1995 | Kompiliert (VM) | statisch typisiert  | imperativ, objektorientiert               |
+| C#         | 2000 | Kompiliert      | statisch typisiert  | imperativ, objektorientiert               |
+
+---
+
+|            |      |                 |                     |                                                       |
+|------------|------|-----------------|---------------------|-------------------------------------------------------|
+| Go         | 2012 | Kompiliert      | statisch typisiert  | imperativ, strukturiert, objektorientiert             |
+| Rust       | 2015 | Kompiliert      | statisch typisiert  | imperativ, strukturiert, funktional, objektorientiert |
+
+--- 
+
+|            | Eigenschaften                                                                                                 |
+|------------|---------------------------------------------------------------------------------------------------------------|
+| C          | Sehr schnell und effizient                                                                                    |
+| C++        | Schnell und effizient, hochkomplex                                                                            |
+| Java       | Virtuelle Maschine (Plattformunabhängig), Grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
+| C#         |                                                                                                               |
+| Python     | Einfache Syntax, grosses Angebot an Bibliotheken und Werkzeugen                                               |
+| JavaScript | Relativ performant, grosse Verbreitung, enorme Auswahl an Bibliotheken und Werkzeugen, Leistungsfähige Syntax |
+| PHP        | Für Webanwendungen optimiert, gute und bewährte Frameworks                                                    |
+
+---
+
+|            | Eigenschaften                                                                        |
+|------------|--------------------------------------------------------------------------------------|
+| Go         | Komposition statt Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing |
+| Rust       | Keine Garbage Collection, sicher, nebenläufig, seit 2022 im Linux Kernel verwendet   |
+
+---
+
+|            | Anwendungsgebiet                                                                      |
+|------------|---------------------------------------------------------------------------------------|
+| C          | Betriebssystemen und Embedded                                                         |
+| C++        | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter              |
+| Java       | Enterprise Umfeld                                                                     |
+| C#         | Game Entwicklung (Unity), Microsoft Ökosystem, Enterprise Umfeld                      |
+| Python     | Wissenschaften, Machine Learning, Big Data, Einsteiger, Automation                    |
+| JavaScript | Web Frontend und Backend                                                              |
+| PHP        | Web                                                                                   |
+
+---
+
+|            | Anwendungsgebiet                                                                      |
+|------------|---------------------------------------------------------------------------------------|
+| Go         | Web Backend, Tooling, DevOps                                                          |
+| Rust       | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend |
 
 ## Energy, Time, Memory Comparison
 

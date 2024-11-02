@@ -13,7 +13,15 @@ Folgende Arbeiten werden von den Studierenden im Verlauf des Semesters ausgefüh
 - Entwicklung einer Deployment-Pipeline (Build, Test, Lint, Deployment)
 - Auswahl der Dokumentationstools
 - Entwicklung der Architektur
-- Entwicklung von POCs zur Technologieevaluation Entwicklung eines MVP
+- Entwicklung von [POCs](https://de.wikipedia.org/wiki/Proof_of_Concept) (Proof of Concept) zur Technologieevaluation Entwicklung eines 
+[MVP](https://de.wikipedia.org/wiki/Minimum_Viable_Product) (Minimal Viable Product).
+
+## Projektpitch
+
+Die Projektideen werden in der Form von einem [Elevator Pitch](https://en.wikipedia.org/wiki/Elevator_pitch) der Klasse
+vorgestellt. Dieser darf maximal zwei Minuten dauern. Begleitend ist ein Handout zu erstellen.
+
+Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
 
 ## Bericht
 
@@ -31,12 +39,13 @@ Folgende Kapitel müssen vorkommen:
 - Diskussion
 - Empfehlung und Ausblick
 
-Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. 
-Die persönliche Reflexion wird separat verfasst und bewertet.
+Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
+persönliche Reflexion wird separat verfasst und bewertet.
 
 ## Präsentationen und Fragerunde
 
-Das erarbeitete Thema wird der Klasse präsentiert.
+Das erarbeitete Thema wird der Klasse präsentiert. Im Anschluss an die Präsentation gibt es eine Frage und
+Diskussionsrunde.
 
 ## Zeitplan
 
@@ -54,29 +63,31 @@ Der Bericht wird nach der Bewertung einmalig überarbeitet werden können bis zu
 
 Die Bewertung besteht aus drei Teilen:
 
-| Prüfung           | Bewertung |
-|-------------------|-----------|
-| Gruppenarbeit     | Gruppe    |
-| Reflexion         | Einzeln   |
-| Mündliche Prüfung | Einzeln   |
+| Prüfung           | Bewertung | Gewichtung |
+|-------------------|-----------|------------|
+| Gruppenarbeit     | Gruppe    | 25%        |
+| Mündliche Prüfung | Einzeln   | 25%        |
+| Reflexion         | Einzeln   | 50%        |
 
 ### Notenberechnung
 
-Die einzelnen Noten werden mit $\frac{Gesamtpunkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1. Die Zeugnisnote ist
-der Mittelwert aus diesen drei Noten, gerundet auf 0.5.
+Die einzelnen Noten werden mit $\frac{Gesamtpunkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1. Die Zeugnisnote
+berechnet sich aus $0.25*Gruppenarbeit + 0.25*Mündliche Prüfung + 0.5*Reflexion$ und wird auf halbe Noten gerundet.
 
 ### Gruppennote für das Projekt
 
-Aufsatz und Präsentation gemäss folgendem Bewertungsraster
+Aufsatz und Präsentation gemäss folgendem Bewertungsraster:
 
-| Kapitel                 | Punkte | Bewertung |
-|-------------------------|--------|-----------|
-| Einleitung              | 10     | Gruppe    |
-| Material und Methoden   | 10     | Gruppe    |
-| Ergebnisse              | 10     | Gruppe    |
-| Diskussion              | 10     | Gruppe    |
-| Empfehlung und Ausblick | 10     | Gruppe    |
-| Präsentation            | 10     | Gruppe    |
+| Kapitel                 | Punkte |
+|-------------------------|--------|
+| Einleitung              | 10     |
+| Material und Methoden   | 10     |
+| Ergebnisse              | 10     |
+| Diskussion              | 10     |
+| Empfehlung und Ausblick | 10     |
+| Präsentation            | 10     |
+
+Die ganze Gruppe erhält dieselbe Note.
 
 ### Einzelnote Lessons Learnt und persönliche Reflexion aus dem Projekt
 

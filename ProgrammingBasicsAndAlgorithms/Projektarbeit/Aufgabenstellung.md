@@ -1,29 +1,26 @@
-# Programmieren Grundlagen
+# Projektarbeit
 
-## Probleme
+## Ziel
 
+Die Studierenden entwickeln für eine praxisorientierte Problemstellung den Lösungsalgorithmus und programmieren, testen
+und debuggen die Applikation mit einer Programmiersprache. Dabei wenden die Studierenden das projektmässige Vorgehen bei
+der Erarbeitung des Ergebnisses an.
 
-## Lernziele
+## Auftrag
 
-Die Studierenden
+Die Projektarbeit ist eine Gruppenarbeit (2-3 Personen) zu einer vom jeweiligen Fachdozenten vorgegebenen
+Aufgabenstellung und wird innerhalb des Semesters erarbeitet.
 
-- können Entwicklungsumgebung und Versionsverwaltung effizient und zielführend einsetzen
-- können bei der Programmierung empirische Mittel anwenden
-- können mit Tests und TDD sicherstellen, dass die entwickelten Programme korrekt funktionieren
-- können Programme sinnvoll dokumentieren
-- können Programme mit einfachen Deployment-Pipelines automatisiert überprüfen
-- können die Wiederholungen und bedingte Ausführung routiniert anwenden.
-- können die Strukturierungswerkzeuge Funktionen, Klassen und Module korrekt anwenden.
-- können einfachere Algorithmen etwa zum Suchen, Sortieren oder Faktorisieren implementieren.
-- können die Python Bibliotheken NumPy, Pandas, Matplotlib anwenden.
+## Umfang
 
-## Aufgabenstellung
+Für die Erarbeitung sind 50 Lernstunden einzusetzen.
 
-Implementiere einen bekannten Algorithmus für folgende Probleme:
+## Präsentation
 
-- Sortieren
-- Suchen
-- Primzahlen bestimmen
-- Faktorisierung
-- Grösster gemeinsamer Teiler
+Zusätzlich zur Dokumentation ist ein Handout zu erstellen. Die Präsentation dauert 10 Minuten und umfasst zusätzlich
+eine Frage- und Diskussionsrunde.
 
+## Benotung
+
+Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige
+Note im Zeugnis aufgeführt wird.
