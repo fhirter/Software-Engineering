@@ -255,7 +255,7 @@ docs(readme): added new logging table information
 
 - Git Server
 - CI/CD Plattform
-- Issue Tracking / Projektmanagemetn
+- Issue Tracking / Projektmanagement
 - Dokumentation
 - Webhosting
 - Release Management
