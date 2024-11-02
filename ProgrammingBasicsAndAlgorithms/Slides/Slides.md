@@ -147,8 +147,6 @@
 - VB, C, C++, C##, SQL, TypeScript, Python, HTML, JavaScript, CSS
 - Closed Source
 
----
-
 ### Microsoft Visual Studio Code
 
 - JavaScript, TypeScript, HTML, CSS, etc
@@ -181,9 +179,6 @@
 - [GitOps](https://www.atlassian.com/git/tutorials/gitops)
 - [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
 - Documentation as Code
-    - [Markdown](https://www.markdownguide.org/)
-    - [MKDocs](https://www.mkdocs.org/)
-    - [PlantUML](https://plantuml.com/de/)
 - Everything as Code
 
 ## [Git](https://git-scm.com/downloads)
@@ -265,19 +260,20 @@ docs(readme): added new logging table information
 - Webhosting
 - Release Management
 
----
-
 ### CI/CD Plattform
 
-![img.png](../Architecture/Slides/Images/GitlabPipelines.png)
-
----
+![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
 ### Issue Tracking
 
 ![img.png](Images/GitlabIssueBoard.png)
 
----
+### Dokumentation
+
+- [Markdown](https://www.markdownguide.org/)
+- [MKDocs](https://www.mkdocs.org/)
+- [PlantUML](https://plantuml.com/de/)
+- [Mermaid](https://mermaid.js.org/)
 
 # Algorithmen und Datenstrukturen
 
