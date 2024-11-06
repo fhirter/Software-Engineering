@@ -1,5 +1,8 @@
-<!-- headingDivider: 3 -->
-
+---
+headingDivider: 3
+auto-scaling: true
+paginate: true
+---
 # Einstieg
 
 ## Softwaredebakel
