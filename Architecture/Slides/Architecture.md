@@ -126,28 +126,18 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 ### Continuous Integration
 
-- Kein Branching, alle Änderungen werden von allen Teammitgliedern mehrmals täglich in den Master Branch eingecheckt.
-- Dieser Branch ist jederzeit lauffähig
-- Dadurch werden die Releases vereinfachen
-- Eine sehr hohe, automatische Testabdeckung ist zwingend
+- **Kein Branching**, alle Änderungen werden von allen Teammitgliedern **mehrmals täglich** in den Master Branch eingecheckt.
+- Dieser Branch ist **jederzeit lauffähig**
+- Dadurch werden die **Releases vereinfacht**
+- Eine sehr hohe, **automatische Testabdeckung** ist zwingend
 
-### Continuous Delivery
+### Continuous Deployment
 
-- Ziel: Releases werden vereinfacht
-- Time to market ist kürzer, neue Features sind sofort verfügbar
-- Durch automatisierte deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
-- Higher quality
-- Lower costs
-- Better products
-- Happier teams
-
-### Principles
-
-- Build quality in
-- Work in small batches
-- Computers perform repetitive tasks, people solve problems
-- Relentlessly pursue continuous improvement
-- Everyone is responsible
+- Ziel: **Releases werden vereinfacht**
+- **Time to market ist kürzer**, neue Features sind sofort verfügbar
+- Durch automatisierte Deployments ist der Aufwand initial höher, anschliessend jedoch sehr klein
+- **Higher quality**, **Better products**
+- Kaum mehr Release-Stress, **Happier teams**
 
 https://www.continuousdelivery.com/
 
