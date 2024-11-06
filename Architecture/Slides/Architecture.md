@@ -97,7 +97,7 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 # Lernen
 
-![w:800px](Images/Wissenspiramide.png)
+![w:500px](Images/Wissenspiramide.png)
 
 (Richards, 2021, S.29)
 
