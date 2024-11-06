@@ -50,9 +50,9 @@
 
 - Programme können «abstürzen»
 - Programme, die nicht «abstürzen» funktionieren nicht zwangsläufig richtig.
-  - [Ariane5 Rakete, 1996](https://www.youtube.com/watch?v=PK_yguLapgA)
+    - [Ariane5 Rakete, 1996](https://www.youtube.com/watch?v=PK_yguLapgA)
 - Fehlerhafte Programme können Menschen töten (medizinische Geräte, Luftfahrt).
-  - [Boeing 737 MCAS](https://www.youtube.com/watch?v=H2tuKiiznsY)
+    - [Boeing 737 MCAS](https://www.youtube.com/watch?v=H2tuKiiznsY)
 - Programmierer sind verantwortlich für das korrekte Funktionieren der Programme.
 - Das Ziel dieses Fachs ist, nicht nur programmieren zu lernen, sondern gut programmieren zu lernen.
 
@@ -84,10 +84,10 @@
 
 ---
 
-|            |      |                 |                     |                                                       |
-|------------|------|-----------------|---------------------|-------------------------------------------------------|
-| Go         | 2012 | Kompiliert      | statisch typisiert  | imperativ, strukturiert, objektorientiert             |
-| Rust       | 2015 | Kompiliert      | statisch typisiert  | imperativ, strukturiert, funktional, objektorientiert |
+|      |      |            |                    |                                                       |
+|------|------|------------|--------------------|-------------------------------------------------------|
+| Go   | 2012 | Kompiliert | statisch typisiert | imperativ, strukturiert, objektorientiert             |
+| Rust | 2015 | Kompiliert | statisch typisiert | imperativ, strukturiert, funktional, objektorientiert |
 
 --- 
 
@@ -103,39 +103,37 @@
 
 ---
 
-|            | Eigenschaften                                                                        |
-|------------|--------------------------------------------------------------------------------------|
-| Go         | Komposition statt Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing |
-| Rust       | Keine Garbage Collection, sicher, nebenläufig, seit 2022 im Linux Kernel verwendet   |
+|      | Eigenschaften                                                                        |
+|------|--------------------------------------------------------------------------------------|
+| Go   | Komposition statt Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing |
+| Rust | Keine Garbage Collection, sicher, nebenläufig, seit 2022 im Linux Kernel verwendet   |
 
 ---
 
-|            | Anwendungsgebiet                                                                      |
-|------------|---------------------------------------------------------------------------------------|
-| C          | Betriebssystemen und Embedded                                                         |
-| C++        | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter              |
-| Java       | Enterprise Umfeld                                                                     |
-| C#         | Game Entwicklung (Unity), Microsoft Ökosystem, Enterprise Umfeld                      |
-| Python     | Wissenschaften, Machine Learning, Big Data, Einsteiger, Automation                    |
-| JavaScript | Web Frontend und Backend                                                              |
-| PHP        | Web                                                                                   |
+|            | Anwendungsgebiet                                                         |
+|------------|--------------------------------------------------------------------------|
+| C          | Betriebssystemen und Embedded                                            |
+| C++        | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter |
+| Java       | Enterprise Umfeld                                                        |
+| C#         | Game Entwicklung (Unity), Microsoft Ökosystem, Enterprise Umfeld         |
+| Python     | Wissenschaften, Machine Learning, Big Data, Einsteiger, Automation       |
+| JavaScript | Web Frontend und Backend                                                 |
+| PHP        | Web                                                                      |
 
 ---
 
-|            | Anwendungsgebiet                                                                      |
-|------------|---------------------------------------------------------------------------------------|
-| Go         | Web Backend, Tooling, DevOps                                                          |
-| Rust       | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend |
+|      | Anwendungsgebiet                                                                      |
+|------|---------------------------------------------------------------------------------------|
+| Go   | Web Backend, Tooling, DevOps                                                          |
+| Rust | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend |
 
-## Energy, Time, Memory Comparison
+### Energy, Time, Memory Comparison
 
 ![w:500px](Images/EnergyTimeMemoryComparision.png)
 
 ## Entwicklungsumgebungen
 
 ![w:1200px](Images/IDEs.png)
-
-## Entwicklungsumgebungen
 
 ### Eclipse
 
@@ -154,18 +152,19 @@
 
 ### JetBrains
 
-- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm), iOS (AppCode), Android (AndroidStudio), C## (Rider)
+- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm),
+  iOS (AppCode), Android (AndroidStudio), C## (Rider)
 - Teilweise OpenSource (Community Version)
 
-## Jetbrains PyCharm
+### Jetbrains PyCharm
 
 ![w:800px](Images/PyCharm.png)
 
-## Debugging
+### Debugging
 
 ![w:800px](Images/Debugging.png)
 
-## Versionsverwaltung Basics
+## Versionsverwaltung
 
 - Protokollierung von Änderungen
 - Wiederherstellung von alten Ständen
@@ -173,7 +172,7 @@
 - Koordinierung des gemeinsamen Zugriffs
 - Entwicklungszweige (Branches) -> [Don’t Branch!](https://www.youtube.com/watch?v=v4Ijkq6Myfc)
 
-## Moderne Versionsverwaltung
+### Moderne Versionsverwaltung
 
 - [CI/CD](https://www.redhat.com/cms/managed-files/ci-cd-flow-desktop_edited_0.png)
 - [GitOps](https://www.atlassian.com/git/tutorials/gitops)
@@ -181,7 +180,7 @@
 - Documentation as Code
 - Everything as Code
 
-## [Git](https://git-scm.com/downloads)
+### [Git](https://git-scm.com/downloads)
 
 - Fast jede Funktion arbeitet lokal -> Repository wird repliziert
 - Optimistic Locking
@@ -190,16 +189,16 @@
 - Snapshots statt Unterschiede
   ![w:800px](https://git-scm.com/book/en/v2/images/snapshots.png)
 
-## Die drei Zustände
+### Die drei Zustände
 
 - Modified
 - Staged
 - Committed
   ![w:800px](https://git-scm.com/book/en/v2/images/areas.png)
 
-## Arbeiten mit Git
+### Arbeiten mit Git
 
-### Initialisieren
+#### Initialisieren
 
 - Auf Github oder Gitlab ein leeres Projekt erstellen
 - [Dieses Projekt lokal klonen](https://git-scm.com/docs/git-clone) `git clone`
@@ -207,7 +206,7 @@
 
 ---
 
-### Arbeitsablauf
+#### Arbeitsablauf
 
 - [Lokales Repository aktualisieren](https://git-scm.com/docs/git-pull) `git pull origin`
 - Source Dateien erstellen oder editieren
@@ -219,14 +218,14 @@
 - [Änderungen auf Github/Gitlab/Bitbucket laden](https://git-scm.com/docs/git-push) `git push <remote> <branch>` (z.B. "
   origin main")
 
-## CI/CD mit Git
+### CI/CD mit Git
 
 - Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
 - Mit Tags werden Releases markiert. [semantic versioning](https://semver.org/).
 - Das neuste Release wird automatisch deployed.
 - [Changelogs werden automatisiert anhand der Git Messages generiert](https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742)
 
-## Commit Messages
+### Commit Messages
 
 - [Your Git Commit History Should Read Like a History Book](https://betterprogramming.pub/your-git-commit-history-should-read-like-a-history-book-heres-how-7f44d5df1801)
 
@@ -237,21 +236,21 @@ test(homepage): updated tests
 docs(readme): added new logging table information
 ```
 
-## PyCharm Git Integration
+### PyCharm Git Integration
 
 ![w:600px](Images/GitIntegration.png)
 
 ---
 ![](Images/GitIntegration2.png)
 
-## Ressourcen
+### Ressourcen
 
 - [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [Git Tutorials](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
 - [Simulationstool](https://learngitbranching.js.org/)
 
-## Github / Gitlab
+### Github / Gitlab
 
 - Git Server
 - CI/CD Plattform
@@ -260,11 +259,11 @@ docs(readme): added new logging table information
 - Webhosting
 - Release Management
 
-### CI/CD Plattform
+#### CI/CD Plattform
 
 ![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
-### Issue Tracking
+#### Issue Tracking
 
 ![img.png](Images/GitlabIssueBoard.png)
 
@@ -402,7 +401,8 @@ dict['Name']  # Zara
 ![w:600px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
-- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert die Operation)
+- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
+  die Operation)
 
 ### Alternative Big O Notation
 
@@ -505,7 +505,8 @@ except:
 
 ## Exceptions in Go
 
-Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
+Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf
+unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
 
 ```
 func (p Eurobox) setWeight(weight int) error {
