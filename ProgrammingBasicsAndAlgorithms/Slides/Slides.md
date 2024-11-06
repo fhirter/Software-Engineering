@@ -267,12 +267,40 @@ docs(readme): added new logging table information
 
 ![img.png](Images/GitlabIssueBoard.png)
 
-### Dokumentation
+## Dokumentation (as Code)
 
-- [Markdown](https://www.markdownguide.org/)
-- [MKDocs](https://www.mkdocs.org/)
-- [PlantUML](https://plantuml.com/de/)
-- [Mermaid](https://mermaid.js.org/)
+```markdown
+## Dokumentation (as Code)
+
+- Kein Kontextwechsel für Dokumentation
+- Triviale Syntax
+- Geeignet für Versionverwaltung
+- Syntax-highlight für Code
+- Automatisierbar
+- Sehr hohe Verbreitung
+    - Documents
+    - Github / Gitlab
+    - Websites
+    - [Notes](https://obsidian.md/)
+    - Books
+    - [Documentation](https://www.mkdocs.org/)
+    - etc
+```
+
+### Markdown
+
+![](Images/MarkdownBasicSyntax.png)
+[Markdown](https://www.markdownguide.org/)
+
+#### Markdown Renderer
+
+- [Dokumentationswebsites mit MKDocs](https://www.mkdocs.org/)
+- [Slides mit Marp](https://marp.app/)
+- [Websites mit Hugo](https://gohugo.io/)
+
+#### Diagramme in Markdown
+
+-[Mermaid](https://mermaid.js.org/)
 
 # Algorithmen und Datenstrukturen
 
