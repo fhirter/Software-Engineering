@@ -94,6 +94,10 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 # Lernen
 
+![w:800px](Images/Wissenspiramide.png)
+
+(Richards, 2021, S.29)
+
 ## Iteratives und inkrementelles Arbeiten
 
 ![w:800px Mona Lisa](Images/MonaLisa.png)
@@ -169,9 +173,10 @@ https://www.continuousdelivery.com/
 
 ## Empirisches und experimentelles Arbeiten
 
-## Domain Driven Design
 
 # Kommunikation
+
+## Domain Driven Design
 
 ## UML Klassendiagramm
 
@@ -360,3 +365,7 @@ Farley, 2022
 
 Martin, 2018
 : Robert C. Martin (2018): Clean Architecture: A Craftman's Guide to Software Structure and Design, Prentice Hall
+
+Richards, 2021
+: Mark Richards, Neal Ford (2021): Handbuch moderner Softwarearchitektur: Architekturstile, Patterns und Best 
+Practices, O'Reilly, 978-3-96009-149-3
