@@ -21,9 +21,15 @@
 - Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
 - David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
 
+### Articles
+
+- [Awesome Event-Driven Architecture Awesome](https://github.com/lutzh/awesome-event-driven-architecture)
+- [C4 Model Introduction](https://c4model.com/introduction)
+- [Gut dokumentiert: Architecture Decision Records ](https://www.heise.de/hintergrund/Gut-dokumentiert-Architecture-Decision-Records-4664988.html)
+
 ### Podcasts
 
-- SE Radio 637: Steve Smith on Software Quality: https://se-radio.net/2024/10/se-radio-637-steve-smith-on-software-quality/
+- [SE Radio 637: Steve Smith on Software Quality](https://se-radio.net/2024/10/se-radio-637-steve-smith-on-software-quality/)
 
 ## Deployment
 
