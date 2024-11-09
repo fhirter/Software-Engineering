@@ -18,7 +18,6 @@ Die Studierenden
 - können bei der Programmierung empirische Mittel anwenden.
 - können mit Tests und TDD sicherstellen, dass die entwickelten Programme korrekt funktionieren.
 - können Programme sinnvoll dokumentieren.
-- können Programme mit einfachen Deployment-Pipelines automatisiert überprüfen.
 - können die Wiederholungen und bedingte Ausführung routiniert anwenden.
 - können die Strukturierungswerkzeuge Funktionen, Klassen und Module korrekt anwenden.
 - können einfachere Algorithmen etwa zum Suchen, Sortieren oder Faktorisieren implementieren.
@@ -32,8 +31,6 @@ Bearbeite die Aufgabenstellung in der folgenden Reihenfolge.
 ### Initialisierung
 
 Erstelle ein Projekt auf Github oder Gitlab und klone es in der Entwicklungsumgebung.
-
-Erstelle eine Pipeline mit einem Test Job.
 
 Erstelle bei jeder Änderung
 sogenannte "[Atomic Commits](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention)". Erstelle also
@@ -64,6 +61,17 @@ Flussdiagramm vom Algorithmus in Mermaid oder PlantUML. Erfasse die Dokumente in
 Implementiere den Algorithmus anhand von Code Beispielen und dem Fluss-Diagramm. Stelle sicher, dass du den Ablauf
 verstehst. Halte Erkenntnisse in Markdown Files fest.
 
+### Präsentation
+
+Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein
+Handout. Präsentiere die Arbeit der Klasse.
+
+## Weitergehende Arbeiten
+
+### Pipeline
+
+Erstelle eine Pipeline welche die Tests automatisch ausführt.
+
 ### Komplexitätsanalyse
 
 Untersuche die Komplexität des implementierten Algorithmus mittels belastbaren Messungen, nutze dazu z.B.
@@ -74,17 +82,12 @@ welcher [Komplexitätsklasse](https://www.bigocheatsheet.com/) der Algorithmus g
 
 Visualisiere den Algorithmus mit [matplotlib](https://matplotlib.org/).
 
-### Präsentation
-
-Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein
-Handout. Präsentiere die Arbeit der Klasse.
 
 ## Bewertung
 
 | Bereich                                                                                                                | Punkte |
 |------------------------------------------------------------------------------------------------------------------------|--------|
 | Sinnvolle und atomare Commit Messages                                                                                  | 10     |
-| Pipeline: Applikation wird automatisch getestet                                                                        | 10     |
 | Testing: Applikation wird vollständig und sinnvoll getestet                                                            | 10     |
 | Recherche: Verständlich und korrekt erläutert (Text und Flussdiagramm), Quellen vorhanden und Aussagen nachvollziehbar | 10     |
 | Implementierung                                                                                                        | 10     |
