@@ -1,5 +1,8 @@
-<!-- headingDivider: 3 -->
-
+---
+headingDivider: 3
+auto-scaling: true
+paginate: true
+---
 # Einstieg
 
 ## Softwareentwickler:innen bauen Maschinen
@@ -269,23 +272,31 @@ docs(readme): added new logging table information
 
 ## Dokumentation (as Code)
 
-```markdown
-## Dokumentation (as Code)
-
-- Kein Kontextwechsel für Dokumentation
-- Triviale Syntax
 - Geeignet für Versionverwaltung
+- Kein Kontextwechsel für Dokumentation
+
+## Markdown
+
+```markdown
+## Markdown
+
+- Triviale Syntax
+- Sehr zukunftssicher
 - Syntax-highlight für Code
 - Automatisierbar
 - Sehr hohe Verbreitung
-    - Documents
-    - Github / Gitlab
-    - Websites
-    - [Notes](https://obsidian.md/)
-    - Books
-    - [Documentation](https://www.mkdocs.org/)
-    - etc
 ```
+
+### Markdown
+
+- [Documents](https://dillinger.io/)
+- [Github](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+- [Gitlab](https://docs.gitlab.com/ee/user/markdown.html)
+- [Websites](https://gohugo.io/)
+- [Notes](https://obsidian.md/)
+- Books
+- [Documentation](https://www.mkdocs.org/)
+- [etc etc etc](https://www.markdownguide.org/tools/)
 
 ### Markdown
 
