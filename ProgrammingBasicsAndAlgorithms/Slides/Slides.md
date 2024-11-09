@@ -262,6 +262,8 @@ docs(readme): added new logging table information
 - Webhosting
 - Release Management
 
+---
+
 #### CI/CD Plattform
 
 ![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
