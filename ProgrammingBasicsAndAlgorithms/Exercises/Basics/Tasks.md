@@ -21,8 +21,6 @@ Die Studierenden
 - können die Wiederholungen und bedingte Ausführung routiniert anwenden.
 - können die Strukturierungswerkzeuge Funktionen, Klassen und Module korrekt anwenden.
 - können einfachere Algorithmen etwa zum Suchen, Sortieren oder Faktorisieren implementieren.
-- verstehen die unterschiedliche Komplexität von Algorithmen und können die BigO Notation interpretieren.
-- können die Python Bibliotheken NumPy, Pandas, Matplotlib anwenden.
 
 ## Vorgehen
 
@@ -91,6 +89,4 @@ Visualisiere den Algorithmus mit [matplotlib](https://matplotlib.org/).
 | Testing: Applikation wird vollständig und sinnvoll getestet                                                            | 10     |
 | Recherche: Verständlich und korrekt erläutert (Text und Flussdiagramm), Quellen vorhanden und Aussagen nachvollziehbar | 10     |
 | Implementierung                                                                                                        | 10     |
-| Korrekte und nachvollziehbare Messungen, Korrekte Schlussfolgerung (Komplexitätsklasse)                                | 10     |
-| Ansprechende und korrekte Visualisierung                                                                               | 10     |
 | Präsentation: Verständlich und ansprechend (Präsentation und Handout)                                                  | 10     |
