@@ -19,7 +19,6 @@ Die Studierenden
 - können mit Tests und TDD sicherstellen, dass die entwickelten Programme korrekt funktionieren.
 - können Programme sinnvoll dokumentieren.
 - können die Wiederholungen und bedingte Ausführung routiniert anwenden.
-- können die Strukturierungswerkzeuge Funktionen, Klassen und Module korrekt anwenden.
 - können einfachere Algorithmen etwa zum Suchen, Sortieren oder Faktorisieren implementieren.
 
 ## Vorgehen
