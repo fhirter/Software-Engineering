@@ -26,6 +26,8 @@
 - [Awesome Event-Driven Architecture Awesome](https://github.com/lutzh/awesome-event-driven-architecture)
 - [C4 Model Introduction](https://c4model.com/introduction)
 - [Gut dokumentiert: Architecture Decision Records ](https://www.heise.de/hintergrund/Gut-dokumentiert-Architecture-Decision-Records-4664988.html)
+- [enterpriseintegrationpatterns.com](https://www.enterpriseintegrationpatterns.com/)
+- [martinfowler.com](https://martinfowler.com/)
 
 ### Podcasts
 
@@ -34,3 +36,4 @@
 ## Deployment
 
 - Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation, Addison-Wesley Signature Series (Fowler)
+- [continuousdelivery.com/](https://www.continuousdelivery.com/)
