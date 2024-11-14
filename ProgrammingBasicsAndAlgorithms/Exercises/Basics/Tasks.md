@@ -65,9 +65,11 @@ Handout. Präsentiere die Arbeit der Klasse.
 
 ## Weitergehende Arbeiten
 
+Folgende Arbeiten sind optional und werden nicht bewertet.
+
 ### Pipeline
 
-Erstelle eine Pipeline welche die Tests automatisch ausführt.
+Erstelle eine Pipeline, welche die Tests automatisch ausführt.
 
 ### Komplexitätsanalyse
 
