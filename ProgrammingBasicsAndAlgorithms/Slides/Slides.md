@@ -229,20 +229,18 @@ paginate: true
 
 ![](Images/GitIntegration2.png)
 
-- Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
+### Conventional Commits
+
+- Die Commit History (`git log`) sollte sich idealerweise wie ein Buch lesen
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) sind spezifizieren die Struktur von Commits
+- Dies macht die Art der Änderung klarer
+- Damit können Versionen und Changelogs automatisch erstellt werden
 - Mit Tags werden Releases markiert. [semantic versioning](https://semver.org/).
-- Das neuste Release wird automatisch deployed.
-- [Changelogs werden automatisiert anhand der Git Messages generiert](https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742)
-
-### Commit Messages
-
-- [Your Git Commit History Should Read Like a History Book](https://betterprogramming.pub/your-git-commit-history-should-read-like-a-history-book-heres-how-7f44d5df1801)
 
 ```
-feat(logging): added logs for failed signups
-fix(homepage): fixed image gallery
-test(homepage): updated tests
-docs(readme): added new logging table information
+feat: allow provided config object to extend other configs
+
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ```
 
 ### Git Ressourcen
