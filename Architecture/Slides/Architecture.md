@@ -238,78 +238,11 @@ https://c4model.com/
 
 ## Abstraction
 
-## Testing
 
-### Kosten von Defekten
-
-![cost_of_defects.svg](Images/cost_of_defects.svg)
-
-### Pair Programming
-
-![Pair Programming](Images/PairProgramming.png)
-
-### Test Driven Development (TDD)
-
-- Test First: Fokus auf die Problemstellung und Schnittstelle
-- Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
-- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
-  werden.
-- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem
-  minimalen Objekt isolieren
-
----
-
-![bg fit](Images/tdd-simple.svg)
-
----
-
-![bg fit](Images/listening-to-tests.svg)
-
----
-
-![bg fit](Images/tdd-with-acceptance-tests.svg)
-
----
-
-Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Freeman
-
-### Testpyramide
-
-![TestPyramid.svg](Images/TestPyramid.svg)
-
-### Testing: AAA
-
-- Arrange: Set up your data
-- Act: Execute code under Test
-- Assert: Verify that the result ist correct
-
-### IDE Integration
-
-![height:500px](Images/TestRunner.png)
-
-### Testing: Further Reading
-
-- [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
-- [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
-
-### Why Should You Refactor?
-
-* Refactoring Improves the Design of Software
-* Refactoring Makes Software Easier to Understand
-* Refactoring Helps You Find Bugs
-* Refactoring Helps You Program Faster
-
-### When Should You Refactor?
-
-* [The Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
-* Refactor When You Add Functionality
-* Refactor When You Need to Fix a Bug
-* Refactor As You Do a Code Review
-
-## Architekturen
+# Architekturen
 
 
-### Schichtenarchitektur
+## Schichtenarchitektur
 
 ![w:600px](Images/LayeredArchitecture.svg)
 
