@@ -385,8 +385,7 @@ class TestSort(unittest.TestCase):
 ```
 
 ## IDE Integration
-
-![height:500px](Images/TestRunner.png)
+![img.png](Images/PycharmTestIntegration.png)
 
 ## Testing: Further Reading
 
