@@ -266,59 +266,6 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 ![img.png](Images/GitlabIssueBoard.png)
 
-## Dokumentation (as Code)
-
-- Geeignet für Versionverwaltung
-- Kein Kontextwechsel für Dokumentation
-
-## Markdown
-
-```markdown
-## Markdown
-
-- Triviale Syntax
-- Sehr zukunftssicher
-- Syntax-highlight für Code
-- Automatisierbar
-- Sehr hohe Verbreitung
-```
-
-### Markdown Tools
-
-- [Documents](https://dillinger.io/)
-- [Github](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-- [Gitlab](https://docs.gitlab.com/ee/user/markdown.html)
-- [Websites](https://gohugo.io/)
-- [Notes](https://obsidian.md/)
-- Books
-- [Documentation](https://www.mkdocs.org/)
-- [etc etc etc](https://www.markdownguide.org/tools/)
-
-### Markdown Basic Syntax
-
-![](Images/MarkdownBasicSyntax.png)
-[Markdown](https://www.markdownguide.org/)
-
-#### Markdown Renderer
-
-- [Dokumentationswebsites mit MKDocs](https://www.mkdocs.org/)
-- [Slides mit Marp](https://marp.app/)
-- [Websites mit Hugo](https://gohugo.io/)
-
-#### Diagramme in Markdown
-
--[Mermaid](https://mermaid.js.org/)
-
-# CI / CD
-
-## CI/CD mit Git
-
-- Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
-- Das neuste Release wird automatisch deployed.
-
-#### Gitlab CI/CD Plattform
-
-![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
 # Testing
 
@@ -394,9 +341,64 @@ class TestSort(unittest.TestCase):
 - [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
 - [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
 
-# Programmstrukturen
+
+# Dokumentation (as Code)
+
+- Geeignet für Versionverwaltung
+- Kein Kontextwechsel für Dokumentation
+
+## Markdown
+
+```markdown
+## Markdown
+
+- Triviale Syntax
+- Sehr zukunftssicher
+- Syntax-highlight für Code
+- Automatisierbar
+- Sehr hohe Verbreitung
+```
+
+### Markdown Tools
+
+- [Documents](https://dillinger.io/)
+- [Github](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+- [Gitlab](https://docs.gitlab.com/ee/user/markdown.html)
+- [Websites](https://gohugo.io/)
+- [Notes](https://obsidian.md/)
+- Books
+- [Documentation](https://www.mkdocs.org/)
+- [etc etc etc](https://www.markdownguide.org/tools/)
+
+### Markdown Basic Syntax
+
+![](Images/MarkdownBasicSyntax.png)
+[Markdown](https://www.markdownguide.org/)
+
+#### Markdown Renderer
+
+- [Dokumentationswebsites mit MKDocs](https://www.mkdocs.org/)
+- [Slides mit Marp](https://marp.app/)
+- [Websites mit Hugo](https://gohugo.io/)
+
+#### Diagramme in Markdown
+
+-[Mermaid](https://mermaid.js.org/)
+
+# CI / CD
+
+## CI/CD mit Git
+
+- Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
+- Das neuste Release wird automatisch deployed.
+
+#### Gitlab CI/CD Plattform
+
+![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
 # Algorithmen und Datenstrukturen
+
+## Programmstrukturen
 
 ## Containerdatenstrukturen
 
