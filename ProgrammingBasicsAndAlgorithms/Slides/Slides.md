@@ -3,6 +3,7 @@ headingDivider: 3
 auto-scaling: true
 paginate: true
 ---
+
 # Einstieg
 
 ## Softwareentwickler:innen bauen Maschinen
@@ -308,7 +309,6 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 -[Mermaid](https://mermaid.js.org/)
 
-
 # CI / CD
 
 ## CI/CD mit Git
@@ -319,7 +319,6 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 #### Gitlab CI/CD Plattform
 
 ![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
-
 
 # Testing
 
@@ -369,22 +368,25 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 - Arrange: Set up your data
 - Act: Execute code under Test
 - Assert: Verify that the result ist correct
+
 ```python
 # Unit Under Test
 from ProgrammingBasicsAndAlgorithms.Exercises.Basics.Solutions.sort import sort
 # Testing Library
 import unittest
 
+
 # Test suite
 class TestSort(unittest.TestCase):
     # Test
     def test_sort(self):
-        a = [3, 0, 12, 8]                   # Arrange
-        b = sort(a)                         # Act
+        a = [3, 0, 12, 8]  # Arrange
+        b = sort(a)  # Act
         self.assertEqual(b, [0, 3, 8, 12])  # Assert
 ```
 
 ## IDE Integration
+
 ![img.png](Images/PycharmTestIntegration.png)
 
 ## Testing: Further Reading
