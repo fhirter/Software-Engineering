@@ -253,7 +253,7 @@ docs(readme): added new logging table information
 - [Git Tutorials](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
 - [Simulationstool](https://learngitbranching.js.org/)
 
-### Github / Gitlab
+### Plattformen: Github / Gitlab
 
 - Git Server
 - CI/CD Plattform
@@ -289,7 +289,7 @@ docs(readme): added new logging table information
 - Sehr hohe Verbreitung
 ```
 
-### Markdown
+### Markdown Tools
 
 - [Documents](https://dillinger.io/)
 - [Github](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
@@ -300,7 +300,7 @@ docs(readme): added new logging table information
 - [Documentation](https://www.mkdocs.org/)
 - [etc etc etc](https://www.markdownguide.org/tools/)
 
-### Markdown
+### Markdown Basic Syntax
 
 ![](Images/MarkdownBasicSyntax.png)
 [Markdown](https://www.markdownguide.org/)
