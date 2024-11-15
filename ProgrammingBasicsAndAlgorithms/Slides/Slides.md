@@ -332,6 +332,14 @@ class TestSort(unittest.TestCase):
         self.assertEqual(b, [0, 3, 8, 12])  # Assert
 ```
 
+## FIRST
+
+- Fast: Tests should run quickly to encourage frequent execution.
+- Isolated: Each test should run independently and not depend on other tests or external systems.
+- Repeatable: Tests should produce the same results every time, regardless of the environment.
+- Self-validating: Tests should have clear pass/fail outcomes without manual inspection.
+- Timely: Write tests when the code is fresh, ideally before or during implementation.
+
 ## IDE Integration
 
 ![img.png](Images/PycharmTestIntegration.png)
