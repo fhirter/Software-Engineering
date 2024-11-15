@@ -246,25 +246,25 @@ https://c4model.com/
 
 ![w:600px](Images/LayeredArchitecture.svg)
 
-### Ports and Adapters
+## Ports and Adapters
 
 ![w:500px](Images/ports-and-adapters-architecture.svg)
 [growing-object-oriented-software.com](https://www.martinfowler.com/microservices/)
 
-### Traditional Monolithic Design
+## Traditional Monolithic Design
 
 ![](Images/traditional_monolithic_design.png)
 
-### Schichtenarchitektur im Client Server Modell
+## Schichtenarchitektur im Client Server Modell
 
 ![](Images/client_server_II.png)
 
-### Microservices
+## Microservices
 
 ![img_2.png](../../Slides/Images/microservices.png)
 [martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
 
-### Microservices
+## Microservices
 
 - Maximale Skalierbarkeit
 - Einzelne Services können von **kleinen[^1]** Teams **unabhängig entwickelt und deployed** werden
@@ -276,7 +276,7 @@ https://c4model.com/
 
 [^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
 
-### Monolith First
+## Monolith First
 
 - Vorsicht vor [Cargo-Kult](https://de.wikipedia.org/wiki/Cargo-Kult): Amazon, Google, Meta etc. haben heute andere
   Herausforderungen als Startups
