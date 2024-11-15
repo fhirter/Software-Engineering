@@ -360,6 +360,10 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 
 ![TestPyramid.svg](Images/TestPyramid.svg)
 
+- Akzeptanztests stellen sicher, dass die Applikation die Kundenkriterien erfüllt.
+- Unit-Tests stellen sicher, dass einzelne Programmteile wie von den Entwicklern beabsichtigt funktionieren
+- Integrationstests sind optional
+
 ## Testing: AAA
 
 - Arrange: Set up your data
