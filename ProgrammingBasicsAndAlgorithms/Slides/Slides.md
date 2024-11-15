@@ -221,7 +221,13 @@ paginate: true
 - [Änderungen auf Github/Gitlab/Bitbucket laden](https://git-scm.com/docs/git-push) `git push <remote> <branch>` (z.B. "
   origin main")
 
-### CI/CD mit Git
+### PyCharm Git Integration
+
+![w:600px](Images/GitIntegration.png)
+
+---
+
+![](Images/GitIntegration2.png)
 
 - Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
 - Mit Tags werden Releases markiert. [semantic versioning](https://semver.org/).
@@ -239,14 +245,7 @@ test(homepage): updated tests
 docs(readme): added new logging table information
 ```
 
-### PyCharm Git Integration
-
-![w:600px](Images/GitIntegration.png)
-
----
-![](Images/GitIntegration2.png)
-
-### Ressourcen
+### Git Ressourcen
 
 - [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - [Atlassian Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
@@ -263,10 +262,6 @@ docs(readme): added new logging table information
 - Release Management
 
 ---
-
-#### CI/CD Plattform
-
-![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
 #### Issue Tracking
 
@@ -314,6 +309,17 @@ docs(readme): added new logging table information
 #### Diagramme in Markdown
 
 -[Mermaid](https://mermaid.js.org/)
+
+# CI / CD
+
+## CI/CD mit Git
+
+- Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
+- Das neuste Release wird automatisch deployed.
+
+#### Gitlab CI/CD Plattform
+
+![img.png](../../Architecture/Slides/Images/GitlabPipelines.png)
 
 # Algorithmen und Datenstrukturen
 
