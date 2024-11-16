@@ -5,4 +5,4 @@ class TestSort(unittest.TestCase):
     def test_sort(self):
         a = [3, 0, 12, 8]
         b = sort(a)
-        self.assertEqual(b, [0, 3, 8, 12])
+        self.assertEqual( [0, 3, 8, 12], b)
