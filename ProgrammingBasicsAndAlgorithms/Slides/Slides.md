@@ -312,9 +312,9 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 
 ## Testing: AAA
 
-- Arrange: Set up your data
-- Act: Execute code under Test
-- Assert: Verify that the result ist correct
+- **Arrange**: Set up your data
+- **Act**: Execute code under Test
+- **Assert**: Verify that the result is correct
 
 ```python
 # Unit Under Test
