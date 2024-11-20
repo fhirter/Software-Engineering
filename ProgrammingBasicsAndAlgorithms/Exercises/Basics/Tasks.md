@@ -60,8 +60,8 @@ verstehst. Halte Erkenntnisse in Markdown Files fest.
 
 ### Präsentation
 
-Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze, ansprechende Präsentation und ein
-Handout. Präsentiere die Arbeit der Klasse.
+Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze (max 5min), ansprechende Präsentation 
+und ein Handout. Präsentiere die Arbeit der Klasse.
 
 ## Weitergehende Arbeiten
 
