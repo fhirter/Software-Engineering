@@ -383,13 +383,13 @@ class TestSort(unittest.TestCase):
 ![](Images/MarkdownBasicSyntax.png)
 [Markdown](https://www.markdownguide.org/)
 
-#### Markdown Renderer
+### Markdown Renderer
 
 - [Dokumentationswebsites mit MKDocs](https://www.mkdocs.org/)
 - [Slides mit Marp](https://marp.app/)
 - [Websites mit Hugo](https://gohugo.io/)
 
-#### Diagramme in Markdown
+### Diagramme in Markdown
 
 -[Mermaid](https://mermaid.js.org/)
 
