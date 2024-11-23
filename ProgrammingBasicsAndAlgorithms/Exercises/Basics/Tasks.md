@@ -63,6 +63,8 @@ verstehst. Halte Erkenntnisse in Markdown Files fest.
 Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze (max 5min), ansprechende Präsentation 
 und ein Handout. Präsentiere die Arbeit der Klasse.
 
+Im Anschluss gibt es eine kurze Frage und Feedbackrunde.
+
 ## Weitergehende Arbeiten
 
 Folgende Arbeiten sind optional und werden nicht bewertet.
