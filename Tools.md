@@ -8,6 +8,7 @@
 
 - [Structurizr](https://structurizr.com/)
 - [Mermaid Diagrams](https://mermaid.js.org/intro/)
+- [PlantUML](https://plantuml.com/de/)
 
 ### Markdown Renderer
 
