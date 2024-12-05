@@ -232,6 +232,17 @@ https://c4model.com/
 
 ## Modularity & Separation of Concerns
 
+## Testing
+
+![](Images/BDD.png)
+https://cucumber.io/docs/bdd/
+---
+
+> The hardest single part of building a software system is deciding precisely what to build.
+
+– Fred Brooks, The mythical man-month
+
+
 ## Cohesion & Coupling
 
 ![img_1.png](Images/High_cohesion_loose_coupling.png)
