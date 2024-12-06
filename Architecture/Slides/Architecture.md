@@ -234,14 +234,14 @@ https://c4model.com/
 
 ## Testing
 
-![](Images/BDD.png)
-https://cucumber.io/docs/bdd/
----
-
 > The hardest single part of building a software system is deciding precisely what to build.
 
 – Fred Brooks, The mythical man-month
 
+---
+
+![w:800px](Images/BDD.png)
+https://cucumber.io/docs/bdd/
 
 ## Cohesion & Coupling
 
