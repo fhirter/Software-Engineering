@@ -21,13 +21,24 @@
 - Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
 - David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
 
-### Articles
+### Blogs and Collections
 
 - [Awesome Event-Driven Architecture Awesome](https://github.com/lutzh/awesome-event-driven-architecture)
 - [C4 Model Introduction](https://c4model.com/introduction)
 - [Gut dokumentiert: Architecture Decision Records ](https://www.heise.de/hintergrund/Gut-dokumentiert-Architecture-Decision-Records-4664988.html)
 - [enterpriseintegrationpatterns.com](https://www.enterpriseintegrationpatterns.com/)
 - [martinfowler.com](https://martinfowler.com/)
+
+### Articles
+
+#### Domain Driven Design
+
+- https://martinfowler.com/bliki/DomainDrivenDesign.html
+- https://martinfowler.com/bliki/UbiquitousLanguage.html
+- https://martinfowler.com/bliki/BoundedContext.html
+- https://martinfowler.com/bliki/DDD_Aggregate.html
+- https://martinfowler.com/bliki/EvansClassification.html
+- https://martinfowler.com/bliki/ValueObject.html
 
 ### Podcasts
 
