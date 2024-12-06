@@ -73,17 +73,6 @@ Folgende Arbeiten sind optional und werden nicht bewertet.
 
 Erstelle eine Pipeline, welche die Tests automatisch ausführt.
 
-### Komplexitätsanalyse
-
-Untersuche die Komplexität des implementierten Algorithmus mittels belastbaren Messungen, nutze dazu z.B.
-"[pytest-benchmark](https://pytest-benchmark.readthedocs.io/en/latest/)". Bestimme anhand der Messungen, zu
-welcher [Komplexitätsklasse](https://www.bigocheatsheet.com/) der Algorithmus gehört.
-
-### Visualisierung
-
-Visualisiere den Algorithmus mit [matplotlib](https://matplotlib.org/).
-
-
 ## Bewertung
 
 | Bereich                                                                                                                | Punkte |
