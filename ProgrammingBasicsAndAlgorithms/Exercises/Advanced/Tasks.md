@@ -89,3 +89,8 @@ Im Anschluss gibt es eine kurze Frage und Feedbackrunde.
 | Implementierung     | Nur grundlegende Programmstrukturen, Funktionsweise verständlich erläutert, sinnvolle und atomare Commit Messages | 10     |
 | Komplexitätsanalyse | Korrekte und belastbare Messungen, korrekte Komplexitätsklasse, Veständliche Visualisierung                       | 10     |
 | Präsentation        | Verständlich und ansprechend (Präsentation und Handout), Zeit eingehalten                                         | 10     |
+
+## Abgabe
+
+Link zum Repository bis Sonntag Abend in der im Semesterprogramm angegebenen Woche.
+

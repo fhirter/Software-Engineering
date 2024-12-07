@@ -82,3 +82,7 @@ Erstelle eine Pipeline, welche die Tests automatisch ausführt.
 | Recherche: Verständlich und korrekt erläutert (Text und Flussdiagramm), Quellen vorhanden und Aussagen nachvollziehbar | 10     |
 | Implementierung                                                                                                        | 10     |
 | Präsentation: Verständlich und ansprechend (Präsentation und Handout)                                                  | 10     |
+
+## Abgabe
+
+Link zum Repository bis Sonntag Abend in der im Semesterprogramm angegebenen Woche.
