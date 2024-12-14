@@ -406,8 +406,6 @@ class TestSort(unittest.TestCase):
 
 # Algorithmen und Datenstrukturen
 
-## Programmstrukturen
-
 ## Containerdatenstrukturen
 
 - Enthalten andere Objekte («items»)
@@ -421,13 +419,23 @@ class TestSort(unittest.TestCase):
     - Wie schnell diese sind
     - Wie der Speicher ausgenutzt wird
 
-## Record
+## Konkrete Datenstrukturen
+
+### Array
+
+![w:400px](Images/Array.svg)
+
+### Graph
+
+![w:600px](Images/Graphs.svg)
+
+## Abstrakte Datenstrukturen
+
+### Record
 
 - Einfachste Anordnung von Daten
 - Zeile in Datenbank / Tabelle
 - Datenobjekte
-
-### Beispiele
 
 ```C
 // C
@@ -443,29 +451,24 @@ struct date {
 tup1 = ('physics', 'chemistry', 1997, 2000)
 ```
 
-## Set
+### Set
 
 - Anordnung von Elementen
 - keine Duplikate
 - keine definierte Ordnung
 - testen, ob Teil des Sets
 
-### Beispiel
-
 ```python
 # python
 thisset = {"apple", "banana", "cherry"}
 ```
 
-## List
+### List
 
 - Definierte Ordnung
 - Elemente hinzufügen und entfernen
 - Element mit einem Index abrufen
 - Duplikate möglich
--
-
-### Beispiel
 
 ```python
 # python
@@ -474,13 +477,11 @@ first_item = list2[0]  # select first item
 list2[1:5]  # select items 2 to 6
 ```
 
-## Map
+### Map
 
 - Schlüssel / Wert Paare
 - Hinzufügen, Entfernen, Ändern, Abrufen
 - Assoziatives Array, Lookup Table, Dictionary
-
-### Beispiel
 
 ```python
 # python
@@ -488,13 +489,13 @@ dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 dict['Name']  # Zara
 ```
 
-## Queue
+### Queue
 
 - FIFO: First In, First Out
 - Warteschlange, Pipe
   ![](Images/queue.png)
 
-## Stack
+### Stack
 
 - LIFO: Last In, First Out
 - push: Neues Element speichern
@@ -502,25 +503,17 @@ dict['Name']  # Zara
 - Stapelspeicher, Kellerspeicher
   ![](Images/stack.png)
 
-## Stack
+---
 
 ![](Images/ProgramStack.png)
 
 ## Tree
 
-![](Images/Tree.png)
+![w:600px](Images/Tree.png)
 
 ---
 
-![img_1.png](Images/tree_example.png)
-
-## Konkrete Datenstrukturen: Array
-
-![w:400px](Images/Array.svg)
-
-## Konkrete Datenstrukturen: Graph
-
-![w:600px](Images/Graphs.svg)
+![w:600px](Images/tree_example.png)
 
 ## Komplexität von Algorithmen
 
@@ -530,7 +523,7 @@ dict['Name']  # Zara
 
 ### Big O Notation
 
-![w:600px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
+![w:400px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
 - O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
