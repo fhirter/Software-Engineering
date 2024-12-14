@@ -92,7 +92,7 @@ Im Anschluss gibt es eine kurze Frage und Feedbackrunde.
 | Testing             | Applikation wird vollständig und sinnvoll getestet                                                                | 10     |
 | Recherche           | Verständlich und korrekt erläutert, Quellen vorhanden und Aussagen nachvollziehbar                                | 10     |
 | Implementierung     | Nur grundlegende Programmstrukturen, Funktionsweise verständlich erläutert, sinnvolle und atomare Commit Messages | 10     |
-| Komplexitätsanalyse | Korrekte und belastbare Messungen, korrekte Komplexitätsklasse, Veständliche Visualisierung                       | 10     |
+| Komplexitätsanalyse | Korrekte und belastbare Messungen, korrekte Komplexitätsklasse, Verständliche Visualisierung                      | 10     |
 | Präsentation        | Verständlich und ansprechend (Präsentation und Handout), Zeit eingehalten                                         | 10     |
 
 ## Abgabe
