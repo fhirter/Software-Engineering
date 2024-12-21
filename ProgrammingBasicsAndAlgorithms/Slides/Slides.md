@@ -266,7 +266,6 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 ![img.png](Images/GitlabIssueBoard.png)
 
-
 # Testing
 
 ## Kosten von Defekten
@@ -348,7 +347,6 @@ class TestSort(unittest.TestCase):
 
 - [How to write clear and robust unit tests: the dos and don'ts](https://levelup.gitconnected.com/how-to-write-clear-and-robust-unit-tests-the-dos-and-donts-5021c097d041)
 - [The Real Value of Testing](https://drpicox.medium.com/the-real-reason-to-do-testing-6f12b410dde3)
-
 
 # Dokumentation (as Code)
 
@@ -542,6 +540,91 @@ dict['Name']  # Zara
 | O(n^n)  | O(sh*t!) |
 
 https://quanticdev.com/algorithms/primitives/alternative-big-o-notation/
+
+# Dependencies
+
+## Herausforderungen
+
+- Verschiedene Projekte benötigen verschiedene Versionen der gleichen Bibliothek
+- Sicherheitslücken müssen erkannt und behoben werden
+- Neue Funktionalität sollte geladen werden können
+- Builds sollten reproduzierbar sein
+
+## Lösung: Packetmanager
+
+- Python: PIP
+- NodeJS: NPM
+- PHP: Composer
+- Go: go get
+- Rust: cargo
+- Java: Maven
+
+## Paketmanager
+
+- Laden von Bibliotheken `pip install pip-audit`
+- Aktualisierungen  `pip install --upgrade <package-name>`
+- Dependency Checks: `pip-audit`, `npm audit`
+- Dependencies werde pro Projekt festgehalten
+    - Python: requirements.txt, virtual env
+    - JS: package.json, node_modules
+    - GO: go.mod
+
+## Requirements.txt
+
+```bash
+pip freeze > requirements.txt  # generate
+pip install - r requirements.txt  # load
+```
+
+```requirements
+click == 8.1.3
+ghp-import == 2.1.0
+importlib-metadata == 4.11.4
+Jinja2 == 3.1.2
+joblib == 1.2.0
+Markdown == 3.3.7
+```
+
+## Semantic Versioning
+
+> Auf Grundlage einer Versionsnummer von MAJOR.MINOR.PATCH werden die einzelnen Elemente folgendermaßen erhöht:
+
+> 1. MAJOR wird erhöht, wenn API-inkompatible Änderungen veröffentlicht werden,
+> 2. MINOR wird erhöht, wenn neue Funktionalitäten, die kompatibel zur bisherigen API sind, veröffentlicht werden, und
+> 3. PATCH wird erhöht, wenn die Änderungen ausschließlich API-kompatible Bugfixes umfassen.
+
+> Außerdem sind Bezeichner für Vorveröffentlichungen und Build-Metadaten als Erweiterungen zum MAJOR.MINOR.
+> PATCH-Format verfügbar.
+
+https://semver.org/lang/de/
+
+## Tipps
+
+- Abhängigkeiten Automatisiert auf Updates und Sicherheitslücken testen
+- Versionen immer "pinnen": `3.2.1`, ~~`^3.2.1`~~,  ~~`3`~~
+- Vorsicht bei indirekten Abhängigkeiten!
+
+## Container
+
+Applikation wird mitsamt ihren Abhängigkeiten in einen "Container" gepackt.
+
+```Dockerfile
+FROM node:20
+
+ARG ENVIRONMENT="development"
+
+WORKDIR /usr/src/app
+
+COPY backend /usr/src/app
+RUN rm /usr/src/app/lib
+COPY lib /usr/src/app/lib
+
+RUN npm ci --verbose
+
+EXPOSE 8080
+
+CMD ./setup-ci.sh
+```
 
 # Clean Code
 
