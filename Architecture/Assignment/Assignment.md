@@ -58,7 +58,7 @@ Diskussionsrunde.
 
 Abgaben jeweils bis **Sonntag-Abend** als **PDF per E-Mail** an den Dozenten.
 
-Der Bericht wird nach der Bewertung einmalig überarbeitet werden können bis zum Ende des Semesters.
+Der Bericht kann nach der Bewertung einmalig überarbeitet werden bis zum Ende des Semesters.
 
 ## Bewertung
 
@@ -72,8 +72,10 @@ Die Bewertung besteht aus drei Teilen:
 
 ### Notenberechnung
 
-Die einzelnen Noten werden mit $\frac{Gesamtpunkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1. Die Zeugnisnote
-berechnet sich aus $0.25*Gruppenarbeit + 0.25*Mündliche Prüfung + 0.5*Reflexion$ und wird auf halbe Noten gerundet.
+Die einzelnen Noten werden mit $\frac{Erreichte Punkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1.
+
+Die Zeugnisnote berechnet sich aus $0.25*Gruppenarbeit + 0.25*Mündliche Prüfung + 0.5*Reflexion$ und wird auf halbe
+Noten gerundet.
 
 ### Gruppennote für das Projekt
 
