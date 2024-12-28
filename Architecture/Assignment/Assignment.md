@@ -101,7 +101,7 @@ Aufsatz und Präsentation gemäss folgendem Bewertungsraster:
 | Ergebnisse              | 10     |
 | Diskussion              | 10     |
 | Empfehlung und Ausblick | 10     |
-| Präsentation            | 10     |
+| Präsentation und Fragen | 10     |
 
 Die ganze Gruppe erhält dieselbe Note.
 
