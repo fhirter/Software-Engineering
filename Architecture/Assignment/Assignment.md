@@ -13,8 +13,9 @@ Folgende Arbeiten werden von den Studierenden im Verlauf des Semesters ausgefüh
 - Entwicklung einer Deployment-Pipeline (Build, Test, Lint, Deployment)
 - Auswahl der Dokumentationstools
 - Entwicklung der Architektur
-- Entwicklung von [POCs](https://de.wikipedia.org/wiki/Proof_of_Concept) (Proof of Concept) zur Technologieevaluation Entwicklung eines 
-[MVP](https://de.wikipedia.org/wiki/Minimum_Viable_Product) (Minimal Viable Product).
+- Entwicklung von [POCs](https://de.wikipedia.org/wiki/Proof_of_Concept) (Proof of Concept) zur Technologieevaluation
+  Entwicklung eines
+  [MVP](https://de.wikipedia.org/wiki/Minimum_Viable_Product) (Minimal Viable Product).
 
 ## Projektpitch
 
