@@ -43,6 +43,19 @@ Folgende Kapitel müssen vorkommen:
 Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
 persönliche Reflexion wird separat verfasst und bewertet.
 
+## Persönliche Reflexion
+
+Weniger objektive Interpretationen dürfen auch aufgeführt werden, eigene Meinungen, Thesen und Selbstreflexion sind
+erwünscht.
+
+- Ausführliche Reflexion zu den gelernten Inhalten, Vergleich mit den Lernzielen des Fachs, was hast du gelernt, wo sind
+  noch Fragen offen, worauf wirst du in Zukunft besonders achten, wo willst du dich weiterbilden, etc.
+- Persönliche Reflexion zur eigenen Arbeit im Projekt
+- Persönliche Meinung zu den Inhalten des Fachs, zum Verlauf des Projekts und der Umsetzung, der Zusammenarbeit in der
+  Gruppe, etc.
+- Thesen zu den Inhalten des Fachs oder auf das Projekt bezogen, eigene Ideen, Fragestellungen für weitere Recherche,
+  Ideen für zukünftige Projekte.
+
 ## Präsentationen und Fragerunde
 
 Das erarbeitete Thema wird der Klasse präsentiert. Im Anschluss an die Präsentation gibt es eine Frage und
@@ -96,7 +109,12 @@ Die ganze Gruppe erhält dieselbe Note.
 
 Jeder Student schreibt ein Dokument mit einer persönlichen Reflexion.
 
-tba: Bewertungsraster
+| Teil            | Punkte |
+|-----------------|--------|
+| Meinungen       | 10     |
+| Thesen          | 10     |
+| Selbstreflexion | 10     |
+| Lessons Learnt  | 10     |
 
 Umfang: Ca 1000 Wörter.
 
