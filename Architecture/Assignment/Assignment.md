@@ -41,7 +41,7 @@ Folgende Kapitel müssen vorkommen:
 - Empfehlung und Ausblick
 
 Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
-persönliche Reflexion wird separat verfasst und bewertet.
+persönliche Reflexion wird einzeln separat verfasst und bewertet.
 
 ## Persönliche Reflexion
 
@@ -50,11 +50,11 @@ erwünscht.
 
 - Ausführliche Reflexion zu den gelernten Inhalten, Vergleich mit den Lernzielen des Fachs, was hast du gelernt, wo sind
   noch Fragen offen, worauf wirst du in Zukunft besonders achten, wo willst du dich weiterbilden, etc.
-- Persönliche Reflexion zur eigenen Arbeit im Projekt
-- Persönliche Meinung zu den Inhalten des Fachs, zum Verlauf des Projekts und der Umsetzung, der Zusammenarbeit in der
-  Gruppe, etc.
 - Thesen zu den Inhalten des Fachs oder auf das Projekt bezogen, eigene Ideen, Fragestellungen für weitere Recherche,
   Ideen für zukünftige Projekte.
+- Persönliche Reflexion zur eigenen Arbeit im Projekt (Fachlich und in der Gruppe).
+- Persönliche Meinung zu den Inhalten des Fachs, zum Verlauf des Projekts und der Umsetzung, der Zusammenarbeit in der
+  Gruppe, etc.
 
 ## Präsentationen und Fragerunde
 
