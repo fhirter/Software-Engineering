@@ -76,30 +76,30 @@ paginate: true
 
 ---
 
-|            |      |                 |                     |                                           |
-|------------|------|-----------------|---------------------|-------------------------------------------|
-| C          | 1972 | Kompiliert      | statisch typisiert  | imperativ, strukturiert                   |
-| C++        | 1985 | Kompiliert      | statisch typisiert  | imperativ, objektorientiert               |
-| Python     | 1991 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert |
-| JavaScript | 1995 | Interpretiert   | dynamisch typisiert | imperativ, objektorientiert               |
-| PHP        | 1995 | Interpretiert   | dynamisch typisiert | imperativ, strukturiert, objektorientiert |
-| Java       | 1995 | Kompiliert (VM) | statisch typisiert  | imperativ, objektorientiert               |
-| C#         | 2000 | Kompiliert      | statisch typisiert  | imperativ, objektorientiert               |
+| Name       | Veröffentlichung |                 | Typisierung | Paradigmen  (imperativ sind alle) |
+|------------|------------------|-----------------|-------------|-----------------------------------|
+| C          | 1972             | Kompiliert      | statisch    | strukturiert                      |
+| C++        | 1985             | Kompiliert      | statisch    | objektorientiert                  |
+| Python     | 1991             | Interpretiert   | dynamisch   | strukturiert, objektorientiert    |
+| JavaScript | 1995             | Interpretiert   | dynamisch   | objektorientiert                  |
+| PHP        | 1995             | Interpretiert   | dynamisch   | strukturiert, objektorientiert    |
+| Java       | 1995             | Kompiliert (VM) | statisch    | objektorientiert                  |
+| C#         | 2000             | Kompiliert      | statisch    | objektorientiert                  |
 
 ---
 
-|      |      |            |                    |                                                       |
-|------|------|------------|--------------------|-------------------------------------------------------|
-| Go   | 2012 | Kompiliert | statisch typisiert | imperativ, strukturiert, objektorientiert             |
-| Rust | 2015 | Kompiliert | statisch typisiert | imperativ, strukturiert, funktional, objektorientiert |
+| Name | Veröffentlichung |            | Typisierung | Paradigmen                                 |
+|------|------------------|------------|-------------|--------------------------------------------|
+| Go   | 2012             | Kompiliert | statisch    | strukturiert, objektorientiert             |
+| Rust | 2015             | Kompiliert | statisch    | strukturiert, funktional, objektorientiert |
 
 --- 
 
-|            | Eigenschaften                                                                                                 |
+| Name       | Eigenschaften                                                                                                 |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | C          | Sehr schnell und effizient                                                                                    |
 | C++        | Schnell und effizient, hochkomplex                                                                            |
-| Java       | Virtuelle Maschine (Plattformunabhängig), Grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
+| Java       | Virtuelle Maschine (Plattformunabhängig), grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
 | C#         |                                                                                                               |
 | Python     | Einfache Syntax, grosses Angebot an Bibliotheken und Werkzeugen                                               |
 | JavaScript | Relativ performant, grosse Verbreitung, enorme Auswahl an Bibliotheken und Werkzeugen, Leistungsfähige Syntax |
