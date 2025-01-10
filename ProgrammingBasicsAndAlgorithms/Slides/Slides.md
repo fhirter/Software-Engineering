@@ -683,7 +683,7 @@ CMD ./setup-ci.sh
 # Fehlerbehandlung
 
 - Es gibt Bedingungen, die erfüllt werden müssen, damit eine Methode überhaupt korrekt funktionieren kann.
-- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen, es handelt sich um einen Fehler.
+- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen
 
 ## Arten von Fehlerbehandlung
 
@@ -703,6 +703,27 @@ if err != nil {
   if (!(new.target)) {
     throw new Error("Constructor called as a function");
 }
+```
+
+## Fehler als Rückgabewert in Python
+
+```python
+def return_value():
+    return 'foo', None
+    
+def test_return_value(self):
+    value, error = return_value()
+    self.assertIsNotNone(value)
+    self.assertIsNone(error)
+    
+    
+def return_error():
+    return None, Exception('something went wrong')
+
+def test_return_error(self):
+    value, error = return_error()
+    self.assertIsNotNone(error)
+    self.assertIsNone(value)
 ```
 
 ## Fehlerbehandlung
