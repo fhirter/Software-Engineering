@@ -80,10 +80,10 @@ Visualisiere die Messungen (Rechenaufwand in Abhängigkeit der Samplegrösse) mi
 
 ### Präsentation
 
-Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze (max 5min), ansprechende Präsentation und
+Erstelle anhand der Dokumentation, dem Code und der Visualisierung eine kurze (max 10min), ansprechende Präsentation und
 ein Handout. Präsentiere die Arbeit der Klasse.
 
-Im Anschluss gibt es eine kurze Frage und Feedbackrunde.
+Im Anschluss gibt es eine kurze Frage und Feedbackrunde (5min).
 
 ## Bewertung
 
