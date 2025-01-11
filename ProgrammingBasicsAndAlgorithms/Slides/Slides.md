@@ -156,8 +156,7 @@ paginate: true
 
 ### JetBrains
 
-- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm),
-  iOS (AppCode), Android (AndroidStudio), C## (Rider)
+- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm), iOS (AppCode), Android (AndroidStudio), C## (Rider)
 - Teilweise OpenSource (Community Version)
 
 ### Jetbrains PyCharm
@@ -280,10 +279,8 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 - Test First: Fokus auf die Problemstellung und Schnittstelle
 - Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
-- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
-  werden.
-- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem
-  minimalen Objekt isolieren
+- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert werden.
+- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem minimalen Objekt isolieren
 
 ---
 
@@ -524,8 +521,7 @@ dict['Name']  # Zara
 ![w:400px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
-- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
-  die Operation)
+- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert die Operation)
 
 ### Alternative Big O Notation
 
@@ -680,11 +676,12 @@ CMD ./setup-ci.sh
 * Refactor When You Need to Fix a Bug
 * Refactor As You Do a Code Review
 
+
 # Fehlerbehandlung
 
-- Es gibt Bedingungen, die erfüllt werden müssen, damit eine Methode überhaupt korrekt funktionieren kann.
-- Manchmal kann trotz Fehler das Programm weiter ausgeführt werden.
-- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen.
+- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline) müssen gefangen und behandelt werden.
+- Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
+- Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
 
 ## Geworfene Exceptions
 
@@ -692,15 +689,8 @@ CMD ./setup-ci.sh
 try:
     foo()  ## method that might raise an exception
 except:
-    ## handle exception
+## handle exception
 ```
-
-## Fehlerbehandlung
-
-- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline)
-  müssen gefangen und behandelt werden.
-- Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
-- Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
 
 ```python
 raise Exception('<error message>')
@@ -708,8 +698,7 @@ raise Exception('<error message>')
 
 ## Fehler als Rückgabewert
 
-- Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen 
-  Programmablauf unterbrechen. 
+- Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf unterbrechen.
 - In Go müssen Fehler als Rückgabewert explizit angegeben werden.
 - Die kann mit Fehlertypen auch in den meisten anderen Sprachen erreicht werden
 
@@ -735,15 +724,17 @@ func Sqrt(f float64) (float64, error) {
 ```python
 def return_value():
     return 'foo', None
-    
+
+
 def test_return_value(self):
     value, error = return_value()
     self.assertIsNotNone(value)
     self.assertIsNone(error)
-    
-    
+
+
 def return_error():
     return None, Exception('something went wrong')
+
 
 def test_return_error(self):
     value, error = return_error()
