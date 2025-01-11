@@ -683,11 +683,35 @@ CMD ./setup-ci.sh
 # Fehlerbehandlung
 
 - Es gibt Bedingungen, die erfüllt werden müssen, damit eine Methode überhaupt korrekt funktionieren kann.
-- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen
+- Manchmal kann trotz Fehler das Programm weiter ausgeführt werden.
+- Oftmals gibt es beim Nichterfüllen kein sinnvolles weiteres Vorgehen.
 
-## Arten von Fehlerbehandlung
+## Geworfene Exceptions
 
-- Fehler über Rückgabewerte zu kommunizieren funktioniert nur sinnvoll, wenn mehrere Rückgabewerte möglich sind: (Go)
+```python
+try:
+    foo()  ## method that might raise an exception
+except:
+    ## handle exception
+```
+
+## Fehlerbehandlung
+
+- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline)
+  müssen gefangen und behandelt werden.
+- Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
+- Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
+
+```python
+raise Exception('<error message>')
+```
+
+## Fehler als Rückgabewert
+
+- Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen 
+  Programmablauf unterbrechen. 
+- In Go müssen Fehler als Rückgabewert explizit angegeben werden.
+- Die kann mit Fehlertypen auch in den meisten anderen Sprachen erreicht werden
 
 ```go
 swagger, err := api.GetSwagger()
@@ -697,15 +721,16 @@ if err != nil {
 }
 ```
 
-- Viele Sprachen unterstützen das Konzept der "Exceptions":
-
-```javascript
-  if (!(new.target)) {
-    throw new Error("Constructor called as a function");
+```go
+func Sqrt(f float64) (float64, error) {
+    if f < 0 {
+        return 0, errors.New("math: square root of negative number")
+    }
+    // implementation
 }
 ```
 
-## Fehler als Rückgabewert in Python
+### Fehler als Rückgabewert in Python
 
 ```python
 def return_value():
@@ -725,42 +750,4 @@ def test_return_error(self):
     self.assertIsNotNone(error)
     self.assertIsNone(value)
 ```
-
-## Fehlerbehandlung
-
-- Ausnahmen (Fehler) werden beim Auftreten geworfen (throw) und können gefangen (catch) werden.
-- Exceptions werden weitergereicht bis sie gefangen werden.
-- Werden sie bis zur `main` Methode nicht gefangen, stürzt das Programm ab.
-- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline)
-  müssen gefangen und behandelt werden.
-- Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
-- Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
-
-## Exceptions in Python
-
-- Werfen von Exceptions: `raise Exception('<error message>')`
-- Fangen von Exceptions:
-
-```python
-try:
-    foo()  ## method that might raise an exception
-except:
-## handle exception
-```
-
-## Exceptions in Go
-
-Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf
-unterbrechen. In Go müssen, anders als in anderen Sprachen, Fehler als Rückgabewert explizit angegeben werden:
-
-```
-func (p Eurobox) setWeight(weight int) error {
-	if weight <= 0 {
-		return errors.New("Weight must be greater than zero")
-	}
-	p.weight = weight
-	return nil
-}
-```
-
 
