@@ -1,26 +1,53 @@
 # Projektarbeit
 
-## Ziel
+## Lernziele
 
-Die Studierenden entwickeln für eine praxisorientierte Problemstellung den Lösungsalgorithmus und programmieren, testen
-und debuggen die Applikation mit einer Programmiersprache. Dabei wenden die Studierenden das projektmässige Vorgehen bei
-der Erarbeitung des Ergebnisses an.
+Die Studierenden entwickeln für eine praxisorientierte Problemstellung den Lösungsalgorithmus und programmieren, testen und debuggen die Applikation mit einer Programmiersprache (Python oder Go).
+
+Die Studierenden wenden das projektmässige Vorgehen bei der Erarbeitung des Ergebnisses an.
 
 ## Auftrag
 
-Die Projektarbeit ist eine Gruppenarbeit (2-3 Personen) zu einer vom jeweiligen Fachdozenten vorgegebenen
-Aufgabenstellung und wird innerhalb des Semesters erarbeitet.
+In Gruppen (2-3 Personen) bearbeiten die Studierenden eine selber formulierte Problemstellung aus dem beruflichen oder privaten Umfeld.
+
+Das Thema ist vorgängig beim Dozenten einzureichen.
+
+Die im Unterricht behandelten Themen sollen angewendet werden. Insbesondere soll mit Tests ein korrektes Funktionieren sichergestellt werden.
+
+Versionsverwaltung soll zweckdienlich eingesetzt werden.
+
+Für die Bewertung ist primär der Bericht relevant.
 
 ## Umfang
 
-Für die Erarbeitung sind 50 Lernstunden einzusetzen.
+Für die Erarbeitung sind 50 Lernstunden pro Person einzusetzen.
+
+## Dokumentation
+
+Die Kapitel werden im Dokument [Anleitung technischer Bericht](../../Readings/AnleitungTechnischerBericht.pdf) beschrieben
 
 ## Präsentation
 
-Zusätzlich zur Dokumentation ist ein Handout zu erstellen. Die Präsentation dauert 10 Minuten und umfasst zusätzlich
-eine Frage- und Diskussionsrunde.
+Zusätzlich zur Dokumentation ist ein Handout zu erstellen. Die Präsentation dauert 10 Minuten und umfasst zusätzlich eine Frage- und Diskussionsrunde.
 
 ## Benotung
 
-Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige
-Note im Zeugnis aufgeführt wird.
+Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige Note im Zeugnis aufgeführt wird.
+
+Berechnung: $(<erreichte Punkte>/80)*5+1$
+
+| Kapitel                                                                                     | Punkte |
+|---------------------------------------------------------------------------------------------|--------|
+| Abstract                                                                                    | 10     |
+| Einleitung: Ausgangslage und Problemstellung                                                | 5      |
+| Einleitung: Zielsetzung und Testfälle (manuell und automatisch)                             | 10     |
+| Hauptteil: Vorgehen ist vollständig und nachvollziehbar beschrieben (inkl. Commit Messages) | 10     |
+| Hauptteil: Ergebnisse sind übersichtlich und vollständig aufgeführt                         | 10     |
+| Diskussion: Fragen und Ziele der Einleitung werden beantwortet                              | 5      |
+| Diskussion: Eigene Meinungen, Thesen und Reflektion                                         | 5      |
+| Empfehlung und Ausblick: Empfehlung                                                         | 5      |
+| Empfehlung und Ausblick: Offene Fragen werden festgehalten                                  | 5      |
+| Handout                                                                                     | 5      |
+| Präsentation                                                                                | 5      |
+| Beantwortung der Fragen                                                                     | 5      |
+
