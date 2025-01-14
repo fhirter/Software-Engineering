@@ -29,14 +29,12 @@ Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
 Der Bericht behandelt die theoretischen Grundlagen, dokumentiert die erstellten Prototypen und legt die daraus
 gewonnenen Erkenntnisse dar.
 
-Im beiliegenden Dokument "Anleitung zum Schreiben von technischen Berichten" werden die einzelnen Kapitel ausführlich
-beschrieben.
+Im beiliegenden Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden die einzelnen Kapitel ausführlich beschrieben.
 
 Folgende Kapitel müssen vorkommen:
 
 - Einleitung
-- Material und Methoden
-- Ergebnisse
+- Hauptteil
 - Diskussion
 - Empfehlung und Ausblick
 
@@ -97,8 +95,7 @@ Aufsatz und Präsentation gemäss folgendem Bewertungsraster:
 | Kapitel                 | Punkte |
 |-------------------------|--------|
 | Einleitung              | 10     |
-| Material und Methoden   | 10     |
-| Ergebnisse              | 10     |
+| Hauptteil               | 20     |
 | Diskussion              | 10     |
 | Empfehlung und Ausblick | 10     |
 | Präsentation und Fragen | 10     |
