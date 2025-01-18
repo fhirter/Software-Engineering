@@ -8,7 +8,7 @@ Die Studierenden wenden das projektmässige Vorgehen bei der Erarbeitung des Erg
 
 ## Auftrag
 
-In Gruppen (2-3 Personen) bearbeiten die Studierenden eine selber formulierte Problemstellung aus dem beruflichen oder privaten Umfeld.
+In Gruppen (2-4 Personen) bearbeiten die Studierenden eine selber formulierte Problemstellung aus dem beruflichen oder privaten Umfeld.
 
 Das Thema ist vorgängig beim Dozenten einzureichen.
 
