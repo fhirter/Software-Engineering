@@ -46,7 +46,7 @@ Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Struc
 Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Education
 : Great in depth catalogue of patterns for software system integration
 
-M. van Steen and A.S. Tanenbaum (2017): Distributed Systems, 3rd ed., distributed-systems.net
+M. van Steen and A.S. Tanenbaum (2023): Distributed Systems, Version 4.01., distributed-systems.net
 : 
 
 
