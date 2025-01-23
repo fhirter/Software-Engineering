@@ -4,7 +4,7 @@
 
 Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and 
 Deployment Automation, Addison-Wesley Signature Series (Fowler)
-: 
+: Highly relevant classic on what today is a widely implemented practice: continuous delivery
 
 Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
 : Highly influential classic, must read!
@@ -13,7 +13,7 @@ Vaughn Vernon (2013): Implementing Domain-Driven Design, Addison-Wesley
 : 
 
 Steve Freeman, Nat Price (2009): Growing Object-Oriented Software Guided by Tests, Addison-Wesley
-: 
+: Captures and describes in greate detail the London School of TDD
 
 Robert C. Martin (2009): Clean Code: A Handbook of Agile Software Craftsmanship, Pearson Education
 : 
@@ -35,13 +35,13 @@ Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design,
 
 
 Erich Gamma et al. Design Patterns (1994): Elements of Reusable Object-Oriented Software, Addison-Wesley Professional
-: 
+: Classic on design patterns thats still relevant today.
 
 Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Structure and Design, Prentice Hall
 : 
 
 Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Education
-: 
+: Great in depth catalogue of patterns for software system integration
 
 M. van Steen and A.S. Tanenbaum (2017): Distributed Systems, 3rd ed., distributed-systems.net
 : 
