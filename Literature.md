@@ -2,6 +2,9 @@
 
 ## Books
 
+David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
+: 
+
 Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and 
 Deployment Automation, Addison-Wesley Signature Series (Fowler)
 : Highly relevant classic on what today is a widely implemented practice: continuous delivery
@@ -46,8 +49,6 @@ Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Educat
 M. van Steen and A.S. Tanenbaum (2017): Distributed Systems, 3rd ed., distributed-systems.net
 : 
 
-David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
-: 
 
 
 ### Blogs and Collections
