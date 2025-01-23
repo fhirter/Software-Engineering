@@ -9,6 +9,9 @@ Deployment Automation, Addison-Wesley Signature Series (Fowler)
 Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional
 : Highly influential classic, must read!
 
+Vaughn Vernon (2013): Implementing Domain-Driven Design, Addison-Wesley
+: 
+
 Steve Freeman, Nat Price (2009): Growing Object-Oriented Software Guided by Tests, Addison-Wesley
 : 
 
