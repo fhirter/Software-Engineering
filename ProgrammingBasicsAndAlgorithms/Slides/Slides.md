@@ -74,7 +74,7 @@ paginate: true
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 [God-Tier Developer Roadmap](https://www.youtube.com/watch?v=pEfrdAtAmqk)
 
----
+### Übersicht
 
 | Name       | Veröffentlichung |                 | Typisierung | Paradigmen  (imperativ sind alle) |
 |------------|------------------|-----------------|-------------|-----------------------------------|
@@ -93,26 +93,7 @@ paginate: true
 | Go   | 2012             | Kompiliert | statisch    | strukturiert, objektorientiert             |
 | Rust | 2015             | Kompiliert | statisch    | strukturiert, funktional, objektorientiert |
 
---- 
-
-| Name       | Eigenschaften                                                                                                 |
-|------------|---------------------------------------------------------------------------------------------------------------|
-| C          | Sehr schnell und effizient                                                                                    |
-| C++        | Schnell und effizient, hochkomplex                                                                            |
-| Java       | Virtuelle Maschine (Plattformunabhängig), grosses Angebot an Bibliotheken und Werkzeugen, einfache Syntax    |
-| C#         |                                                                                                               |
-| Python     | Einfache Syntax, grosses Angebot an Bibliotheken und Werkzeugen                                               |
-| JavaScript | Relativ performant, grosse Verbreitung, enorme Auswahl an Bibliotheken und Werkzeugen, Leistungsfähige Syntax |
-| PHP        | Für Webanwendungen optimiert, gute und bewährte Frameworks                                                    |
-
----
-
-|      | Eigenschaften                                                                        |
-|------|--------------------------------------------------------------------------------------|
-| Go   | Komposition statt Vererbung, Effizienz, Lesbarkeit / DX, Networking, Multiprocessing |
-| Rust | Keine Garbage Collection, sicher, nebenläufig, seit 2022 im Linux Kernel verwendet   |
-
----
+### Anwendungsgebiete
 
 |            | Anwendungsgebiet                                                         |
 |------------|--------------------------------------------------------------------------|
