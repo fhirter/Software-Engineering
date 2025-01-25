@@ -23,7 +23,7 @@ Strukturiere deinen Code sinnvoll mit Packages und Funktionen.
 
 Beschreibe die Funktionalität zuerst mit Tests mit der `net/http/httptest` Package.
 
-Schreibe für die einzelnen Funktionen vor der Implementierung Unit-Tests.
+Schreibe vor der Implementierung Unit-Tests für die einzelnen Funktionen.
 
 Führe die Tests mit Github Actions in einer Deployment-Pipeline aus.
 

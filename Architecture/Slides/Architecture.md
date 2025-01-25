@@ -166,7 +166,6 @@ https://www.continuousdelivery.com/
 
 ## Empirisches und experimentelles Arbeiten
 
-
 # Kommunikation
 
 ## Domain Driven Design
@@ -227,6 +226,32 @@ https://c4model.com/
 ----
 
 ![img.png](Images/C4Abstractions.png)
+
+## Architectural Decision Records
+
+```markdown
+# <!-- short title, representative of solved problem and found solution -->
+
+## Context and Problem Statement
+
+## Considered Options
+
+## Decision Outcome
+
+### Consequences
+```
+- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare-minimal.md
+- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare.md
+
+### Templates
+
+- Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+- MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
+
+### Tools
+
+- https://github.com/npryce/adr-tools
+- https://github.com/opinionated-digital-center/pyadr
 
 # Komplexität
 
