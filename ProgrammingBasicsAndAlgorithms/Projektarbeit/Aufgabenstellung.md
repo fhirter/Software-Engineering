@@ -47,7 +47,7 @@ Berechnung: $(<erreichte Punkte>/80)*5+1$
 | Diskussion: Eigene Meinungen, Thesen und Reflektion                                         | 5      |
 | Empfehlung und Ausblick: Empfehlung                                                         | 5      |
 | Empfehlung und Ausblick: Offene Fragen werden festgehalten                                  | 5      |
-| Handout                                                                                     | 5      |
-| Präsentation                                                                                | 5      |
-| Beantwortung der Fragen                                                                     | 5      |
+| Handout: Ansprechend und verständlich, nicht zu lang                                        | 5      |
+| Präsentation: Ansprechend und verständlich, nicht zu lang                                   | 5      |
+| Beantwortung der Fragen: Sicher und verständlich                                            | 5      |
 
