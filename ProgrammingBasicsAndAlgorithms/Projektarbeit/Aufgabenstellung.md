@@ -22,7 +22,7 @@ Für die Erarbeitung sind 50 Lernstunden pro Person einzusetzen.
 
 ## Dokumentation
 
-Die Kapitel werden im Dokument [Anleitung technischer Bericht](../../Readings/AnleitungTechnischerBericht.pdf) beschrieben
+Die Kapitel sind im Dokument [Anleitung technischer Bericht](../../Readings/AnleitungTechnischerBericht.pdf) beschrieben
 
 ## Präsentation
 
