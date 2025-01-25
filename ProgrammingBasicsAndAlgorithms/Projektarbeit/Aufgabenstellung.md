@@ -12,9 +12,7 @@ In Gruppen (2-4 Personen) bearbeiten die Studierenden eine selber formulierte Pr
 
 Das Thema ist vorgängig beim Dozenten einzureichen.
 
-Die im Unterricht behandelten Themen sollen angewendet werden. Insbesondere soll mit Tests ein korrektes Funktionieren sichergestellt werden.
-
-Versionsverwaltung soll zweckdienlich eingesetzt werden.
+Es gilt Qualität vor Quantität, das vollständige Erreichen der gesteckten Ziele ist sekundär. Viel wichtiger ist, dass sichergestellt ist, dass die Software korrekt funktioniert und nachvollziehbar dokumentiert ist. Dazu sollen die im Unterricht behandelten Themen wie automatische Tests und Versionsverwaltung angewendet werden.
 
 Für die Bewertung ist primär der Bericht relevant.
 
