@@ -33,6 +33,18 @@ paginate: true
 - Neue Features sollten schnell umgesetzt und nutzbar sein
 - Softwaresysteme werden immer komplexer
 
+## Anforderungen an moderne Software
+
+![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg)
+
+- Hohe Verfügbarkeit
+- Skalierbarkeit
+- Im Katastrophenfall sollen die Systeme schnell wiederhergestellt werden können
+- Soll funktionieren, auch wenn Teile des Systems Offline sind (Resilienz)
+- Kostengünstig
+- Einfach
+- Updates müssen einfach eingespielt werden können
+
 ## Teamarbeit
 
 **Mehrere Personen arbeiten am selben Softwareprojekt**
@@ -280,7 +292,7 @@ https://cucumber.io/docs/bdd/
 
 ## Schichtenarchitektur
 
-![w:600px](Images/LayeredArchitecture.svg)
+![w:400px](Images/LayeredArchitecture.svg)
 
 ## Ports and Adapters
 
@@ -293,12 +305,7 @@ https://cucumber.io/docs/bdd/
 
 ## Schichtenarchitektur im Client Server Modell
 
-![](Images/client_server_II.png)
-
-## Microservices
-
-![img_2.png](../../Slides/Images/microservices.png)
-[martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
+![w:1000px](Images/client_server_II.png)
 
 ## Microservices
 
@@ -310,6 +317,7 @@ https://cucumber.io/docs/bdd/
 - Höhere Wahrscheinlichkeit eines Ausfalls
 - **Hohe Komplexität**
 
+[martinfowler.com/articles/microservices.html](https://www.martinfowler.com/articles/microservices.html)
 [^1]: ["We try to create teams that are no larger than can be fed by two pizzas"](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html)
 
 ## Monolith First
@@ -317,8 +325,38 @@ https://cucumber.io/docs/bdd/
 - Vorsicht vor [Cargo-Kult](https://de.wikipedia.org/wiki/Cargo-Kult): Amazon, Google, Meta etc. haben heute andere
   Herausforderungen als Startups
 - Technologien oder Architekturen wählen, "weil Google macht das auch so" ist ein schlechter Grund
-  ![w:600px](Images/route_to_microservices.png)
+  ![w:500px](Images/route_to_microservices.png)
   [martinfowler.com/bliki/MonolithFirst.html](https://www.martinfowler.com/bliki/MonolithFirst.html)
+
+## Event Driven Architecture
+
+## Reactive Systems
+
+![w:1000px](Images/reactive-traits.svg)
+
+## Fallstudie
+
+![w:1000px](Images/CaseStudyDashboard.png)
+
+
+# Cloud Computing
+
+> The entire history of software engineering is that of the rise in levels of abstraction.
+
+-- Grady Booch
+
+---
+
+![w:800px](Images/PizzaAsAService.png)
+
+## Abstractions
+
+![w:1000px](Images/Abstractions.png)
+(VanSteen, 2017, S. 30)
+
+## XaaS
+
+![w:1000px](Images/XaaS.png)
 
 # Quellen
 
