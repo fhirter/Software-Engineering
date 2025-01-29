@@ -30,3 +30,6 @@
 ### Architecture Decision Records
 
 - [ADR-Tools](https://github.com/npryce/adr-tools)
+- [Markdown Architectural Decision Records](https://adr.github.io/madr/)
+
+## Cloud Computing
