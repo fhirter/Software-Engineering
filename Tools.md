@@ -33,3 +33,8 @@
 - [Markdown Architectural Decision Records](https://adr.github.io/madr/)
 
 ## Cloud Computing
+
+### Databases
+
+- [CockroachDB](https://www.cockroachlabs.com/)
+- [NEON](https://neon.tech/)
