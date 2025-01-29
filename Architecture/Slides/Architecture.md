@@ -33,9 +33,14 @@ paginate: true
 - Neue Features sollten schnell umgesetzt und nutzbar sein
 - Softwaresysteme werden immer komplexer
 
+---
+
+![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
+
 ## Anforderungen an moderne Software
 
-![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg)
+
+---
 
 - Hohe Verfügbarkeit
 - Skalierbarkeit
