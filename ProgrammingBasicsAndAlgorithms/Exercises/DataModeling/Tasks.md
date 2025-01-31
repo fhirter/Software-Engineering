@@ -46,3 +46,13 @@ Schreibe eine einfache Suche, die Kunden anhand verschiedener Kriterien wie Adre
 ## Dokumentation
 
 Halte das Vorgehen, die Erkenntnisse und offene Fragen in einer README.md Datei fest.
+
+## Weiterführende Aufgaben
+
+Erstelle eine einfache Web-Applikation.
+
+- Erstelle einen einfachen Webserver mit der `net/http` Package.
+- Erstelle eine Homepage, welche eine Willkommensnachricht anzeigt.
+- Erstelle API Endpoints `/api/v1/persons`, `/api/v1/customers`, `/api/v1/addresses` welche entsprechende Daten zurückgeben (`GET`).
+- Ermögliche das Hinzufügen, Löschen und Aktualisieren der Daten.
+- Speichere die Daten in einer Datenbank.
