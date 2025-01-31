@@ -34,18 +34,25 @@ Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1
 
 Berechnung: $(<erreichte Punkte>/80)*5+1$
 
-| Kapitel                                                                                     | Punkte |
-|---------------------------------------------------------------------------------------------|--------|
-| Abstract                                                                                    | 10     |
-| Einleitung: Ausgangslage und Problemstellung                                                | 5      |
-| Einleitung: Zielsetzung und Testfälle (manuell und automatisch)                             | 10     |
-| Hauptteil: Vorgehen ist vollständig und nachvollziehbar beschrieben (inkl. Commit Messages) | 10     |
-| Hauptteil: Ergebnisse sind übersichtlich und vollständig aufgeführt                         | 10     |
-| Diskussion: Fragen und Ziele der Einleitung werden beantwortet                              | 5      |
-| Diskussion: Eigene Meinungen, Thesen und Reflektion                                         | 5      |
-| Empfehlung und Ausblick: Empfehlung                                                         | 5      |
-| Empfehlung und Ausblick: Offene Fragen werden festgehalten                                  | 5      |
-| Handout: Ansprechend und verständlich, nicht zu lang                                        | 5      |
-| Präsentation: Ansprechend und verständlich, nicht zu lang                                   | 5      |
-| Beantwortung der Fragen: Sicher und verständlich                                            | 5      |
+| Kapitel                                                             | Punkte |
+|---------------------------------------------------------------------|--------|
+| Abstract                                                            | 10     |
+| Einleitung: Ausgangslage und Problemstellung                        | 5      |
+| Einleitung: Zielsetzung                                             | 10     |
+| Hauptteil: Vorgehen ist vollständig und nachvollziehbar beschrieben | 10     |
+| Hauptteil: Ergebnisse sind übersichtlich und vollständig aufgeführt | 10     |
+| Diskussion: Fragen und Ziele der Einleitung werden beantwortet      | 5      |
+| Diskussion: Eigene Meinungen, Thesen und Reflektion                 | 5      |
+| Empfehlung und Ausblick: Empfehlung                                 | 5      |
+| Empfehlung und Ausblick: Offene Fragen werden festgehalten          | 5      |
+| Handout: Ansprechend und verständlich, nicht zu lang                | 5      |
+| Präsentation: Ansprechend und verständlich, nicht zu lang           | 5      |
+| Beantwortung der Fragen: Sicher und verständlich                    | 5      |
 
+Zusätzlich werden folgende Punkte als dritte Fachnote bewertet:
+
+| Bereich                     | Beschreibung                                                                                                | Punkte |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------|--------|
+| Testing                     | Applikation wird vollständig und sinnvoll getestet                                                          | 10     |
+| Wissenschaftliches Vorgehen | Quellen vorhanden und Aussagen nachvollziehbar                                                              | 10     |
+| Implementierung             | Funktionsweise verständlich erläutert (Kommentare oder Docs im Repo), sinnvolle und atomare Commit Messages | 10     |
