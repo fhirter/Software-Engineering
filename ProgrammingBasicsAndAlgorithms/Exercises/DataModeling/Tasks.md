@@ -36,7 +36,7 @@ Eine `Adresse` hat folgende Eigenschaften:
 - Postleitzahl
 - Ort
 
-Modelliere die Daten zuerst mit einem Klassendiagramm. 
+Modelliere die Daten zuerst mit einem Klassendiagramm. Überlege dir genau, welche Datentypen geeiget sind.
 
 Schreibe geeignete Tests und implementiere anschliessend die Datenstrukturen.
 Sie das beliegende [Beispiel](example.go).
