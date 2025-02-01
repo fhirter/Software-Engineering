@@ -39,7 +39,7 @@ Eine `Adresse` hat folgende Eigenschaften:
 Modelliere die Daten zuerst mit einem Klassendiagramm. Überlege dir genau, welche Datentypen geeiget sind.
 
 Schreibe geeignete Tests und implementiere anschliessend die Datenstrukturen.
-Sie das beliegende [Beispiel](example.go).
+Sie das beliegende [Beispiel](article.go).
 
 Schreibe eine einfache Suche, die Kunden anhand verschiedener Kriterien wie Adresse oder Kontaktperson findet.
 
