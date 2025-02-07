@@ -15,8 +15,8 @@ func quickSort(arr []int, low, high int) []int {
 }
 
 func partition(arr []int, low, high int) ([]int, int) {
-	pivot := arr[high]
-	i := low
+	var pivot = arr[high]
+	var i = low
 	for j := low; j < high; j++ {
 		if arr[j] < pivot {
 			arr[i], arr[j] = arr[j], arr[i]
