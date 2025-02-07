@@ -901,14 +901,10 @@ Go is lexically scoped using blocks:
 
 1. The scope of a predeclared identifier is the universe block.
 2. The scope of an identifier denoting a constant, type, variable, or function [...] declared at top level (outside any function) is the package block.
-3. [...]
-4. The scope of an identifier denoting a [...] function parameter, or result variable is the function body.
-5. [...]
-6. [...]
-7. The scope of a constant or variable identifier declared inside a function begins at the end of the ConstSpec or VarSpec [...] and ends at the end of the innermost containing block.
-8. [...]
+3. The scope of an identifier denoting a [...] function parameter, or result variable is the function body.
+4. The scope of a constant or variable identifier declared inside a function begins at the end of the ConstSpec or VarSpec [...] and ends at the end of the innermost containing block.
 
-
+(for full list see: https://go.dev/ref/spec#Declarations_and_scope)
 
 ## Expressions
 
