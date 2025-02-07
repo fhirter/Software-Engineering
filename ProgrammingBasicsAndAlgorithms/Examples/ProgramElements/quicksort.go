@@ -8,8 +8,8 @@ func quickSort(arr []int, low, high int) []int {
 	if low < high {
 		var p int
 		arr, p = partition(arr, low, high)
-		arr = quickSort(arr, low, p-1)
-		arr = quickSort(arr, p+1, high)
+		arr = quickSort(arr, low, p-1)  // lower
+		arr = quickSort(arr, p+1, high) // upper
 	}
 	return arr
 }
