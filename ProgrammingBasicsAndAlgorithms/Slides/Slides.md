@@ -137,7 +137,8 @@ paginate: true
 
 ### JetBrains
 
-- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm), iOS (AppCode), Android (AndroidStudio), C## (Rider)
+- Java, Kotlin, Groovy, Scala, JavaScript, TypeScript, C (CLion), PHP (PHPStorm), Ruby (RubyMine), Python (PyCharm),
+  iOS (AppCode), Android (AndroidStudio), C## (Rider)
 - Teilweise OpenSource (Community Version)
 
 ### Jetbrains PyCharm
@@ -260,8 +261,10 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 - Test First: Fokus auf die Problemstellung und Schnittstelle
 - Nur eigenen Code testen. Datenbanken, APIs oder Libraries werden nur im Rahmen von Integrationstests aufgerufen.
-- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert werden.
-- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem minimalen Objekt isolieren
+- Tests geben eine Rückmeldung zum Code: Wenn Code schwierig zu testen ist, sollte er vermutlich anders strukturiert
+  werden.
+- [Humble Object](https://martinfowler.com/bliki/HumbleObject.html): Code, der schwierig zu testen ist in einem
+  minimalen Objekt isolieren
 
 ---
 
@@ -502,7 +505,8 @@ dict['Name']  # Zara
 ![w:400px](Images/BigO.png) [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
 - O(1): Operation dauert immer gleich lange, unabhängig von der Anzahl der Elemente
-- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert die Operation)
+- O(n): Operation ist linear abhängig von der Anzahl der Elemente (Je mehr Elemente in der Liste, desto länger dauert
+  die Operation)
 
 ### Alternative Big O Notation
 
@@ -657,10 +661,10 @@ CMD ./setup-ci.sh
 * Refactor When You Need to Fix a Bug
 * Refactor As You Do a Code Review
 
-
 # Fehlerbehandlung
 
-- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline) müssen gefangen und behandelt werden.
+- Exceptions, die im normalen Programmablauf auftreten können (z.B. Fehlerhafter User Input, Netzwerkverbindung offline)
+  müssen gefangen und behandelt werden.
 - Exceptions aufgrund von einem Programmierfehler sollten nicht gefangen werden.
 - Code für die Fehlerbehandlung sollte möglichst vom Code der Funktionalität getrennt werden.
 
@@ -679,24 +683,25 @@ raise Exception('<error message>')
 
 ## Fehler als Rückgabewert
 
-- Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen Programmablauf unterbrechen.
+- Exceptions können es schwierig machen, den Programmablauf nachzuvollziehen, weil Exceptions den normalen
+  Programmablauf unterbrechen.
 - In Go müssen Fehler als Rückgabewert explizit angegeben werden.
 - Die kann mit Fehlertypen auch in den meisten anderen Sprachen erreicht werden
 
 ```go
 swagger, err := api.GetSwagger()
 if err != nil {
-    fmt.Fprintf(os.Stderr, "Error loading swagger spec\n: %s", err)
-    os.Exit(1)
+fmt.Fprintf(os.Stderr, "Error loading swagger spec\n: %s", err)
+os.Exit(1)
 }
 ```
 
 ```go
 func Sqrt(f float64) (float64, error) {
-    if f < 0 {
-        return 0, errors.New("math: square root of negative number")
-    }
-    // implementation
+if f < 0 {
+return 0, errors.New("math: square root of negative number")
+}
+// implementation
 }
 ```
 
@@ -721,5 +726,263 @@ def test_return_error(self):
     value, error = return_error()
     self.assertIsNotNone(error)
     self.assertIsNone(value)
+```
+
+# Programmierelemente
+
+Alle folgenden Folien aus: https://go.dev/ref/spec
+
+## Lexical Elements
+
+### Kommentare
+
+```go
+// single line comment
+
+/*
+multi
+line
+comment
+*/
+```
+
+### Keywords
+
+```
+break        default      func         interface    select
+case         defer        go           map          struct
+chan         else         goto         package      switch
+const        fallthrough  if           range        type
+continue     for          import       return       var
+```
+
+### Operators and Punctuation
+
+```
++    &     +=    &=     &&    ==    !=    (    )
+-    |     -=    |=     ||    <     <=    [    ]
+*    ^     *=    ^=     <-    >     >=    {    }
+/    <<    /=    <<=    ++    =     :=    ,    ;
+%    >>    %=    >>=    --    !     ...   .    :
+     &^          &^=          ~
+```
+
+### Identifiers
+
+- Identifiers name program entities such as variables and types.
+- An identifier is a sequence of one or more letters and digits.
+- The first character in an identifier must be a letter.
+
+---
+
+#### Predefined Identifiers
+
+```
+Types:
+	any bool byte comparable
+	complex64 complex128 error float32 float64
+	int int8 int16 int32 int64 rune string
+	uint uint8 uint16 uint32 uint64 uintptr
+
+Constants:
+	true false iota
+
+Zero value:
+	nil
+
+Functions:
+	append cap clear close complex copy delete imag len
+	make max min new panic print println real recover
+```
+
+### Literals
+
+```go
+// Integer
+42
+0x_67_7a_2f_cc_40_c6
+170_141183_460469_231731_687303_715884_105727
+0b0101010101
+
+// Floating Point
+0.
+72.40
+2.71828
+6.67428e-11
+1E6
+
+// String
+"Hello, world!"
+```
+
+## Variables
+
+- A variable is a storage location for holding a value. 
+- The set of permissible values is determined by the variable's type.
+
+## Types
+
+- A type determines a set of values together with operations and methods specific to those values.
+- A type may be denoted by a type name [...].
+
+### Numeric Types
+```go
+uint8       the set of all unsigned  8-bit integers (0 to 255)
+uint16      the set of all unsigned 16-bit integers (0 to 65535)
+uint32      the set of all unsigned 32-bit integers (0 to 4294967295)
+uint64      the set of all unsigned 64-bit integers (0 to 18446744073709551615)
+
+int8        the set of all signed  8-bit integers (-128 to 127)
+int16       the set of all signed 16-bit integers (-32768 to 32767)
+int32       the set of all signed 32-bit integers (-2147483648 to 2147483647)
+int64       the set of all signed 64-bit integers (-9223372036854775808 to 9223372036854775807)
+
+float32     the set of all IEEE 754 32-bit floating-point numbers
+float64     the set of all IEEE 754 64-bit floating-point numbers
+
+complex64   the set of all complex numbers with float32 real and imaginary parts
+complex128  the set of all complex numbers with float64 real and imaginary parts
+
+byte        alias for uint8
+rune        alias for int32
+
+uint     either 32 or 64 bits
+int      same size as uint
+```
+
+### Array Types
+```go
+[32]byte
+[3][5]int
+[2][2][2]float64  // same as [2]([2]([2]float64))
+```
+
+### Struct Types
+```go
+struct {
+	x, y int
+	u float32
+	_ float32  // padding
+	A *[]int
+	F func()
+}
+```
+
+## Blocks
+
+- A block is a possibly empty sequence of declarations and statements within matching brace brackets.
+- Blocks nest and influence scoping.
+
+## Declarations
+
+- A declaration binds a non-blank identifier to a constant, [...] variable, function, [...].
+- Every identifier in a program must be declared.
+- No identifier may be declared twice in the same block, [...].
+
+```go
+// constant
+const Pi float64 = 3.14159265358979323846
+
+// variable
+var x int
+var i = 42
+
+// function
+func IndexRune(s string, r rune) int {
+	// implementation
+    return
+}
+```
+### Scope
+
+The scope of a declared identifier is the extent of source text in which the identifier denotes the specified constant, type, variable, function, label, or package.
+
+Go is lexically scoped using blocks:
+
+1. The scope of a predeclared identifier is the universe block.
+2. The scope of an identifier denoting a constant, type, variable, or function [...] declared at top level (outside any function) is the package block.
+3. [...]
+4. The scope of an identifier denoting a [...] function parameter, or result variable is the function body.
+5. [...]
+6. [...]
+7. The scope of a constant or variable identifier declared inside a function begins at the end of the ConstSpec or VarSpec [...] and ends at the end of the innermost containing block.
+8. [...]
+
+
+
+## Expressions
+
+An expression specifies the computation of a value by applying operators and functions to operands.
+
+```go
+2 + 3
+square(5)
+```
+
+## Statements
+
+Statements control execution.
+
+### Assignment
+
+An assignment replaces the current value stored in a variable with a new value specified by an expression.
+
+```go
+x = 1
+*p = f()
+a[i] = 23
+```
+
+### If Statements
+
+- "If" statements specify the conditional execution of two branches according to the value of a boolean expression.
+- If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.
+
+```go
+if x > max {
+	x = max
+} else {
+	x = 3
+}
+```
+
+### Switch Statements
+
+- "Switch" statements provide multi-way execution.
+- An expression or type is compared to the "cases" inside the "switch" to determine which branch to execute.
+
+```go
+switch {
+  case x < y: 
+	  f1()
+  case x < z: 
+	  f2()
+  case x == 4: 
+	  f3()
+}
+```
+
+### For Statements
+
+A "for" statement specifies repeated execution of a block.
+
+```go
+for a < b {
+    a *= 2
+}
+
+for i := 0; i < 10; i++ {
+    f(i)
+}
+```
+
+### Return statements
+
+A "return" statement in a function F terminates the execution of F, and optionally provides one or more result values.
+
+```go
+func noResult() {
+    return
+}
 ```
 
