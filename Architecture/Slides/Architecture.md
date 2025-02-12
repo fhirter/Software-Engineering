@@ -3,6 +3,7 @@ headingDivider: 3
 auto-scaling: true
 paginate: true
 ---
+
 # Einstieg
 
 ## Softwaredebakel
@@ -14,7 +15,7 @@ paginate: true
 - [Armee-Debakel: 300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
 
 #### Kantonsverwaltung
- 
+
 - [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
 
 #### Polizei
@@ -38,7 +39,6 @@ paginate: true
 ![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
 
 ## Anforderungen an moderne Software
-
 
 ---
 
@@ -72,11 +72,13 @@ https://agilemanifesto.org/
 
 ## Software Engineering / Software Architecture
 
-> Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems in software
+> Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions
+> to practical problems in software
 
 (Farley, 2022, S.4)
 
-> The goal of software architecture is to minimize the human resources required to build and maintain the required system
+> The goal of software architecture is to minimize the human resources required to build and maintain the required
+> system
 
 (Martin, 2018)
 
@@ -134,8 +136,7 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 ![Extreme Programming](Images/ExtremeProgramming.png)
 
-
-## Feedback 
+## Feedback
 
 ### CI/CD
 
@@ -143,7 +144,8 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 ### Continuous Integration
 
-- **Kein Branching**, alle Änderungen werden von allen Teammitgliedern **mehrmals täglich** in den Master Branch eingecheckt.
+- **Kein Branching**, alle Änderungen werden von allen Teammitgliedern **mehrmals täglich
+  ** in den Master Branch eingecheckt.
 - Dieser Branch ist **jederzeit lauffähig**
 - Dadurch werden die **Releases vereinfacht**
 - Eine sehr hohe, **automatische Testabdeckung** ist zwingend
@@ -179,7 +181,6 @@ https://www.continuousdelivery.com/
 - [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
 - Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
   Automation, Addison-Wesley Signature Series (Fowler)
-
 
 ## Empirisches und experimentelles Arbeiten
 
@@ -257,12 +258,16 @@ https://c4model.com/
 
 ### Consequences
 ```
+
 - https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare-minimal.md
 - https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare.md
 
 ### Templates
 
-- Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+-
+
+Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+
 - MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
 
 ### Tools
@@ -291,9 +296,7 @@ https://cucumber.io/docs/bdd/
 
 ## Abstraction
 
-
 # Architekturen
-
 
 ## Schichtenarchitektur
 
@@ -343,7 +346,6 @@ https://cucumber.io/docs/bdd/
 
 ![w:1000px](Images/CaseStudyDashboard.png)
 
-
 # Cloud Computing
 
 > The entire history of software engineering is that of the rise in levels of abstraction.
@@ -363,6 +365,60 @@ https://cucumber.io/docs/bdd/
 
 ![w:1000px](Images/XaaS.png)
 
+## What is a Cloud Native application?
+
+A "cloud native" application, like all native species, has adapted and evolved to be maximally efficient in its
+environment: the cloud.
+
+The cloud is a harsher environment for applications than those of the past, in particular, than the idealistic
+environment of a dedicated single node system.
+
+In the cloud, an application becomes distributed. Thus, it is forced to be resilient to hardware/network
+unpredictability and unreliability, i.e., from varying performance to all-out failure.
+
+https://www.reactiveprinciples.org/cloud-native/index.html
+
+---
+
+The bad news is that ensuring responsiveness and reliability in this harsh environment is difficult.
+
+The good news is that the applications we build after embracing this environment better match how the real world
+actually works.
+
+This in turn, provides better experiences for our users, whether humans or software.
+
+https://www.reactiveprinciples.org/cloud-native/index.html
+
+---
+
+The constraints of the cloud environment, that make up the "cloud operating model," include:
+
+- Applications are limited in the ability to scale vertically on commodity hardware which typically leads to having many
+  isolated autonomous services (often called microservices).
+- All inter-service communication takes place over unreliable networks.
+- You must operate under the assumption that the underlying hardware can fail or be restarted or moved at any time.
+- The services need to be able to detect and manage failure of their peers—including partial failures.
+- Strong consistency and transactions are expensive. Because of the coordination required, it is difficult to make
+  services that manage data available, performant, and scalable.
+
+---
+
+Therefore, a Cloud Native application is designed to leverage the cloud operating model. 
+
+It is predictable, decoupled from the infrastructure, right-sized for capacity, and enables tight collaboration 
+between development and operations.
+
+It can be decomposed into loosely-coupled, independently-operating services that are resilient from failures, driven by
+data, and operate intelligently across geographic regions.
+
+---
+
+While Cloud Native applications always have a clean separation of state and compute, there are two major classes of
+Cloud Native applications: stateful and stateless.
+
+Each class addresses and excels in a different set of use-cases;
+non-trivial modern Cloud Native applications are usually a combination and composition of the two.
+
 # Quellen
 
 Farley, 2022
@@ -372,5 +428,5 @@ Martin, 2018
 : Robert C. Martin (2018): Clean Architecture: A Craftman's Guide to Software Structure and Design, Prentice Hall
 
 Richards, 2021
-: Mark Richards, Neal Ford (2021): Handbuch moderner Softwarearchitektur: Architekturstile, Patterns und Best 
-Practices, O'Reilly, 978-3-96009-149-3
+: Mark Richards, Neal Ford (2021): Handbuch moderner Softwarearchitektur: Architekturstile, Patterns und Best Practices,
+O'Reilly, 978-3-96009-149-3
