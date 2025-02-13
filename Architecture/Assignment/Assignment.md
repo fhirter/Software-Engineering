@@ -108,8 +108,8 @@ Jeder Student schreibt ein Dokument mit einer persönlichen Reflexion.
 
 | Teil            | Punkte |
 |-----------------|--------|
-| Meinungen       | 10     |
-| Thesen          | 10     |
+| Meinungen       | 5      |
+| Thesen          | 5      |
 | Selbstreflexion | 10     |
 | Lessons Learnt  | 10     |
 
