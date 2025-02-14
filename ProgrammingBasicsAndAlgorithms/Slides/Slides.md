@@ -6,7 +6,7 @@ paginate: true
 
 # Einstieg
 
-  The Mind Is Not a Vessel That Needs Filling, But Wood That Needs Igniting
+> The Mind Is Not a Vessel That Needs Filling, But Wood That Needs Igniting
 -- Plutarch
 
 ## Softwareentwickler:innen bauen Maschinen
