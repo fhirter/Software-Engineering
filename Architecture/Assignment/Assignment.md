@@ -59,7 +59,23 @@ erwünscht.
 ## Präsentationen und Fragerunde
 
 Das erarbeitete Thema wird der Klasse präsentiert. Im Anschluss an die Präsentation gibt es eine Frage und
-Diskussionsrunde.
+Diskussionsrunde. Präsentation und Fragerunde dauern jeweils 20 Minuten.
+
+Die Präsentation soll die Arbeit vollständig beinhalten, die inhaltliche Gewichtung kann sich demnach am Bericht 
+orientieren.
+Als Publikum kann ein Fachpublikum angenommen werden, das mit dem Projekt jedoch nicht vertraut ist.
+Es sollen sowohl die gesprochenen Inhalte als auch die Begleitmaterialien (Folien, Flipcharts, Whiteboard, Handout) 
+möglichst gut verständlich und zweckdienlich eingesetzt sein.
+
+Die Präsentation und Fragerunde wird nach folgendem Raster bewertet:
+
+| Bewertungspunkt                                                    | Punkte |
+|--------------------------------------------------------------------|--------|
+| Inhaltliche Vollständigkeit und Verständlichkeit                   | 4      |
+| Beantwortung der Fragen                                            | 4      |
+| Zeitverwaltung (+10% kein Abzug, 1 Punkt Abzug pro 10% Überziehen) | 2      |
+
+Es wird bei der Präsentation und der Fragerunde die ganze Gruppe bewertet.
 
 ## Zeitplan
 
