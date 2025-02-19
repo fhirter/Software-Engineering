@@ -29,7 +29,9 @@ Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
 Der Bericht behandelt die theoretischen Grundlagen, dokumentiert die erstellten Prototypen und legt die daraus
 gewonnenen Erkenntnisse dar.
 
-Im beiliegenden Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden die einzelnen Kapitel ausführlich beschrieben.
+Im beiliegenden
+Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden
+die einzelnen Kapitel ausführlich beschrieben.
 
 Folgende Kapitel müssen vorkommen:
 
