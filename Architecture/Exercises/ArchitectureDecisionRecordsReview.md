@@ -48,4 +48,4 @@ Tausche die Ausgedruckten ADR mit den anderen Gruppen aus.
 ## Review
 
 Beurteile die Qualität der ADR der anderen Gruppe. Achte dich auf Verständlichkeit und Nachvollziehbarkeit.
-Halte sowohl positive wie auch verbesserungswürdige Punkte fest.
+Halte sowohl positive als auch verbesserungswürdige Punkte fest.
