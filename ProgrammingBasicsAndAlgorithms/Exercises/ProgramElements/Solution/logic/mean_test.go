@@ -1,4 +1,4 @@
-package cmd
+package logic
 
 import (
 	"reflect"
@@ -9,7 +9,7 @@ func TestMean(t *testing.T) {
 	var data = []int{4, 4, 5, 5}
 	var window = 2
 
-	var given = mean(data, window)
+	var given = Mean(data, window)
 	var expected = []float32{4, 5}
 
 	if !reflect.DeepEqual(given, expected) {

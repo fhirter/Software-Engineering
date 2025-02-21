@@ -6,20 +6,11 @@ import (
 	"os"
 )
 
+var Window int
+
 var rootCmd = &cobra.Command{
 	Use:   "agg",
-	Short: "Aggregate some numbers",
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Aggregate command executed successfully!")
-	},
-}
-
-var meanCmd = &cobra.Command{
-	Use:   "mean",
-	Short: "Aggregate numbers with mean",
-	Run: func(cmd *cobra.Command, args []string) {
-		mean()
-	},
+	Short: "Aggregate numbers using different aggregators",
 }
 
 func Execute() {
@@ -27,4 +18,11 @@ func Execute() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
+}
+
+func init() {
+	cobra.OnInitialize()
+	rootCmd.PersistentFlags().IntVarP(&Window, "window", "w", 2, "window size")
+
+	rootCmd.AddCommand(meanCmd)
 }
