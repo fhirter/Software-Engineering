@@ -115,6 +115,14 @@ paginate: true
 | Go   | Web Backend, Tooling, DevOps                                                          |
 | Rust | Betriebssystemen, Desktop Applikationen, Games, Datenbanken, Interpreter, Web Backend |
 
+---
+
+### Beispielapplikationen
+
+| Sprache | Applikation                                                           |
+|---------|-----------------------------------------------------------------------|
+| Go      | CockroachDB, Kubernetes, Docker, Hugo, Terraform, Prometheus, Grafana |
+
 ### Energy, Time, Memory Comparison
 
 ![w:500px](Images/EnergyTimeMemoryComparision.png)
