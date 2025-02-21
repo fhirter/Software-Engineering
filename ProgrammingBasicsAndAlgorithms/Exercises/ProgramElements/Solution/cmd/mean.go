@@ -1,4 +1,4 @@
-package main
+package cmd
 
 func mean(data []int, window int) []float32 {
 	return []float32{}

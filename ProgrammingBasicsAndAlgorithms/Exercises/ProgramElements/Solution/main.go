@@ -1,7 +1,9 @@
 package main
 
-import "cmd"
+import (
+	"github.com/fhirter/software-engineering/exercises/cmd"
+)
 
 func main() {
-  cmd.Execute()
+	cmd.Execute()
 }
