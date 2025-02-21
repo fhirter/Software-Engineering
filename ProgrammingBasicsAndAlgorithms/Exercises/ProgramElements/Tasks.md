@@ -23,6 +23,8 @@ Schreibe ein CLI user interface mit cobra (https://github.com/spf13/cobra).
 `go run . max 5,5,4,4,3,3,2,2 -w 2`
 `go run . median 5,5,4,4,3,3,2,2 -w 2`
 
+Versuche den Programmcode möglichst sauber zu strukturieren!
+
 ### Setup Cobra
 
 `go get -u github.com/spf13/cobra@latest`
