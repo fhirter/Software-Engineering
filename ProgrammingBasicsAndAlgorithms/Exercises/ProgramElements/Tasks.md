@@ -15,3 +15,7 @@ einer Fenstergrösse von 2 auf `[5,4,3,2]` reduziert werden. Bei einer Fenstergr
 zurückgegeben werden. Siehe auch [beiliegenden Test](mean_test.go).
 
 Erweitere das Programm anschliessend um wählbare Aggregierungsfunktionen: "Min", "Max" und "Mean".
+
+Schreibe ein CLI user interface mit cobra (https://github.com/spf13/cobra)
+
+`go get -u github.com/spf13/cobra@latest`
