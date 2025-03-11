@@ -2,17 +2,21 @@
 
 ## Lernziele
 
-Die Studierenden entwickeln für eine praxisorientierte Problemstellung den Lösungsalgorithmus und programmieren, testen und debuggen die Applikation mit einer Programmiersprache (Python oder Go).
+Die Studierenden entwickeln für eine praxisorientierte Problemstellung den Lösungsalgorithmus und programmieren, testen
+und debuggen die Applikation mit einer Programmiersprache (Python oder Go).
 
 Die Studierenden wenden das projektmässige Vorgehen bei der Erarbeitung des Ergebnisses an.
 
 ## Auftrag
 
-In Gruppen (2-4 Personen) bearbeiten die Studierenden eine selber formulierte Problemstellung aus dem beruflichen oder privaten Umfeld.
+In Gruppen (2-4 Personen) bearbeiten die Studierenden eine selber formulierte Problemstellung aus dem beruflichen oder
+privaten Umfeld.
 
 Das Thema ist vorgängig beim Dozenten einzureichen.
 
-Es gilt Qualität vor Quantität, das vollständige Erreichen der gesteckten Ziele ist sekundär. Viel wichtiger ist, dass sichergestellt ist, dass die Software korrekt funktioniert und nachvollziehbar dokumentiert ist. Dazu sollen die im Unterricht behandelten Themen wie automatische Tests und Versionsverwaltung angewendet werden.
+Es gilt Qualität vor Quantität, das vollständige Erreichen der gesteckten Ziele ist sekundär. Viel wichtiger ist, dass
+sichergestellt ist, dass die Software korrekt funktioniert und nachvollziehbar dokumentiert ist. Dazu sollen die im
+Unterricht behandelten Themen wie automatische Tests und Versionsverwaltung angewendet werden.
 
 Für die Bewertung ist primär der Bericht relevant.
 
@@ -26,11 +30,13 @@ Die Kapitel sind im Dokument [Anleitung technischer Bericht](../../Readings/Anle
 
 ## Präsentation
 
-Zusätzlich zur Dokumentation ist ein Handout zu erstellen. Die Präsentation dauert 10 Minuten und umfasst zusätzlich eine Frage- und Diskussionsrunde.
+Zusätzlich zur Dokumentation ist ein Handout zu erstellen. Die Präsentation dauert 10 Minuten und umfasst zusätzlich
+eine Frage- und Diskussionsrunde.
 
 ## Benotung
 
-Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige Note im Zeugnis aufgeführt wird.
+Die Benotung wird nach folgendem Bewertungsraster mit einer Note (Genauigkeit: 1/10) bewertet, welche als eigenständige
+Note im Zeugnis aufgeführt wird.
 
 Berechnung: $(<erreichte Punkte>/80)*5+1$
 
