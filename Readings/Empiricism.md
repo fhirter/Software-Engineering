@@ -9,7 +9,10 @@
 
 ![The_Scientific_Method.svg](The_Scientific_Method.svg)
 
-(vgl. https://en.wikipedia.org/wiki/Scientific_method)
+## Quellen
 
-Der Ablauf kann beliebig oft wiederholt werden. 
-Entsprechend klein kann der Fokus der Fragestellung sein.
+Farley, 2022
+: David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley
+
+Wikipedia
+: https://en.wikipedia.org/wiki/Scientific_method
