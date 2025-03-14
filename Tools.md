@@ -1,5 +1,15 @@
 # Tools
 
+## CLI
+
+- https://github.com/bcicen/ctop
+- https://github.com/jesseduffield/lazydocker
+- https://github.com/sharkdp/bat
+- Load testing: https://github.com/tsenart/vegeta, https://github.com/grafana/k6
+- HTTP Client https://github.com/httpie/cli
+- DNS https://github.com/ogham/dog
+- Ping https://github.com/orf/gping
+
 ## Documentation
 
 - [Markdown-Guide](https://www.markdownguide.org/getting-started/)
