@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+</head>
+<body>
+<h1></h1>
+<form id="input-form">
+  <label>
+    Name:
+    <input type="text"/>
+  </label>
+  <input type="submit" value="Submit"/>
+</form>
+<script>
+  const heading = document.querySelector('h1')
+  const form = document.querySelector('#input-form');
+  const input = document.querySelector('#input-form input[type=text]');
+  const button = document.querySelector('#input-form input[type=submit]');
+
+  button.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    const name = input.value;
+
+    form.style.display = 'none'
+    heading.innerText = `Hello ${name}`
+  })
+</script>
+</body>
+</html>
