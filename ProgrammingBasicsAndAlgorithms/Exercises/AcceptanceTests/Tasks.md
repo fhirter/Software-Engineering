@@ -9,7 +9,7 @@ Schreibe mit [Playwright](https://playwright.dev/) einen [Test](https://playwrig
 - Clicke "Submit"
 - "Hello John Doe" soll angezeigt werden
 
-Installiere, falls nötig, zuerst [Node.js](https://nodejs.org/en) und [Playwright](https://playwright.dev/docs/intro).
+Installiere zuerst [Playwright](https://playwright.dev/python/docs/intro).
 
 Überprüfe die Tests mit der [Beispielapplikation](index.html).
 
