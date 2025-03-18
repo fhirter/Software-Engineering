@@ -38,13 +38,13 @@ Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design,
 
 
 Erich Gamma et al. Design Patterns (1994): Elements of Reusable Object-Oriented Software, Addison-Wesley Professional
-: Classic on design patterns thats still relevant today.
+: Classic on design patterns that's still relevant today.
 
 Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Structure and Design, Prentice Hall
 : 
 
 Gregor Hohpe, Bobby Wolf (2004): Enterprise Integration Patterns, Pearson Education
-: Great in depth catalogue of patterns for software system integration
+: Great, in depth catalogue of patterns for software system integration
 
 M. van Steen and A.S. Tanenbaum (2023): Distributed Systems, Version 4.01., distributed-systems.net
 : 
