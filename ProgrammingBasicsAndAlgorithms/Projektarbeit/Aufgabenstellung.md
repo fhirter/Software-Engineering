@@ -26,7 +26,10 @@ Für die Erarbeitung sind 50 Lernstunden pro Person einzusetzen.
 
 ## Dokumentation
 
-Die Kapitel sind im Dokument [Anleitung technischer Bericht](../../Readings/AnleitungTechnischerBericht.pdf) beschrieben
+Es ist ein technischer Bericht zu erstellen, welcher als PDF eingereicht wird.
+
+Alle nötigen Informationen sind im Dokument 
+[Anleitung technischer Bericht](../../Readings/AnleitungTechnischerBericht.pdf) beschrieben.
 
 ## Präsentation
 
