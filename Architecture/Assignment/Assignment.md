@@ -126,10 +126,10 @@ Jeder Student schreibt ein Dokument mit einer persönlichen Reflexion.
 
 | Teil            | Punkte |
 |-----------------|--------|
+| Lessons Learnt  | 10     |
+| Selbstreflexion | 10     |
 | Meinungen       | 5      |
 | Thesen          | 5      |
-| Selbstreflexion | 10     |
-| Lessons Learnt  | 10     |
 
 Umfang: Ca 1000 Wörter.
 
