@@ -385,6 +385,10 @@ class TestSort(unittest.TestCase):
 
 # CI / CD
 
+![w:600px](./Images/CICD.png)
+
+https://www.razorops.com/blog/what-is-continuous-integration-and-continuous-delivery
+
 ## CI/CD mit Git
 
 - Tests und Linter werden bei Commit automatisch ausgeführt und Commit ggf. abgelehnt.
