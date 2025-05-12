@@ -351,7 +351,7 @@ class TestSort(unittest.TestCase):
 ## Markdown
 
 - Triviale Syntax
-- Sehr zukunftssicher
+- Sehr zukunftssicher (plain text)
 - Syntax-highlight für Code
 - Automatisierbar
 - Sehr hohe Verbreitung
@@ -359,25 +359,20 @@ class TestSort(unittest.TestCase):
 
 ### Markdown Tools
 
-- [Documents](https://dillinger.io/)
+- Documents: [https://dillinger.io/](https://dillinger.io/), [Pandoc](https://pandoc.org/)
 - [Github](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 - [Gitlab](https://docs.gitlab.com/ee/user/markdown.html)
-- [Websites](https://gohugo.io/)
-- [Notes](https://obsidian.md/)
+- Websites: [Hugo](https://gohugo.io/), [Eleventy](https://www.11ty.dev/)
+- Notes: [Obsidian](https://obsidian.md/)
+- Slides: [Marp](https://marp.app/), [Pandoc](https://pandoc.org/)
+- Dokumentation: [MKDocs](https://www.mkdocs.org/)
 - Books
-- [Documentation](https://www.mkdocs.org/)
 - [etc etc etc](https://www.markdownguide.org/tools/)
 
 ### Markdown Basic Syntax
 
-![](Images/MarkdownBasicSyntax.png)
-[Markdown](https://www.markdownguide.org/)
-
-### Markdown Renderer
-
-- [Dokumentationswebsites mit MKDocs](https://www.mkdocs.org/)
-- [Slides mit Marp](https://marp.app/)
-- [Websites mit Hugo](https://gohugo.io/)
+![h:400px Markdown](Images/MarkdownBasicSyntax.png)
+[markdownguide.org](https://www.markdownguide.org/)
 
 ### Diagramme in Markdown
 
