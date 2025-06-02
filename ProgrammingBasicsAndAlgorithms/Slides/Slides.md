@@ -6,8 +6,17 @@ paginate: true
 
 # Einstieg
 
-> The Mind Is Not a Vessel That Needs Filling, But Wood That Needs Igniting
+> The Mind Is Not a Vessel That Needs Filling, But Wood That Needs Igniting 
+
 -- Plutarch
+
+---
+
+> I fear - as far as I can tell - that most undergraduate degrees in computer science these days are basically Java
+> vocational training. I've heard complaints from even mighty Stanford University with its illustrious faculty that
+> basically the undergraduate computer science program is little more than Java certification.
+
+-- Alan Kay
 
 ## Softwareentwickler:innen bauen Maschinen
 
@@ -827,7 +836,7 @@ Functions:
 
 ## Variables
 
-- A variable is a storage location for holding a value. 
+- A variable is a storage location for holding a value.
 - The set of permissible values is determined by the variable's type.
 
 ## Types
@@ -836,6 +845,7 @@ Functions:
 - A type may be denoted by a type name [...].
 
 ### Numeric Types
+
 ```go
 uint8       the set of all unsigned  8-bit integers (0 to 255)
 uint16      the set of all unsigned 16-bit integers (0 to 65535)
@@ -861,6 +871,7 @@ int      same size as uint
 ```
 
 ### Array Types
+
 ```go
 [32]byte
 [3][5]int
@@ -868,6 +879,7 @@ int      same size as uint
 ```
 
 ### Struct Types
+
 ```go
 struct {
 	x, y int
@@ -903,16 +915,20 @@ func IndexRune(s string, r rune) int {
     return
 }
 ```
+
 ### Scope
 
-The scope of a declared identifier is the extent of source text in which the identifier denotes the specified constant, type, variable, function, label, or package.
+The scope of a declared identifier is the extent of source text in which the identifier denotes the specified constant,
+type, variable, function, label, or package.
 
 Go is lexically scoped using blocks:
 
 1. The scope of a predeclared identifier is the universe block.
-2. The scope of an identifier denoting a constant, type, variable, or function [...] declared at top level (outside any function) is the package block.
+2. The scope of an identifier denoting a constant, type, variable, or function [...] declared at top level (outside any
+   function) is the package block.
 3. The scope of an identifier denoting a [...] function parameter, or result variable is the function body.
-4. The scope of a constant or variable identifier declared inside a function begins at the end of the ConstSpec or VarSpec [...] and ends at the end of the innermost containing block.
+4. The scope of a constant or variable identifier declared inside a function begins at the end of the ConstSpec or
+   VarSpec [...] and ends at the end of the innermost containing block.
 
 (for full list see: https://go.dev/ref/spec#Declarations_and_scope)
 
@@ -942,7 +958,8 @@ a[i] = 23
 ### If Statements
 
 - "If" statements specify the conditional execution of two branches according to the value of a boolean expression.
-- If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.
+- If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is
+  executed.
 
 ```go
 if x > max {
