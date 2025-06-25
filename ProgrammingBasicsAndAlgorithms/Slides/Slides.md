@@ -310,6 +310,14 @@ Drei Abbildungen aus: Growing Object-Oriented Software by Nat Pryce and Steve Fr
 - Unit-Tests stellen sicher, dass einzelne Programmteile wie von den Entwicklern beabsichtigt funktionieren
 - Integrationstests sind optional
 
+---
+
+![](Images/FoodPyramid.png)
+
+---
+
+![HappynessPaperhatOfTesting.svg](Images/HappynessPaperhatOfTesting.svg)
+
 ## Testing: AAA
 
 - **Arrange**: Set up your data

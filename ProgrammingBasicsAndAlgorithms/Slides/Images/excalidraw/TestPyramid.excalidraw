@@ -248,11 +248,11 @@
       "index": "a5",
       "roundness": null,
       "seed": 1801629825,
-      "version": 149,
-      "versionNonce": 1798390296,
+      "version": 150,
+      "versionNonce": 1084970311,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1731752515789,
+      "updated": 1750856511649,
       "link": null,
       "locked": false,
       "text": "Tactical \nTests",
@@ -264,7 +264,7 @@
       "originalText": "Tactical \nTests",
       "autoResize": true,
       "lineHeight": 1.25,
-      "baseline": 37
+      "baseline": 36
     },
     {
       "id": "0QsLOXg9aYjlCTH5MqyH9",

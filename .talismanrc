@@ -9,4 +9,6 @@ fileignoreconfig:
   checksum: d7169e79b10670f03364b19a30bf9801f71c52e3f30b891830a76e8d58454d9b
 - filename: Slides/ObjectorientedProgramming.md
   checksum: 8289985158455f002ca6ed62ea4fbf04537c0bf68b5c88f645c9e5ba95ec15ce
+- filename: ProgrammingBasicsAndAlgorithms/Slides/Images/HappynessPaperhatOfTesting.svg
+  checksum: 2689da1052741e97af0faef5067a6f0850c7db7fc9d3be8cc9558c0388806e31
 threshold: high
