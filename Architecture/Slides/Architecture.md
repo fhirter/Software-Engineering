@@ -168,13 +168,15 @@ https://www.continuousdelivery.com/
 
 ### Deployment Pipelines
 
-![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
-(Jez Humble, David Farley (2010): Continuous Delivery)
+![w:800px](Images/Pipeline.png)
 
 ---
 
-![w:800px](Images/Deployment_Pipeline.jpeg)
+![w:800px](Images/Deployment_Pipeline_Tradeoffs.jpeg)
+
 (Jez Humble, David Farley (2010): Continuous Delivery)
+
+---
 
 ---
 
