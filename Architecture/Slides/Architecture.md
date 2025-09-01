@@ -178,8 +178,6 @@ https://www.continuousdelivery.com/
 
 ---
 
----
-
 ![w:1000px](Images/GitlabPipelines.png)
 
 --- 
