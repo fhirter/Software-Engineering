@@ -180,7 +180,39 @@ https://www.continuousdelivery.com/
 
 ![w:1000px](Images/GitlabPipelines.png)
 
---- 
+### Kubernetes
+
+![img.png](Images/Kubernetes.png)
+
+([Wikipedia](https://de.wikipedia.org/wiki/Kubernetes#/media/Datei:Kubernetes.png))
+
+---
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+```
+(https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+### Quellen
 
 - [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
 - Jez Humble, David Farley (2010): Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
