@@ -6,43 +6,76 @@ paginate: true
 
 # Einstieg
 
-## Softwaredebakel
+## Internet of Bugs
 
-### EJPD
+![w:250px](Images/InternetOfBugs/84464E30-422B-4395-8D63-F728C9A6F549.jpg)![w:250px](Images/InternetOfBugs/Bildschirmfoto%202025-03-04%20um%2009.39.23.png)![w:250px](Images/InternetOfBugs/Bildschirmfoto%202025-03-26%20um%2012.08.26.png)![w:300px](Images/InternetOfBugs/C8BDE622-6528-44EF-A0C4-798622164ACC.jpg)![w:250px](Images/InternetOfBugs/IMG_0276.JPG)![w:250px](Images/InternetOfBugs/IMG_0491.PNG)![w:250px](Images/InternetOfBugs/IMG_0492.JPG)![w:250px](Images/InternetOfBugs/IMG_0531.JPG)![w:250px](Images/InternetOfBugs/IMG_0660.JPG)![w:250px](Images/InternetOfBugs/IMG_0707.JPG)![w:250px](Images/InternetOfBugs/IMG_0790.JPG)![w:250px](Images/InternetOfBugs/IMG_0912.JPG)
 
-- [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
+---
 
-### VBS
-
-- [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035)
-
-- [Armee-Debakel: 300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
-
-### Kantonsverwaltung
-
-- [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
-
-### Polizei
-
-- [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
-
-### Crowdstrike
-
-- [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
-
-## Kundenorientierung
-
-**Software soll den Kunden Mehrwert bringen**
-
-- Software soll stabil laufen
-- Neue Features sollten schnell umgesetzt und nutzbar sein
-- Softwaresysteme werden immer komplexer
+![w:250px](Images/InternetOfBugs/IMG_1218.jpg)![w:250px](Images/InternetOfBugs/Screenshot%202025-07-09%20at%2021.48.17.png)![w:250px](Images/InternetOfBugs/Screenshot%202025-07-17%20at%2011.21.25.png)
+![w:600px](Images/InternetOfBugs/Bildschirmfoto%202025-09-30%20um%2012.11.11.png)
 
 ---
 
 ![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
 
-## Anforderungen an moderne Software
+---
+
+-
+
+EJPD: [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
+-
+VBS: [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035),
+[Armee-Debakel:300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
+
+-
+
+Kantonsverwaltung: [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
+-
+Polizei: [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
+-
+Crowdstrike: [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
+
+## Ab 1961: Margaret Hamilton, Apollo Guidance Computer
+
+![h:300px](Images/MargarethHamilton.png) ![w:400px](Images/ApolloGuidance.png)
+
+## 1968: Anforderungen an (moderne) Software
+
+**Software soll den Kunden Mehrwert bringen**
+
+> - the problems of achieving sufficient reliability in the data systems which are becoming increasingly integrated into
+    the central activities of modern society
+> - the difficulties of meeting schedules and specifications on large software projects
+> - the education of software (or data systems) engineers
+
+-- SOFTWARE ENGINEERING, Report on a conference sponsored by the NATO SCIENCE COMMITTEE, Garmisch, Germany, 7th to 11th
+October 1968 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
+
+## 1972: Softwarekrise
+
+**Softwaresysteme werden immer komplexer**
+
+> “[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful!
+> To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak
+> computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally
+> gigantic problem.”
+
+-- Edsger Dijkstra: The Humble Programmer https://www.cs.utexas.edu/~EWD/ewd03xx/EWD340.PDF, 1972
+
+## 2001: Manifesto for Agile Software Development
+
+* **Individuals and interactions** over processes and tools
+* **Working software** over comprehensive documentation
+* **Customer collaboration** over contract negotiation
+* **Responding to change** over following a plan
+
+https://agilemanifesto.org/
+
+---
+
+- Software soll zuverlässig sein
+- Neue Features sollten schnell umgesetzt und nutzbar sein
 
 ---
 
@@ -58,23 +91,12 @@ paginate: true
 
 **Mehrere Personen arbeiten am selben Softwareprojekt**
 
+- Fachkräftemangel
+- Ausbildung ist sehr herausfordernd
 - Versionsverwaltung wird verwendet (Git, SVN)
 - Konflikte entstehen und sind aufwendig
 
-## Ab 1961: Margaret Hamilton, Apollo Guidance Computer
-
-![h:300px](Images/MargarethHamilton.png) ![w:400px](Images/ApolloGuidance.png)
-
-## 2001: Manifesto for Agile Software Development
-
-* Individuals and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
-
-https://agilemanifesto.org/
-
-## Software Engineering / Software Architecture
+## Software Engineering vs Software Architecture vs Software Development
 
 > Software engineering is the application of an empirical, scientific approach to finding efficient, economic solutions
 > to practical problems in software
@@ -86,7 +108,36 @@ https://agilemanifesto.org/
 
 (Martin, 2018)
 
-Übergang zwischen Software Entwicklung und Software Architektur ist fliessend
+- Übergang zwischen Software Entwicklung, Software Architektur und Softwareentwicklung ist fliessend.
+- Grundsätzlich sollen alle beteiligten in allen Bereichen bewandert sein.
+
+## Generative KI in der Software-Entwicklung
+
+- LLMs können inherent nur durchschnittliche Antworten generieren
+- Je nach Fragestellung kann das hilfreich sein oder auch nicht
+- Die Kontextfenster sind oft zu klein für Software-Architektur
+- Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer
+  Betrachtung aber inhaltsleer, inkorrekt und übermässig umfangreich.
+- Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
+- Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichte gemacht.
+- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI Output
+  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
+- Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
+- Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
+
+https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
+
+### Konkrete Empfehlungen
+
+- KI verwenden für:
+    - Analyse von Dokumenten(-sammlungen)
+    - Boilerplate Code
+    - Formulierungen und Textkorrektur
+    - Entwurf von Lösungsstrategien
+- KI nicht verwenden für:
+    - Schreiben von ganzen Dokumenten, Arbeiten, E-Mails
+    - Schreiben von ganzen Funktionen und Klassen
+    - Entwurf von ganzen Architekturen
 
 ## Learning
 
@@ -206,12 +257,14 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: nginx:1.14.2
+          ports:
+            - containerPort: 80
 ```
+
 (https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+
 ### Quellen
 
 - [Youtube: Continous Delivery - Deployment Pipelines](https://www.youtube.com/watch?v=x9l6yw1PFbs&list=PLwLLcwQlnXBzhxIXSbtDPX78zYTgvST0B)
@@ -300,7 +353,10 @@ https://c4model.com/
 
 ### Templates
 
-- Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+-
+
+Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+
 - MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
 
 ### Tools
@@ -436,10 +492,10 @@ The constraints of the cloud environment, that make up the "cloud operating mode
 
 ---
 
-Therefore, a Cloud Native application is designed to leverage the cloud operating model. 
+Therefore, a Cloud Native application is designed to leverage the cloud operating model.
 
-It is predictable, decoupled from the infrastructure, right-sized for capacity, and enables tight collaboration 
-between development and operations.
+It is predictable, decoupled from the infrastructure, right-sized for capacity, and enables tight collaboration between
+development and operations.
 
 It can be decomposed into loosely-coupled, independently-operating services that are resilient from failures, driven by
 data, and operate intelligently across geographic regions.
@@ -449,8 +505,8 @@ data, and operate intelligently across geographic regions.
 While Cloud Native applications always have a clean separation of state and compute, there are two major classes of
 Cloud Native applications: stateful and stateless.
 
-Each class addresses and excels in a different set of use-cases;
-non-trivial modern Cloud Native applications are usually a combination and composition of the two.
+Each class addresses and excels in a different set of use-cases; non-trivial modern Cloud Native applications are
+usually a combination and composition of the two.
 
 # Quellen
 
