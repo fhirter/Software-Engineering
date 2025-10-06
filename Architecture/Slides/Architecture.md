@@ -21,20 +21,14 @@ paginate: true
 
 ---
 
--
-
-EJPD: [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
--
-VBS: [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035),
+- EJPD: [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
+- VBS: [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035),
 [Armee-Debakel:300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
 
--
-
-Kantonsverwaltung: [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
--
-Polizei: [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
--
-Crowdstrike: [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
+- Kantonsverwaltung: [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
+- Polizei: [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
+- Crowdstrike: [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.
+  ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
 
 ## Ab 1961: Margaret Hamilton, Apollo Guidance Computer
 
@@ -111,21 +105,24 @@ https://agilemanifesto.org/
 - Übergang zwischen Software Entwicklung, Software Architektur und Softwareentwicklung ist fliessend.
 - Grundsätzlich sollen alle beteiligten in allen Bereichen bewandert sein.
 
-## Generative KI in der Software-Entwicklung
+## Generative KI in der Software-Entwicklung und Bildung
 
 - LLMs können inherent nur durchschnittliche Antworten generieren
 - Je nach Fragestellung kann das hilfreich sein oder auch nicht
 - Die Kontextfenster sind oft zu klein für Software-Architektur
 - Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer
   Betrachtung aber inhaltsleer, inkorrekt und übermässig umfangreich.
-- Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
-- Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichte gemacht.
-- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI Output
-  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
 - Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
+- Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
+- Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichtegemacht.
+- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI-Output
+  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
 - Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
+- Der Lerneffekt ist gering, echtes Verständnis entsteht, wenn man sich intensiv mit einer Materie auseinandersetzt.
+- Um auf dem Arbeitsmarkt erfolgreich zu sein, ist kritisches Denken notwendig.
+- Ein Studium ist das ideale Umfeld, dies zu lernen.
 
-https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
+vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
 
 ### Konkrete Empfehlungen
 
