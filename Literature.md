@@ -12,21 +12,19 @@ date: "2025-09-08"
 - **Andrew Hunt, David Thomas (1999): The Pragmatic Programmer: from journeyman to master, Addison-Wesley**
     - Guter Überblick über Methoden, Strategien und Herausforderungen in der Softwareentwicklung. Sehr praktisch
       orientiert, gut strukturiert und einfach verständlich.
-- **Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design, O'Reilly**
 - **David Farley (2022): Modern Software Engineering: Doing What Works to Build Better Software Faster, Addison-Wesley**
     - Sehr gute Übersicht über moderne Softwareentwicklungsmethoden. Solide Grundlage für architektonische Arbeiten und
       Entscheidungen.
+- **Kent Beck (2023): Tidy First?: A Personal Exercise in Empirical Software Design, O'Reilly**
 
 ### Architektur
 
 - **Eric Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software, Addison-Wesley Professional**
     - Standartwerk für Software-Architektur. Sehr gute Grundlage für die Entwicklung von grösseren Anwendungen.
 - **Vaughn Vernon (2013): Implementing Domain-Driven Design, Addison-Wesley**
-
-
+- **Vaughn Vernon (2022): Strategic Monoliths and Microservices: Driving Innovation Using Purposeful Architecture, Addison-Wesley** 
 - **Martin Kleppmann (2017): Designing Data-Intensive Applications, The big ideas behind reliable, scalable and
   maintainable systems, O'Reilly**
-
 - **Steve Freeman, Nat Price (2009): Growing Object-Oriented Software Guided by Tests, Addison-Wesley**
     - Captures and describes in great detail the London School of TDD
 - **Robert C. Martin (2018): Clean Architecture: A Craftmans Guide to Software Structure and Design, Prentice Hall**
@@ -45,15 +43,12 @@ date: "2025-09-08"
 ### Programmiersprachen
 
 - **Douglas Crockford (2008): JavaScript: The Good Parts, O`Reilly**
-
 - **Douglas Crockford (2018): How JavaScript Works, virgule solidus**
-
 - **Brian W.Kernighan, Dennis M. Ritchie (1988): The C Programming Language, Person Addison-Wesley**
 
 ### Standartwerke
 
 - **Martin Fowler (2018): Refactoring: Improving the Design of Existing Code, Addison-Wesley Professional**
-
 - **Erich Gamma et al. Design Patterns (1994): Elements of Reusable Object-Oriented Software, Addison-Wesley
   Professional**
     - Classic on design patterns that's still relevant today.
