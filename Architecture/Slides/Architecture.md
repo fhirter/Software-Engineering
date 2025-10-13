@@ -34,9 +34,7 @@ paginate: true
 
 ![h:300px](Images/MargarethHamilton.png) ![w:400px](Images/ApolloGuidance.png)
 
-## 1968: Anforderungen an (moderne) Software
-
-**Software soll den Kunden Mehrwert bringen**
+## Anforderungen an (moderne) Software
 
 > - the problems of achieving sufficient reliability in the data systems which are becoming increasingly integrated into
     the central activities of modern society
@@ -46,7 +44,33 @@ paginate: true
 -- SOFTWARE ENGINEERING, Report on a conference sponsored by the NATO SCIENCE COMMITTEE, Garmisch, Germany, 7th to 11th
 October 1968 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 
-## 1972: Softwarekrise
+## Agiles Manifest
+
+* **Individuals and interactions** over processes and tools
+* **Working software** over comprehensive documentation
+* **Customer collaboration** over contract negotiation
+* **Responding to change** over following a plan
+
+2001, https://agilemanifesto.org/
+
+## Anforderungen an Software
+
+**Software soll den Kunden Mehrwert bringen**
+
+- Software soll zuverlässig sein
+- Neue Features sollten schnell umgesetzt und nutzbar sein
+
+### Zuverlässigkeit
+
+- Hohe Verfügbarkeit
+- Skalierbarkeit
+- Im Katastrophenfall sollen die Systeme schnell wiederhergestellt werden können
+- Soll funktionieren, auch wenn Teile des Systems Offline sind (Resilienz)
+- Kostengünstig
+- Einfach
+- Updates müssen einfach eingespielt werden können
+- 
+## Softwarekrise
 
 **Softwaresysteme werden immer komplexer**
 
@@ -57,38 +81,6 @@ October 1968 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 
 -- Edsger Dijkstra: The Humble Programmer https://www.cs.utexas.edu/~EWD/ewd03xx/EWD340.PDF, 1972
 
-## 2001: Manifesto for Agile Software Development
-
-* **Individuals and interactions** over processes and tools
-* **Working software** over comprehensive documentation
-* **Customer collaboration** over contract negotiation
-* **Responding to change** over following a plan
-
-https://agilemanifesto.org/
-
----
-
-- Software soll zuverlässig sein
-- Neue Features sollten schnell umgesetzt und nutzbar sein
-
----
-
-- Hohe Verfügbarkeit
-- Skalierbarkeit
-- Im Katastrophenfall sollen die Systeme schnell wiederhergestellt werden können
-- Soll funktionieren, auch wenn Teile des Systems Offline sind (Resilienz)
-- Kostengünstig
-- Einfach
-- Updates müssen einfach eingespielt werden können
-
-## Teamarbeit
-
-**Mehrere Personen arbeiten am selben Softwareprojekt**
-
-- Fachkräftemangel
-- Ausbildung ist sehr herausfordernd
-- Versionsverwaltung wird verwendet (Git, SVN)
-- Konflikte entstehen und sind aufwendig
 
 ## Software Engineering vs Software Architecture vs Software Development
 
@@ -103,40 +95,17 @@ https://agilemanifesto.org/
 (Martin, 2018)
 
 - Übergang zwischen Software Entwicklung, Software Architektur und Softwareentwicklung ist fliessend.
-- Grundsätzlich sollen alle beteiligten in allen Bereichen bewandert sein.
+- Grundsätzlich sollen alle Beteiligten in allen Bereichen bewandert sein.
 
-## Generative KI in der Software-Entwicklung und Bildung
+## Kommunikation
 
-- LLMs können inherent nur durchschnittliche Antworten generieren
-- Je nach Fragestellung kann das hilfreich sein oder auch nicht
-- Die Kontextfenster sind oft zu klein für Software-Architektur
-- Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer
-  Betrachtung aber inhaltsleer, inkorrekt und übermässig umfangreich.
-- Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
-- Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
-- Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichtegemacht.
-- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI-Output
-  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
-- Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
-- Der Lerneffekt ist gering, echtes Verständnis entsteht, wenn man sich intensiv mit einer Materie auseinandersetzt.
-- Um auf dem Arbeitsmarkt erfolgreich zu sein, ist kritisches Denken notwendig.
-- Ein Studium ist das ideale Umfeld, dies zu lernen.
+**Mehrere Personen arbeiten am selben Softwareprojekt**
 
-vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
+- Fachkräftemangel
+- Ausbildung ist sehr herausfordernd
+- Wissenstransfer
 
-### Konkrete Empfehlungen
-
-- KI verwenden für:
-    - Analyse von Dokumenten(-sammlungen)
-    - Boilerplate Code
-    - Formulierungen und Textkorrektur
-    - Entwurf von Lösungsstrategien
-- KI nicht verwenden für:
-    - Schreiben von ganzen Dokumenten, Arbeiten, E-Mails
-    - Schreiben von ganzen Funktionen und Klassen
-    - Entwurf von ganzen Architekturen
-
-## Learning
+## Lernen
 
 - Iteratives und inkrementelles Arbeiten
 - Feedback
@@ -144,7 +113,7 @@ vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehm
 
 (vgl. Farley, 2022, S.4)
 
-## Managing Complexity
+## Komplexität "managen"
 
 - Modularity & Separation of Concerns
 - Cohesion & Coupling
@@ -165,6 +134,38 @@ vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehm
 Finanzierung: **ca 3 Mrd. Dollar**
 
 Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne Mercury und Gemini)
+
+# Generative KI in der Software-Entwicklung und Bildung
+
+- LLMs können inherent nur durchschnittliche Antworten generieren
+- Je nach Fragestellung kann das hilfreich sein oder auch nicht
+- Die Kontextfenster sind oft zu klein für Software-Architektur
+- Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer
+  Betrachtung aber inhaltsleer, inkorrekt und übermässig umfangreich.
+- Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
+- Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
+- Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichtegemacht.
+- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI-Output
+  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
+- Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
+- Der Lerneffekt ist gering, echtes Verständnis entsteht, wenn man sich intensiv mit einer Materie auseinandersetzt.
+- Um auf dem Arbeitsmarkt erfolgreich zu sein, ist kritisches Denken notwendig.
+- Ein Studium ist das ideale Umfeld, dies zu lernen.
+
+vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
+
+## Konkrete Empfehlungen
+
+- KI verwenden für:
+    - Analyse von Dokumenten(-sammlungen)
+    - Boilerplate Code
+    - Formulierungen und Textkorrektur
+    - Entwurf von Lösungsstrategien
+- KI nicht verwenden für:
+    - Schreiben von ganzen Dokumenten, Arbeiten, E-Mails
+    - Schreiben von ganzen Funktionen und Klassen
+    - Entwurf von ganzen Architekturen
+
 
 # Lernen
 
