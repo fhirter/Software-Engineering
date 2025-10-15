@@ -43,6 +43,10 @@ Folgende Kapitel müssen vorkommen:
 Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
 persönliche Reflexion wird in kleineren Gruppen verfasst und bewertet.
 
+### Verwendung von KI
+
+Es gelten die Regeln zur [Verwendung von KI in Arbeiten](../../VerwendungVonKIinArbeiten.md).
+
 ### Persönliche Reflexion
 
 In Kleingruppen bestehend aus 1-3 Personen mit ähnlichem Kenntnisstand schreiben die Studierenden eine persönliche
