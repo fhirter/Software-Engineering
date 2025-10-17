@@ -1,8 +1,8 @@
-# Transferarbeit "Datenvernetzung in DB und Web"
+# Gruppenarbeit "Datenvernetzung in DB und Web"
 
 Die Studierenden entwickeln eine REST-API für einen Datenstamm ihrer Wahl.
 
-Es soll für mindestens einen Datensatz sämtliche CRUD-Operationen (Create, Read, Update, Delete) implementiert werden.
+Es sollen für mindestens einen Datensatz sämtliche CRUD-Operationen (Create, Read, Update, Delete) implementiert werden.
 Read soll auf der ganzen Collection und auf einzelnen Datensätzen möglich sein.
 
 Die API soll die REST-Prinzipien vollständig umsetzen:
