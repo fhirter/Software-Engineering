@@ -1,17 +1,21 @@
 # Transferarbeit Cloud und Serverless
 
-Die Studierenden deployen eine eigene Applikation mithilfe von Serverless Tools.
+Die Studierenden entwerfen eine Architektur für eine bestehende oder neue Applikation, die Serverless-Technologien
+optimal nutzt.
 
-Sie entwerfen eine Architektur für eine bestehende oder neue Applikation, die Serverless-Technologien optimal nutzt.
-Die Applikation muss nicht im Rahmen dieser Arbeit fertigentwickelt werden.
+Sie analysieren die Anforderungen Verfügbarkeit, Resilienz, Last und Performance, Sicherheit und Datenschutz und
+Kostenrahmen. Anhand der Anforderungen wählen sie einen geeigneten Cloud-Anbieter und Cloud-Tools.
 
-Anforderungsanalyse: Die Anforderungen an die Applikation sollen umfassen analysiert werden inkl. Anforderungen an
-Verfügbarkeit, Resilienz und Last.
+Es soll ausführlich diskutiert werden, inwiefern die gewählte Architektur die Anforderungen erfüllt oder wo Kompromisse
+eingegangen wurden oder Fragen offen sind. Insbesondere soll auch dargelegt werden, wie sichergestellt wird, dass der
+Kostenrahmen eingehalten wird und welche Kosteneinsparungen gegenüber einer IaaS Lösung möglich sind.
 
-Betrachtungen zu Performance, Sicherheit und Kostenkontrolle
+Die Implementierung der Applikation muss nicht im Rahmen dieser Arbeit fertiggestellt werden.
+
+Es gelten die Hinweise zu [Verwendung von KI](../../VerwendungVonKIinArbeiten.md) sowie
+zum [wissenschaftlichen Arbeiten](../../WissenschaftlichesArbeiten.md).
 
 ## Dokumentation
-
 
 - Einleitung
     - Ausgangslage und Problemstellung
