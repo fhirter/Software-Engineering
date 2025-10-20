@@ -64,46 +64,28 @@ https://news.ycombinator.com/item?id=45614922#45616049
 - Public cloud
 - Hybrid cloud
 
-# Chancen
+## Cloud Native Applications
 
-# Risiken und Herausforderungen
+- A "cloud native" application has adapted and evolved to be maximally efficient in its environment: the cloud.
+- The cloud is a harsher environment than the idealistic environment of a dedicated single node system.
+- In the cloud, an application becomes distributed.
+- It is forced to be resilient to hardware/network unpredictability and unreliability.
 
-![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
-
----
-
-![w:1000px](Images/251020_AWS_Outage.png)
-
-## Cloud Native
-
-A "cloud native" application, like all native species, has adapted and evolved to be maximally efficient in its
-environment: the cloud.
-
-The cloud is a harsher environment for applications than those of the past, in particular, than the idealistic
-environment of a dedicated single node system.
-
-In the cloud, an application becomes distributed. Thus, it is forced to be resilient to hardware/network
-unpredictability and unreliability, i.e., from varying performance to all-out failure.
-
-https://www.reactiveprinciples.org/cloud-native/index.html
+(vgl. https://www.reactiveprinciples.org/cloud-native/index.html)
 
 ---
 
-The bad news is that ensuring responsiveness and reliability in this harsh environment is difficult.
+- Ensuring responsiveness and reliability in this environment is difficult.
+- The applications we build after embracing this environment better match how the real world actually works.
+- This provides better experiences for our users, whether humans or software.
 
-The good news is that the applications we build after embracing this environment better match how the real world
-actually works.
-
-This in turn, provides better experiences for our users, whether humans or software.
-
-https://www.reactiveprinciples.org/cloud-native/index.html
+(vgl. https://www.reactiveprinciples.org/cloud-native/index.html)
 
 ---
 
-The constraints of the cloud environment, that make up the "cloud operating model," include:
+The constraints of the cloud environment include:
 
-- Applications are limited in the ability to scale vertically on commodity hardware which typically leads to having many
-  isolated autonomous services (often called microservices).
+- Applications are limited in the ability to scale vertically on commodity hardware.
 - All inter-service communication takes place over unreliable networks.
 - You must operate under the assumption that the underlying hardware can fail or be restarted or moved at any time.
 - The services need to be able to detect and manage failure of their peers—including partial failures.
@@ -127,3 +109,15 @@ Cloud Native applications: stateful and stateless.
 
 Each class addresses and excels in a different set of use-cases; non-trivial modern Cloud Native applications are
 usually a combination and composition of the two.
+
+
+# Chancen
+
+# Risiken und Herausforderungen
+
+![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
+
+---
+
+![w:1000px](Images/251020_AWS_Outage.png)
+
