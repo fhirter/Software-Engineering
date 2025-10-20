@@ -71,8 +71,7 @@ Das erarbeitete Thema wird der Klasse präsentiert. Im Anschluss an die Präsent
 Diskussionsrunde. Präsentation und Fragerunde dauern jeweils 20 Minuten.
 
 Die Präsentation soll die Arbeit vollständig wiedergeben, die inhaltliche Gewichtung kann sich demnach am Bericht
-orientieren. 
-Als Publikum kann ein Fachpublikum angenommen werden, das mit dem Projekt jedoch nicht vertraut ist. Es
+orientieren. Als Publikum kann ein Fachpublikum angenommen werden, das mit dem Projekt jedoch nicht vertraut ist. Es
 sollen sowohl die gesprochenen Inhalte als auch die Begleitmaterialien (Folien, Flipcharts, Whiteboard, Handout)
 möglichst gut verständlich und zweckdienlich eingesetzt sein.
 
@@ -90,9 +89,9 @@ Abgaben jeweils bis **Sonntag-Abend** als **PDF per E-Mail** an den Dozenten.
 
 Die Bewertung besteht aus drei Teilen mit jeweils einer eigenen Note:
 
-- Gruppenarbeit
+- Bericht
 - Reflexion und Lessons Learnt
-- Präsentation
+- Präsentation und Fragerunde
 
 Die einzelnen Noten werden mit $\frac{Erreichte Punkte}{Maximalpunkte}*5+1$ berechnet, gerundet auf 0.1.
 
@@ -102,13 +101,14 @@ Bericht und Reflexion können nach der Bewertung einmalig überarbeitet werden b
 
 ### Bericht
 
-| Kapitel                 | Punkte |
-|-------------------------|--------|
-| Einleitung              | 10     |
-| Vorgehen                | 10     |
-| Ergebnisse              | 10     |
-| Diskussion              | 10     |
-| Empfehlung und Ausblick | 10     |
+| Kapitel                          | Punkte |
+|----------------------------------|--------|
+| Ausgangslage und Problemstellung | 5      |
+| Zielsetzung                      | 5      |
+| Vorgehen                         | 10     |
+| Ergebnisse                       | 10     |
+| Diskussion                       | 10     |
+| Empfehlung und Ausblick          | 10     |
 
 ### Reflexion und Lessons Learnt
 
@@ -123,7 +123,7 @@ Bericht und Reflexion können nach der Bewertung einmalig überarbeitet werden b
 
 | Bewertungspunkt                                                    | Punkte |
 |--------------------------------------------------------------------|--------|
-| Inhaltliche Vollständigkeit und Verständlichkeit                   | 10     |
+| Inhaltliche Vollständigkeit                                        | 10     |
 | Verständlichkeit                                                   | 10     |
 | Beantwortung der Fragen                                            | 10     |
 | Zeitverwaltung (+10% kein Abzug, 1 Punkt Abzug pro 10% Überziehen) | 5      |
