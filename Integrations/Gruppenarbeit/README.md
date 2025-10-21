@@ -33,7 +33,8 @@ Der Code soll klar strukturiert und verständlich sein.
 In einer Datei README.md im Wurzelverzeichnis werden folgende Punkte dokumentiert:
 
 - Kurze Anleitung, wie die Applikation in Betrieb genommen wird
-- Erläuterung, welche Anforderung die Applikation erfüllen soll und inwiefern diese erfüllt sind
+- Erläuterung, welche Anforderung die Applikation erfüllen soll und inwiefern diese erfüllt sind. Insbesondere soll auch
+  erläutert werden, wie die REST-Prinzipien umgesetzt wurden.
 
 ### Verwendung von KI
 
@@ -41,7 +42,8 @@ Es gelten die Regeln zur [Verwendung von KI in Arbeiten](../../VerwendungVonKIin
 
 ## Abgabe
 
-Per **E-Mail** wird ein **Link zu einem Git-Repo** geschickt. Wenn das Repository privat ist, muss der Dozent eingeladen werden.
+Per **E-Mail** wird ein **Link zu einem Git-Repo** geschickt. Wenn das Repository privat ist, muss der Dozent eingeladen
+werden.
 
 ## Bewertungsraster
 
@@ -54,5 +56,5 @@ Per **E-Mail** wird ein **Link zu einem Git-Repo** geschickt. Wenn das Repositor
 | REST: Self-Descriptive Messages                         | 10     |
 | REST: Hypermedia as the Engine of Application State     | 10     |
 | Vollständigkeit CRUD                                    | 10     |
-| Verständlichkeit Code und Atomic Commits                | 10     |
-| Dokumentation                                           | 10     |
+| Verständlichkeit Code und Commit-Messages               | 10     |
+| Dokumentation (README)                                  | 10     |
