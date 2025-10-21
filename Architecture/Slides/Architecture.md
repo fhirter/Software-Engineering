@@ -17,18 +17,56 @@ paginate: true
 
 ---
 
-- EJPD: [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
-- VBS: [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035),
-[Armee-Debakel:300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
+- EJPD:
+  [Kostenexplosion bei IT-Projekt: Finanzdelegation schlägt Alarm](https://www.srf.ch/news/schweiz/departement-von-beat-jans-kostenexplosion-bei-it-projekt-finanzdelegation-schlaegt-alarm)
+- VBS:
+  [Schweizer Armee ohne krisensichere Logistik bis 2035](https://www.srf.ch/news/schweiz/militaerische-it-projekte-schweizer-armee-ohne-krisensichere-logistik-bis-2035),
+- [Armee-Debakel:300-Millionen-Projekt seit Monaten suspendiert](https://www.srf.ch/news/schweiz/neue-luftraumueberwachung-armee-debakel-300-millionen-projekt-seit-monaten-suspendiert)
+- Kantonsverwaltung:
+  [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
+- Polizei:
+  [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
 
-- Kantonsverwaltung: [Wegen fehlerhafter Software braucht es mehr Haftplätze](https://www.srf.ch/news/schweiz/it-probleme-im-kanton-bern-wegen-fehlerhafter-software-braucht-es-mehr-haftplaetze)
-- Polizei: [Berner Polizisten beklagen sich über die neue IT](https://www.inside-it.ch/berner-polizisten-beklagen-sich-ueber-die-neue-it-20220722)
-- Crowdstrike: [Der Tag, an dem die IT weltweit verrückt spielte – ein Überblick](https://www.srf.
-  ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick)
+### Crowdstrike
+
+![h:400px](Images/Crowdstrike.png)
+
+-- https://www.srf.ch/news/international/crowdstrike-softwarefehler-der-tag-an-dem-die-it-weltweit-verrueckt-spielte-ein-ueberblick
+
+### Google
+
+![h:400px](GCP_Outage.png)
+
+https://status.cloud.google.com/incident/cloud-networking/19009
+
+### AWS 20.10.25
+
+> Between **11:49 PM** PDT on October 19 and 2:24 AM PDT on October 20, we experienced increased error rates and
+> latencies for AWS Services in the **US-EAST-1** Region.
+> Additionally, services or features that rely on US-EAST-1 endpoints such as **IAM and DynamoDB** Global Tables also
+> experienced issues during this time.
+> At 12:26 AM on October 20, we identified the trigger of the event as **DNS resolution** issues for the regional
+> DynamoDB service endpoints. [...]
+> As we continued to work through EC2 instance launch impairments,[...] connectivity issues in multiple services such as
+**Lambda, DynamoDB, and CloudWatch**.  [...]
+> By **3:01 PM**, all AWS services returned to normal operations. [...]
+
+-- https://health.aws.amazon.com/health/status
+
+---
+
+![h:500px](Images/GitClearStudy.png)
+
+-- https://www.gitclear.com/ai_assistant_code_quality_2025_research
 
 ## Ab 1961: Margaret Hamilton, Apollo Guidance Computer
 
-![h:300px](Images/MargarethHamilton.png) ![w:400px](Images/ApolloGuidance.png)
+![h:300px](Images/MargarethHamilton.png) ![h:300px](Images/ApolloGuidance.png)
+
+> “I remember thinking, Oh my God, it worked,” the pioneering software engineer tells TIME. “I was so happy. But I was
+> more happy about it working than about the fact that we landed.”
+
+-- https://time.com/3948364/moon-landing-apollo-11-margaret-hamilton/
 
 ## Anforderungen an (moderne) Software
 
@@ -65,7 +103,7 @@ October 1968 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 - Kostengünstig
 - Einfach
 - Updates müssen einfach eingespielt werden können
-- 
+
 ## Softwarekrise
 
 **Softwaresysteme werden immer komplexer**
@@ -76,7 +114,6 @@ October 1968 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 > gigantic problem.”
 
 -- Edsger Dijkstra: The Humble Programmer https://www.cs.utexas.edu/~EWD/ewd03xx/EWD340.PDF, 1972
-
 
 ## Software Engineering vs Software Architecture vs Software Development
 
@@ -136,11 +173,14 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 - LLMs können inherent nur durchschnittliche Antworten generieren
 - Je nach Fragestellung kann das hilfreich sein oder auch nicht
 - Die Kontextfenster sind oft zu klein für Software-Architektur
-- Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer
-  Betrachtung aber inhaltsleer, inkorrekt und übermässig umfangreich.
+- Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer Betrachtung aber inhaltsleer,
+  inkorrekt und übermässig umfangreich.
 - Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
 - Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
 - Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichtegemacht.
+
+---
+
 - Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI-Output
   vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
 - Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
@@ -161,7 +201,6 @@ vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehm
     - Schreiben von ganzen Dokumenten, Arbeiten, E-Mails
     - Schreiben von ganzen Funktionen und Klassen
     - Entwurf von ganzen Architekturen
-
 
 # Lernen
 
@@ -267,17 +306,18 @@ spec:
 
 ## Empirisches und experimentelles Arbeiten
 
-> Rule 1. You can't tell where a program is going to spend its time. Bottlenecks occur in surprising places, so don't try to second guess and put in a speed hack until you've proven that's where the bottleneck is.
-> 
-> Rule 2. Measure. Don't tune for speed until you've measured, and even then don't unless one part of the code 
+> Rule 1. You can't tell where a program is going to spend its time. Bottlenecks occur in surprising places, so don't
+> try to second guess and put in a speed hack until you've proven that's where the bottleneck is.
+>
+> Rule 2. Measure. Don't tune for speed until you've measured, and even then don't unless one part of the code
 > overwhelms the rest.
 >
-> Rule 3. Fancy algorithms are slow when n is small, and n is usually small. Fancy algorithms have big constants. 
+> Rule 3. Fancy algorithms are slow when n is small, and n is usually small. Fancy algorithms have big constants.
 > Until you know that n is frequently going to be big, don't get fancy. (Even if n does get big, use Rule 2 first.)
 >
-> Rule 4. Fancy algorithms are buggier than simple ones, and they're much harder to implement. Use simple algorithms 
+> Rule 4. Fancy algorithms are buggier than simple ones, and they're much harder to implement. Use simple algorithms
 > as well as simple data structures.
-> 
+>
 -- Rob Pike http://www.catb.org/~esr/writings/taoup/html/ch01s06.html
 
 # Kommunikation
