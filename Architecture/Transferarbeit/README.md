@@ -43,9 +43,8 @@ Folgende Kapitel müssen vorkommen:
 Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
 persönliche Reflexion wird in kleineren Gruppen verfasst und bewertet.
 
-### Verwendung von KI
-
-Es gelten die Regeln zur [Verwendung von KI in Arbeiten](../../VerwendungVonKIinArbeiten.md).
+Es gelten die Hinweise zu [Verwendung von KI](../../VerwendungVonKIinArbeiten.md) sowie
+zum [wissenschaftlichen Arbeiten](../../WissenschaftlichesArbeiten.md).
 
 ### Persönliche Reflexion
 
@@ -55,13 +54,13 @@ Reflexion.
 Weniger objektive Interpretationen dürfen auch aufgeführt werden. Eigene Meinungen, Thesen und Selbstreflexion sind
 erwünscht.
 
-- Ausführliche Reflexion zu den gelernten Inhalten, Vergleich mit den Lernzielen des Fachs, was hast du gelernt, wo sind
-  noch Fragen offen, worauf wirst du in Zukunft besonders achten, wo willst du dich weiterbilden etc.
+- Ausführliche Reflexion zu den gelernten Inhalten, Vergleich mit den Lernzielen des Fachs, was wurde gelernt, wo sind
+  noch Fragen offen, worauf soll in Zukunft besonders geachtet werden, wo besteht Weiterbildungsbedarf.
 - Persönliche Reflexion zur eigenen Arbeit und Rolle im Projekt (Fachlich und in der Gruppe).
 - Thesen zu den Inhalten des Fachs oder auf das Projekt bezogen, eigene Ideen, Fragestellungen für weitere Recherche,
   Ideen für zukünftige Projekte.
 - Persönliche Meinung zu den Inhalten des Fachs, zum Verlauf des Projekts und der Umsetzung, der Zusammenarbeit in der
-  Gruppe etc.
+  Gruppe.
 
 Umfang: Ca 2000 Wörter.
 
