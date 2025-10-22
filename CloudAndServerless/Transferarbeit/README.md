@@ -27,6 +27,10 @@ Folgende Kapitel müssen im Bericht vorkommen:
 - Diskussion
 - Empfehlung und Ausblick
 
+## Gruppen
+
+Die Arbeit wird in Gruppen von 2-3 Personen durchgeführt.
+
 ## Präsentation
 
 Die Arbeit wird der Klasse präsentiert mit anschliessender Fragerunde.
