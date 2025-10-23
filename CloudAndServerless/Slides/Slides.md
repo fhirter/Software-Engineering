@@ -85,12 +85,13 @@ https://news.ycombinator.com/item?id=45614922#45616049
 
 The constraints of the cloud environment include:
 
-- Applications are limited in the ability to scale vertically on commodity hardware.
 - All inter-service communication takes place over unreliable networks.
 - You must operate under the assumption that the underlying hardware can fail or be restarted or moved at any time.
 - The services need to be able to detect and manage failure of their peers—including partial failures.
 - Strong consistency and transactions are expensive. Because of the coordination required, it is difficult to make
   services that manage data available, performant, and scalable.
+
+(vgl. https://www.reactiveprinciples.org/cloud-native/index.html)
 
 ---
 
