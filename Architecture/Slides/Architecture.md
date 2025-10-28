@@ -168,24 +168,29 @@ Finanzierung: **ca 3 Mrd. Dollar**
 
 Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne Mercury und Gemini)
 
-# Generative KI in der Software-Entwicklung und Bildung
+# Generative KI
 
 - LLMs können inherent nur durchschnittliche Antworten generieren
 - Je nach Fragestellung kann das hilfreich sein oder auch nicht
-- Die Kontextfenster sind oft zu klein für Software-Architektur
 - Längere generierte Texte scheinen oft auf den ersten Blick sehr gut, bei genauerer Betrachtung aber inhaltsleer,
   inkorrekt und übermässig umfangreich.
 - Offensichtlich generierte Texte stossen beim Empfänger oft auf starke Ablehnung.
+- Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
+
+## in der Software-Entwicklung
+
+- Die Kontextfenster sind oft zu klein für Software-Architektur.
 - Bei Code werden oft Features implementiert, die nicht gefragt wurden oder übermässig komplizierte Lösungen entworfen.
 - Der Nutzen durch die schnelle Code-Generierung wird durch längeres Debugging und Refactoring oft zunichtegemacht.
+- Diskutieren von Architekturideen kann sehr hilfreich sein.
 
----
+## in der Bildung
 
-- Wenn die inhaltliche Korrektheit wichtig ist (was sie im Softwareengineering eigentlich immer ist), muss der KI-Output
-  vollständig überprüft werden. Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
-- Datenschutztechnisch ist die Verwendung von LLMs sehr heikel.
+- Wenn die inhaltliche Korrektheit wichtig ist (was sehr oft der Fall ist), muss der KI-Output vollständig überprüft werden.
+- Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
+- In der Ausbildung ist dies meistens nicht der Fall.
 - Der Lerneffekt ist gering, echtes Verständnis entsteht, wenn man sich intensiv mit einer Materie auseinandersetzt.
-- Um auf dem Arbeitsmarkt erfolgreich zu sein, ist kritisches Denken notwendig.
+- Um auf dem Arbeitsmarkt erfolgreich zu sein, ist kritisches Denken essenziell.
 - Ein Studium ist das ideale Umfeld, dies zu lernen.
 
 vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehmen-millionen-2509-200417.html
@@ -194,7 +199,7 @@ vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehm
 
 - KI verwenden für:
     - Analyse von Dokumenten(-sammlungen)
-    - Boilerplate Code
+    - Boilerplate-Code
     - Formulierungen und Textkorrektur
     - Entwurf von Lösungsstrategien
 - KI nicht verwenden für:
