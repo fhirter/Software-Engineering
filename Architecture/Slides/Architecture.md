@@ -35,9 +35,9 @@ paginate: true
 
 ### Google
 
-![h:400px](GCP_Outage.png)
+![h:400px](Images/GCP_Outage.png)
 
-https://status.cloud.google.com/incident/cloud-networking/19009
+https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW
 
 ### AWS 20.10.25
 
