@@ -10,7 +10,7 @@ basePath = '/api/items'
 @app.route(basePath, methods=['GET'])
 def get_items():
     items = items_repository.get_all()
-    return jsonify({"items": items}), 200
+    return jsonify(items), 200
 
 
 @app.route(basePath+'/<int:item_id>', methods=['GET'])
