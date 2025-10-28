@@ -7,13 +7,17 @@ Read soll auf der ganzen Collection und auf einzelnen Datensätzen möglich sein
 
 Die API soll die REST-Prinzipien vollständig umsetzen:
 
-- **Zustandslosigkeit**
+- **Zustandslosigkeit**: Es werden serverseitig keine Daten zwischen den Requests gespeichert.
 - **Caching**: Cache Header werden korrekt gesetzt
 - Uniform Interface
     - **Identification of Resources**
-    - **Manipulation of Resources through Representations**: Die Daten sind in JSON und XML verfügbar.
+    - **Manipulation of Resources through Representations**: Die Daten sind in JSON verfügbar.
     - **Self-Descriptive Messages**: Korrekte Verwendung von HTTP-Methoden
     - **Hypermedia as the Engine of Application State:** Verwandte Ressourcen werden in den Daten verlinkt.
+
+Die Daten sollen in einer relationalen Datenbank persistiert werden.
+
+Mit automatisierten Tests soll das korrekte Funktionieren sichergestellt werden.
 
 ## Dokumentation
 
@@ -22,11 +26,6 @@ Die API soll die REST-Prinzipien vollständig umsetzen:
 Die Arbeit soll direkt im Git-Repository dokumentiert werden. Dazu soll eine Git-Plattform
 wie [Github](https://github.com/), [Gitlab](https://gitlab.com/) oder
 [Codeberg](https://codeberg.org/) verwendet werden.
-
-Die einzelnen Commits sollen atomar sein, also jeweils nur eine kleine Änderung beinhalten und mit verständlichen
-Commit-Messages versehen sein.
-
-Der Code soll klar strukturiert und verständlich sein.
 
 ### README
 
@@ -52,9 +51,10 @@ werden.
 | REST: Zustandslosigkeit                                 | 5      |
 | REST: Caching                                           | 5      |
 | REST: Identification of Resources                       | 5      |
-| REST: Manipulation of Resources through Representations | 10     |
+| REST: Manipulation of Resources through Representations | 5      |
 | REST: Self-Descriptive Messages                         | 10     |
 | REST: Hypermedia as the Engine of Application State     | 10     |
+| Datenbank: Daten werden persistiert                     | 10     |
+| Testing: API wird vollständig getestet                  | 10     |
 | Vollständigkeit CRUD                                    | 10     |
-| Verständlichkeit Code und Commit-Messages               | 10     |
 | Dokumentation (README)                                  | 10     |
