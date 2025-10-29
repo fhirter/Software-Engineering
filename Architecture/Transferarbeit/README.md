@@ -14,7 +14,7 @@ Einzeln oder zu zweit wird eine Projektidee präsentiert und ein Handout erstell
 umfangreich sein, der Aufwand der Implementierung soll den Umfang des Semesters übersteigen.
 
 Die Projektideen werden in der Form von einem [Elevator Pitch](https://en.wikipedia.org/wiki/Elevator_pitch) der Klasse
-vorgestellt. Dieser darf maximal zwei Minuten dauern. Begleitend ist ein Handout zu erstellen.
+vorgestellt. Dieser darf maximal **zwei Minuten** dauern. Begleitend ist ein **Handout** zu erstellen.
 
 Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
 
