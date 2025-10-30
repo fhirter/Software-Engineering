@@ -14,5 +14,5 @@ fileignoreconfig:
 - filename: Architecture/Slides/Images/Pipeline.svg
   checksum: d692b8a88ee13c1fb95ef13605ca39210a2af08665cfc577004474b88a243758
 - filename: Integrations/Examples/REST/uv.lock
-  checksum: e77e42d570987a4e2b90721a8fb7159990c2e5d17cec62c3534cc9931d075765
+  checksum: db7a6d5491aa9318e0f0f15eccba0744ef6009f35e380ecf7e83625f2c5af8f8
 threshold: high
