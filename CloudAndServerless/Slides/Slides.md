@@ -6,7 +6,7 @@ paginate: true
 
 # Cloud Computing
 
-![w:300px](There_is_no_cloud.png)
+![w:300px](Images/There_is_no_cloud.png)
 
 > The entire history of software engineering is that of the rise in levels of abstraction.
 
@@ -45,7 +45,7 @@ https://csrc.nist.gov/pubs/sp/800/145/final
 
 ## XaaS
 
-![w:1000px](XaaS2.png)
+![w:1000px](Images/XaaS2.png)
 
 ---
 
@@ -67,9 +67,8 @@ https://news.ycombinator.com/item?id=45614922#45616049
 ## Cloud Native Applications
 
 - A "cloud native" application has adapted and evolved to be maximally efficient in its environment: the cloud.
-- The cloud is a harsher environment than the idealistic environment of a dedicated single node system.
-- In the cloud, an application becomes distributed.
-- It is forced to be resilient to hardware/network unpredictability and unreliability.
+- In the cloud, an application becomes **distributed**.
+- It is forced to be **resilient to** hardware/network unpredictability and **unreliability**.
 
 (vgl. https://www.reactiveprinciples.org/cloud-native/index.html)
 
@@ -77,7 +76,7 @@ https://news.ycombinator.com/item?id=45614922#45616049
 
 - Ensuring responsiveness and reliability in this environment is difficult.
 - The applications we build after embracing this environment better match how the real world actually works.
-- This provides better experiences for our users, whether humans or software.
+- This provides **better experiences** for our users, whether humans or software.
 
 (vgl. https://www.reactiveprinciples.org/cloud-native/index.html)
 
@@ -85,9 +84,9 @@ https://news.ycombinator.com/item?id=45614922#45616049
 
 The constraints of the cloud environment include:
 
-- All inter-service communication takes place over unreliable networks.
-- You must operate under the assumption that the underlying hardware can fail or be restarted or moved at any time.
-- The services need to be able to detect and manage failure of their peers—including partial failures.
+- All inter-service communication takes place over unreliable **networks**.
+- You must operate under the assumption that the underlying **hardware can fail** or be restarted or moved at any time.
+- The services need to be able to **detect and manage failure** of their peers—including partial failures.
 - Strong consistency and transactions are expensive. Because of the coordination required, it is difficult to make
   services that manage data available, performant, and scalable.
 
@@ -97,20 +96,11 @@ The constraints of the cloud environment include:
 
 Therefore, a Cloud Native application is designed to leverage the cloud operating model.
 
-It is predictable, decoupled from the infrastructure, right-sized for capacity, and enables tight collaboration between
-development and operations.
+It is predictable, decoupled from the infrastructure, right-sized for capacity, and enables **tight collaboration between
+development and operations**.
 
 It can be decomposed into loosely-coupled, independently-operating services that are resilient from failures, driven by
 data, and operate intelligently across geographic regions.
-
----
-
-While Cloud Native applications always have a clean separation of state and compute, there are two major classes of
-Cloud Native applications: stateful and stateless.
-
-Each class addresses and excels in a different set of use-cases; non-trivial modern Cloud Native applications are
-usually a combination and composition of the two.
-
 
 # Chancen
 
