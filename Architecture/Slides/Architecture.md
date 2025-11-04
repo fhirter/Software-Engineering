@@ -327,14 +327,12 @@ spec:
 
 # Kommunikation
 
-## Domain Driven Design
-
 ## UML Klassendiagramm
 
 ![](Images/class.png)
 [PlantUML](https://www.plantuml.com/)
 
-## UML Klassendiagramm
+---
 
 ![](Images/classRelationsUML.png)
 
@@ -405,10 +403,8 @@ https://c4model.com/
 
 ### Templates
 
--
-
-Nygard: https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
-
+- Nygard:
+  https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
 - MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
 
 ### Tools
