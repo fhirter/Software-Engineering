@@ -52,6 +52,12 @@ CREATE TABLE items (
 
 https://www.sqlite.org/datatype3.html
 
+#### Indexes
+
+```sqlite
+CREATE INDEX name_index 
+ON items(name);
+```
 ---
 
 #### Datensatz hinzufügen
