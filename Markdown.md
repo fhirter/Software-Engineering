@@ -11,6 +11,7 @@ paginate: true
 - Syntax-highlight für Code
 - Automatisierbar
 - Sehr hohe Verbreitung
+- Geeignet für Versionsverwaltung
 
 ## Tools
 
