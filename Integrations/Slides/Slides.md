@@ -107,6 +107,7 @@ ETag: "51142bc1-7449-479b075b2891b"
 Accept-Ranges: bytes
 Content-Length: 29769
 Content-Type: text/html
+Cache-Control: max-age=604800
 
 <!doctype html>… (here come the 29769 bytes of the requested web page)
 ```
