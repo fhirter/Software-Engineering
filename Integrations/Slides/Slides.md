@@ -98,6 +98,8 @@ Accept-Language: de
 
 ![w:800px](Images/HTTP_Request.png)
 
+---
+
 ```
 HTTP/1.1 200 OK
 Date: Sat, 09 Oct 2010 14:28:02 GMT
