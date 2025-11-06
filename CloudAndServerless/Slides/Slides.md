@@ -102,13 +102,54 @@ development and operations**.
 It can be decomposed into loosely-coupled, independently-operating services that are resilient from failures, driven by
 data, and operate intelligently across geographic regions.
 
-# Chancen
+# Chancen und Risiken
 
-# Risiken und Herausforderungen
+![w:500px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg) ![w:500px](Images/251020_AWS_Outage.png)
 
-![w:1000px](Images/when-the-cloud-leaves-the-datacenter-530836-1.jpg){ width=50% }
+## Kostenkontrolle
 
----
+- Serverless Systeme **skalieren** per Definition **automatisch** (Emison S.26)
+- Die **Kosten skalieren** dabei mit den Ressourcen mit
+- Das kann zu sehr **hohen Kosten** führen (Programmierfehler, [Slashdotting](https://de.wikipedia.org/wiki/Slashdot-Effekt), [DDoS](https://de.wikipedia.org/wiki/Denial_of_Service))
+- Deshalb müssen Ressourcen **limitiert und überwacht** werden
 
-![w:1000px](Images/251020_AWS_Outage.png)
+### Limitierung
 
+```terraform
+resource "google_cloudfunctions2_function" "backend" {
+  name        = var.backend_function_name
+  ...
+  build_config {
+    runtime     = "nodejs22"
+    entry_point = local.function_entry_point
+    source { ... }
+  }
+
+  service_config { 
+    max_instance_count               = 2
+    max_instance_request_concurrency = 80
+    available_memory                 = "256M"
+    available_cpu                    = "1"
+    timeout_seconds                  = 60
+  }
+}
+```
+
+### Monitoring
+
+![](Images/Grafana.png)
+
+
+## Zugriffskontrolle
+
+- Wenn Cloud-Access-Keys in falsche Hände geraten, kann dies zu **hohen Kosten, Datendiebstahl oder Ausfällen** führen
+- Secrets werden am Besten in [**Secret Managern**](https://cloud.google.com/security/products/secret-manager?hl=de) gespeichert
+- Secrets sollten niemals in Git eingecheckt werden. Dies kann mit Scannern **verhindert oder detektiert** werden
+  - https://thoughtworks.github.io/talisman/
+  - Wenn Secrets dennoch eingecheckt werden, müssen sie **sofort geändert** werden (Rotation), am besten automatisiert.
+- Access-Keys sollten nur über die **minimal nötigen Rechte** verfügen (https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+
+# Quellen
+
+Emison
+: Joseph Emison (2024): Serverless as a Game Changer, Pearson
