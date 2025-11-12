@@ -1,0 +1,4 @@
+/terraform_accessKeys.csv
+.terraform.lock.hcl
+*.tfstate*
+.terraform

@@ -15,4 +15,6 @@ fileignoreconfig:
   checksum: d692b8a88ee13c1fb95ef13605ca39210a2af08665cfc577004474b88a243758
 - filename: Integrations/Examples/REST/uv.lock
   checksum: db7a6d5491aa9318e0f0f15eccba0744ef6009f35e380ecf7e83625f2c5af8f8
+- filename: CloudAndServerless/Examples/terraform/README.md
+  checksum: ddd3bbcefdff57e7a7fe401e1720f26042da5e586739e8168f7573a1a34b32fe
 threshold: high
