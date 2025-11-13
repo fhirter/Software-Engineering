@@ -17,4 +17,6 @@ fileignoreconfig:
   checksum: db7a6d5491aa9318e0f0f15eccba0744ef6009f35e380ecf7e83625f2c5af8f8
 - filename: CloudAndServerless/Examples/terraform/README.md
   checksum: ddd3bbcefdff57e7a7fe401e1720f26042da5e586739e8168f7573a1a34b32fe
+- filename: CloudAndServerless/Examples/terraform/.terraform.lock.hcl
+  checksum: aca14ff8294b0ba8f55fc4e94ce55b6ef0424480b117915d7cb17a12ecd8b1a8
 threshold: high

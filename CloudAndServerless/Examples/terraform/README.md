@@ -11,7 +11,6 @@ Ignore AWS access keys and terraform state.
 
 ```gitignore
 /terraform_accessKeys.csv
-.terraform.lock.hcl
 *.tfstate*
 .terraform
 ```
