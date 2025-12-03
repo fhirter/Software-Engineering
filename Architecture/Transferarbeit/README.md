@@ -23,8 +23,9 @@ Teams (Vorwissen, Studiengang) zusammen à 5-7 Personen.
 
 ### Bericht
 
-Der Bericht behandelt die theoretischen Grundlagen, dokumentiert die erstellten Prototypen und legt die daraus
-gewonnenen Erkenntnisse dar.
+Der Bericht beschreibt die Arbeit im Kontext des Fachs, die entwickelte Applikation dient dabei als Beispiel und Mittel
+zum Zweck. Es sollen die theoretischen Grundlagen erläutert werden, den Entwicklungsprozess dokumentieren und die daraus
+gewonnenen Erkenntnisse darlegen.
 
 Im beiliegenden
 Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden
