@@ -83,6 +83,8 @@ möglichst gut verständlich und zweckdienlich eingesetzt sein.
 | 18, 19        | Mündliche Prüfung                                  |
 | 19            | Abgabe Nacharbeit **Bericht** und **Reflexion**    |
 
+Die genauen Termine sind in Sharepoint abgelegt, Link siehe [README](../README.md).
+
 Abgaben jeweils bis **Sonntag-Abend** als **PDF per E-Mail** an den Dozenten.
 
 ## Bewertung
