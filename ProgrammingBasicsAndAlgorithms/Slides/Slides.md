@@ -267,6 +267,21 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 
 ![img.png](Images/GitlabIssueBoard.png)
 
+
+## Typische Dokumentstruktur
+
+![h:400px](Images/project_structure2.png)![h:400px](Images/project_structure1.png)
+
+---
+
+- **Docs:** README.md, CONTRIBUTING.md, LICENCE.md, etc
+- **Configs:** `.gitignore`, `.talismanrc`, `commitlint.config.js`, `eslint.config.js`, `.dockerignore`,
+  `jest.config.js`, `jsconfig.json`,
+- **Build & Deployment:** `.gitlab-ci.yml`,`Dockerfile`, `docker-compose.yml`, `package.json`, `package-lock.json`
+- **Render & build outputs:** `/dist`, `/build`, `/coverage`, `/node_modules`
+- **Source Code:** `/src`
+
+
 # Testing
 
 ## Kosten von Defekten
