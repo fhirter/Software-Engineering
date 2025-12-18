@@ -3,17 +3,20 @@
 Die Studierenden entwerfen eine Architektur für eine bestehende oder neue Applikation, die Serverless-Technologien
 optimal nutzt.
 
-Sie analysieren die Anforderungen Verfügbarkeit und Resilienz, Last und Performance, Sicherheit und Datenschutz und
-Kostenrahmen. Anhand der Anforderungen wählen sie einen geeigneten Cloud-Anbieter und Cloud-Tools (Nutzwertanalyse).
+Sie analysieren die Anforderungen der Applikation an Verfügbarkeit und Resilienz, Last und Performance, Sicherheit und
+Datenschutz und Kostenrahmen. Anhand der Anforderungen wählen sie einen geeigneten Cloud-Anbieter und Cloud-Tools (
+Nutzwertanalyse).
 
 Es soll ausführlich diskutiert werden, inwiefern die gewählte Architektur die Anforderungen erfüllt oder wo Kompromisse
 eingegangen wurden oder Fragen offen sind. Insbesondere soll auch dargelegt werden, wie sichergestellt wird, dass der
 Kostenrahmen eingehalten wird und welche Kosteneinsparungen gegenüber einer IaaS Lösung möglich sind.
 
-Die Implementierung der Applikation muss nicht im Rahmen dieser Arbeit fertiggestellt werden.
-
 Es gelten die Hinweise zu [Verwendung von KI](../../VerwendungVonKIinArbeiten.md) sowie
 zum [wissenschaftlichen Arbeiten](../../WissenschaftlichesArbeiten.md).
+
+Die hier aufgeführten Anforderungen sind zwingend und werden entsprechend stark in der Bewertung gewichtet.
+
+Die Implementierung der Applikation ist zweitrangig und muss nicht im Rahmen dieser Arbeit fertiggestellt werden.
 
 ## Dokumentation
 
@@ -37,7 +40,9 @@ Die Arbeit wird der Klasse präsentiert mit anschliessender Fragerunde.
 
 ## Zeitplan und Abgabe
 
-Abgaben bis **Sonntag-Abend** Semesterwoche 8 als **PDF per E-Mail** an den Dozenten.
+Bis zur Semesterwoche 3 wird sollen die Kapitel "Ausgangslage und Problemstellung" und "Zielsetzung" eingereicht werden. 
+
+Finale Abgaben bis **Sonntag-Abend** Semesterwoche 8 als **PDF per E-Mail** an den Dozenten.
 
 ## Bewertung
 
