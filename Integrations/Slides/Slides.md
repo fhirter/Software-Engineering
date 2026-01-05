@@ -6,18 +6,18 @@ paginate: true
 
 # Übersicht
 
-![overview.png](Images/overview.png)
+![w:800px](Images/overview.png)
 
 ---
 
-- Applikationen halten ihre Daten in einer Datenbank
-- Um Prozesse zu automatisieren, ist es nötig, dass Applikationen auf Daten von anderen Applikationen zugreifen können
-- Dazu werden Programmierschnittstellen (Application Programming Interface, API) benötigt
-- REST hat sich als API-Design Paradigma breit durchgesetzt
-- Eine von der Datenbank unabhängige API ermöglicht es, eine stabile Schnittstelle anzubieten, die unabhängig von der
+- Applikationen halten ihre Daten in einer **Datenbank**
+- Um Prozesse zu automatisieren, ist es nötig, dass Applikationen auf **Daten von anderen Applikationen** zugreifen können
+- Dazu werden **Programmierschnittstellen** (Application Programming Interface, **API**) benötigt
+- **REST** hat sich als API-Design Paradigma breit durchgesetzt
+- Eine von der Datenbank unabhängige API ermöglicht es, eine **stabile Schnittstelle** anzubieten, die unabhängig von der
   Datenbanstruktur ist.
-- Eine REST-API ermöglicht viele verschiedene
-  [Integrations-Stile](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IntegrationStylesIntro.html)
+- Eine REST-API ermöglicht **viele verschiedene
+  [Integrations-Stile](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IntegrationStylesIntro.html)**
 
 # Datenbanken
 
@@ -49,7 +49,7 @@ https://de.wikipedia.org/wiki/Liste_der_Datenbankmanagementsysteme
 
 - Leere Datei erstellen: `touch example.sqlite`
 
-Diese Datei mit einem Datenbank Client öffnen:
+Diese Datei mit einem Datenbank-Client öffnen:
 
 - https://www.jetbrains.com/de-de/pycharm/
 - https://sqlitebrowser.org/
