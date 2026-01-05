@@ -164,9 +164,10 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers
 
 ### cURL
 
-- https://devhints.io/curl
-- https://curl.se/docs/manpage.html
-
 - Nur Header anzeigen `curl -IL teko.ch`
 - Seiteninhalt in Datei speichern: `curl -L teko.ch -o "teko.html"`
 - Verfügbarkeit einer Resource prüfen: `curl -o /dev/null --silent -Lw "%{http_code}" teko.ch`
+
+https://curl.se/
+
+https://devhints.io/curl
