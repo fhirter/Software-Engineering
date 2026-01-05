@@ -96,8 +96,6 @@ FROM items
 WHERE id = 1
 ```
 
-# REST
-
 # Internetprotokolle
 
 ## HTTP
