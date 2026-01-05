@@ -4,6 +4,21 @@ auto-scaling: true
 paginate: true
 ---
 
+# Übersicht
+
+![overview.png](Images/overview.png)
+
+---
+
+- Applikationen halten ihre Daten in einer Datenbank
+- Um Prozesse zu automatisieren, ist es nötig, dass Applikationen auf Daten von anderen Applikationen zugreifen können
+- Dazu werden Programmierschnittstellen (Application Programming Interface, API) benötigt
+- REST hat sich als API-Design Paradigma breit durchgesetzt
+- Eine von der Datenbank unabhängige API ermöglicht es, eine stabile Schnittstelle anzubieten, die unabhängig von der
+  Datenbanstruktur ist.
+- Eine REST-API ermöglicht viele verschiedene
+  [Integrations-Stile](https://www.enterpriseintegrationpatterns.com/patterns/messaging/IntegrationStylesIntro.html)
+
 # Datenbanken
 
 - **Abrufen**, **Speichern**, **Überschreiben** und **Löschen** von Daten
@@ -16,12 +31,12 @@ https://de.wikipedia.org/wiki/Datenbank
 ## Datenbanksysteme
 
 - Relational
-  - MySQL / MariaDB
-  - **PostgreSQL**
-  - SQLite
+    - MySQL / MariaDB
+    - **PostgreSQL**
+    - SQLite
 - Dokumentorientiert
-  - CouchDB
-  - MongoDB
+    - CouchDB
+    - MongoDB
 
 https://de.wikipedia.org/wiki/Liste_der_Datenbankmanagementsysteme
 
@@ -35,6 +50,7 @@ https://de.wikipedia.org/wiki/Liste_der_Datenbankmanagementsysteme
 - Leere Datei erstellen: `touch example.sqlite`
 
 Diese Datei mit einem Datenbank Client öffnen:
+
 - https://www.jetbrains.com/de-de/pycharm/
 - https://sqlitebrowser.org/
 
@@ -43,9 +59,10 @@ Diese Datei mit einem Datenbank Client öffnen:
 #### Schema erstellen
 
 ```sqlite
-CREATE TABLE items (
-    id integer PRIMARY KEY, 
-    name TEXT NOT NULL,
+CREATE TABLE items
+(
+    id          integer PRIMARY KEY,
+    name        TEXT NOT NULL,
     description TEXT
 )
 ```
@@ -55,9 +72,10 @@ https://www.sqlite.org/datatype3.html
 #### Indexes
 
 ```sqlite
-CREATE INDEX name_index 
-ON items(name);
+CREATE INDEX name_index
+    ON items (name);
 ```
+
 ---
 
 #### Datensatz hinzufügen
@@ -75,7 +93,7 @@ VALUES (1, "item 1", "description 1")
 ```sqlite
 SELECT *
 FROM items
-WHERE id=1
+WHERE id = 1
 ```
 
 # REST
@@ -145,7 +163,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
 ### Headers
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers
-
 
 ### cURL
 
