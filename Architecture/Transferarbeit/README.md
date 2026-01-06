@@ -1,12 +1,17 @@
 # Gruppenarbeit Software Architektur
 
-Die Inhalte des Faches werden laufend anhand von einem Projekt angewendet. Das Thema können die Studierenden selber
-wählen.
-
-Ziel ist, von einem grösseren Projekt ein [MVP](https://de.wikipedia.org/wiki/Minimum_Viable_Product) (Minimal Viable
-Product) zu entwickeln und eine geeignete Architektur zu entwerfen und zu dokumentieren.
+Um die Themen des Unterrichts in die Praxis zu übertragen, arbeiten die Studierenden in Gruppen von 5 bis 7 Personen an
+einem Projekt, dessen Thema sie selber wählen können.
 
 ## Aufgabenstellung
+
+Die Studierenden entwerfen für die Architektur und entwickeln einen einfachen Prototyp, um die getroffenen
+Entscheidungen zu evaluieren.
+
+Sämtliche Architektur-Entwürfe und -Entscheide sollen dokumentiert werden, sodass das Projekt später weitergeführt
+werden könnte.
+
+Die Studierenden beschreiben ihren Prozess in einem Bericht, welcher bewertet wird.
 
 ### Projektpitch
 
@@ -14,18 +19,18 @@ Einzeln oder zu zweit wird eine Projektidee präsentiert und ein Handout erstell
 umfangreich sein, der Aufwand der Implementierung soll den Umfang des Semesters übersteigen.
 
 Die Projektideen werden in der Form von einem [Elevator Pitch](https://en.wikipedia.org/wiki/Elevator_pitch) der Klasse
-vorgestellt. Dieser darf maximal **zwei Minuten** dauern. Begleitend ist ein **Handout** zu erstellen.
+vorgestellt. Dieser darf maximal **zwei Minuten** dauern. Begleitend ist ein ausgedrucktes **Handout** zu erstellen.
 
 Nach jedem Pitch erhält die Gruppe ein kurzes Feedback von der Klasse.
 
 Die Studierenden melden dann dem Dozenten schriftlich ihr Interesse an den Projekten. Der Dozent stellt gemischte
-Teams (Vorwissen, Studiengang) zusammen à 5-7 Personen.
+Teams (Vorwissen, Studiengang) zusammen.
 
 ### Bericht
 
-Der Bericht beschreibt die Arbeit im Kontext des Fachs, die entwickelte Applikation dient dabei als Beispiel und Mittel
-zum Zweck. Es sollen die theoretischen Grundlagen erläutert werden, den Entwicklungsprozess dokumentieren und die daraus
-gewonnenen Erkenntnisse darlegen.
+Der Bericht beschreibt den Prozess der Gruppenarbeit. Es sollen die theoretischen Grundlagen erläutert werden und
+erläutert werden, wie diese umgesetzt wurden, welche Erkenntnisse gewonnen wurden, welche Herausforderungen auftauchten
+und wie diese bewältigt wurden.
 
 Im beiliegenden
 Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden
