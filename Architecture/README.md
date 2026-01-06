@@ -14,6 +14,6 @@ Die Unterlagen zur konkreten Durchführung des Fachs sind auf Sharepoint zu find
 Dazu gehören:
 
 - Informationen zur Bewertung
-- Unterrichtsprogramm des ganzen Semesters inkl. den Hausaufgaben
+- Unterrichtsprogramm des ganzen Semesters inkl. Hausaufgaben
 - Lernziele und Kompetenzen
 - Notizen zu den Unterrichtseinheiten
