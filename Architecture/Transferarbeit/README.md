@@ -33,7 +33,7 @@ erläutert werden, wie diese umgesetzt wurden, welche Erkenntnisse gewonnen wurd
 und wie diese bewältigt wurden.
 
 Im beiliegenden
-Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/AnleitungTechnischerBericht.pdf)" werden
+Dokument "[Anleitung zum Schreiben von technischen Berichten](../../Readings/BerichteSchreiben/AnleitungTechnischerBericht.pdf)" werden
 die einzelnen Kapitel ausführlich beschrieben.
 
 Folgende Kapitel müssen vorkommen:
@@ -49,8 +49,8 @@ Folgende Kapitel müssen vorkommen:
 Im Kapitel "Diskussion" werden nur die in der Einleitung formulierten Fragen und Ziele beantwortet und diskutiert. Die
 persönliche Reflexion wird in kleineren Gruppen verfasst und bewertet.
 
-Es gelten die Hinweise zu [Verwendung von KI](../../VerwendungVonKIinArbeiten.md) sowie
-zum [wissenschaftlichen Arbeiten](../../WissenschaftlichesArbeiten.md).
+Es gelten die Hinweise zu [Verwendung von KI](../../Readings/BerichteSchreiben/VerwendungVonKIinArbeiten.md) sowie
+zum [wissenschaftlichen Arbeiten](../../Readings/BerichteSchreiben/WissenschaftlichesArbeiten.md).
 
 ### Persönliche Reflexion
 

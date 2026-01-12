@@ -89,3 +89,18 @@ date: "2025-09-08"
 - [Better Offline](https://www.betteroffline.com/)
 - [Thoughtworks Technology Podcast](https://www.thoughtworks.com/insights/podcasts/technology-podcasts)
 - [Add Dot](https://adddot.io/)
+
+### Videos
+
+#### Architecture
+
+[Event Driven Architecture](https://www.youtube.com/watch?v=Fb_0UOD2X2I)
+[What Are Reactive Systems](https://www.youtube.com/watch?v=eRxLfUIMJwk)
+[What Software Architecture Should Look Like](https://www.youtube.com/watch?v=ElMnHDSFaCw)
+[Software Architecture Principles From 5 Leading Experts](https://www.youtube.com/watch?v=SYtkbv8LNv0)
+
+### Roadmaps
+
+- https://roadmap.sh/computer-science
+- https://roadmap.sh/software-architect
+- https://roadmap.sh/software-design-architecture

@@ -11,8 +11,8 @@ Es soll ausführlich diskutiert werden, inwiefern die gewählte Architektur die 
 eingegangen wurden oder Fragen offen sind. Insbesondere soll auch dargelegt werden, wie sichergestellt wird, dass der
 Kostenrahmen eingehalten wird und welche Kosteneinsparungen gegenüber einer IaaS Lösung möglich sind.
 
-Es gelten die Hinweise zu [Verwendung von KI](../../VerwendungVonKIinArbeiten.md) sowie
-zum [wissenschaftlichen Arbeiten](../../WissenschaftlichesArbeiten.md).
+Es gelten die Hinweise zu [Verwendung von KI](../../Readings/BerichteSchreiben/VerwendungVonKIinArbeiten.md) sowie
+zum [wissenschaftlichen Arbeiten](../../Readings/BerichteSchreiben/WissenschaftlichesArbeiten.md).
 
 Die hier aufgeführten Anforderungen sind zwingend und werden entsprechend stark in der Bewertung gewichtet.
 

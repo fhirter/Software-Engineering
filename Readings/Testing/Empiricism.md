@@ -21,7 +21,7 @@ Das Experiment beinhaltet demnach die Implementierung der Funktionalität.
 5. **Experimente auswerten**
 6. **Schlussfolgerungen** und Ausblick formulieren
 
-![The_Scientific_Method.svg](The_Scientific_Method.svg)
+![The_Scientific_Method.svg](../The_Scientific_Method.svg)
 
 ## Quellen
 

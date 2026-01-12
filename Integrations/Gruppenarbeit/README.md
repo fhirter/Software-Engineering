@@ -37,7 +37,7 @@ In einer Datei README.md im Wurzelverzeichnis werden folgende Punkte dokumentier
 
 ### Verwendung von KI
 
-Es gelten die Regeln zur [Verwendung von KI in Arbeiten](../../VerwendungVonKIinArbeiten.md).
+Es gelten die Regeln zur [Verwendung von KI in Arbeiten](../../Readings/BerichteSchreiben/VerwendungVonKIinArbeiten.md).
 
 ## Abgabe
 
