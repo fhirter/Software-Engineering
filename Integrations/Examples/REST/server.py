@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, Response
 from items_repository import ItemsRepository
 
 app = Flask(__name__)
@@ -28,11 +28,15 @@ def create_item():
     if not data or 'name' not in data:
         return jsonify({"error": "Name is required"}), 400
 
-    items_repository.create(
+    new_item = items_repository.create(
         name=data["name"],
         description=data.get("description", "")
     )
-    return 201
+
+    response = Response(status=201)
+    response.headers['Location'] = f"{basePath}/{new_item['id']}"
+
+    return response
 
 
 @app.route(basePath+'/<int:item_id>', methods=['PUT'])
