@@ -52,7 +52,7 @@ def update_item(item_id):
     if not updated_item:
         return jsonify({"error": "Item not found"}), 404
 
-    return 204
+    return 'updated', 200
 
 
 @app.route(basePath+'/<int:item_id>', methods=['DELETE'])
@@ -62,4 +62,4 @@ def delete_item(item_id):
     if not success:
         return jsonify({"error": "Item not found"}), 404
 
-    return 204
+    return 'deleted', 200
