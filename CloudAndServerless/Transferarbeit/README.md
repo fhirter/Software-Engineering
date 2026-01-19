@@ -1,6 +1,6 @@
 # Transferarbeit Cloud und Serverless
 
-Die Studierenden entwerfen eine Architektur für eine bestehende oder neue Applikation, die Serverless-Technologien
+Die Studierenden entwerfen eine Architektur für eine eigene, bestehende oder neue Applikation, die Serverless-Technologien
 optimal nutzt.
 
 Sie analysieren die Anforderungen der Applikation an Verfügbarkeit und Resilienz, Last und Performance, Sicherheit und
