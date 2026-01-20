@@ -186,7 +186,8 @@ Apollo-Programm: 1958 bis 1969, inflationsbereinigt: **163 Mrd. Dollar** (ohne M
 
 ## in der Bildung
 
-- Wenn die inhaltliche Korrektheit wichtig ist (was sehr oft der Fall ist), muss der KI-Output vollständig überprüft werden.
+- Wenn die inhaltliche Korrektheit wichtig ist (was sehr oft der Fall ist), muss der KI-Output vollständig überprüft
+  werden.
 - Voraussetzung dafür ist ein vollständiges Verstehen des Inhalts.
 - In der Ausbildung ist dies meistens nicht der Fall.
 - Der Lerneffekt ist gering, echtes Verständnis entsteht, wenn man sich intensiv mit einer Materie auseinandersetzt.
@@ -373,16 +374,37 @@ Konto "1..*" -- "1..*" Kunde
 
 ## C4 Model
 
-![img.png](Images/C4Overview.png)
+- Ähnlich wie verschiedene Zoom-Stufen einer Landkarte werden Diagramme mit unterschiedlichem Umfang erstellt:
+    - System Context
+    - Container
+    - Component
+    - Code
+- Die ersten beiden Diagramme (System Context, Container) sind dabei die wichtigsten, da diese Informationen enthalten,
+  die schwer im Code sichtbar sind
+- Component und Code Diagramme sind eher selten nötig, da Information, die gut aus dem Code gelesen werden kann dupliziert
+  wird.
+
+![](Images/C4Overview.png)
+
 https://c4model.com/
 
-----
+### System Context
 
-![img.png](Images/C4-overview.png)
+![](Images/SystemContext.png)
 
-----
+https://c4model.com/diagrams/system-context
 
-![img.png](Images/C4Abstractions.png)
+### Container Diagram
+
+![](Images/Container.png)
+
+### Component Diagram
+
+![img.png](Images/Component.png)
+
+### Code Diagram
+
+![img.png](Images/Code.png)
 
 ## Architectural Decision Records
 
