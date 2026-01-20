@@ -36,6 +36,7 @@ class TestItemsAPI:
     def test_create_item(self, items_endpoint, base_url):
         """Test POST - Create new item"""
         response = requests.post(items_endpoint, json=item)
+
         location = response.headers["Location"]
 
         assert response.status_code == 201
@@ -47,9 +48,9 @@ class TestItemsAPI:
     def test_get_all_items(self, items_endpoint, created_item_location):
         """Test GET all items"""
         response = requests.get(items_endpoint)
+        response_data = response.json()
 
         assert response.status_code == 200
-        response_data = response.json()
         assert isinstance(response_data, list)
         assert any(
             i["name"] == item["name"] and i["description"] == item["description"]
