@@ -208,6 +208,120 @@ vgl. https://www.golem.de/news/produktivitaetssabotage-ki-muell-kostet-unternehm
     - Schreiben von ganzen Funktionen und Klassen
     - Entwurf von ganzen Architekturen
 
+
+
+# Kommunikation
+
+## UML Klassendiagramm
+
+![](Images/class.png)
+[PlantUML](https://www.plantuml.com/)
+
+---
+
+![](Images/classRelationsUML.png)
+
+## PlantUML
+
+```
+@startuml
+class Konto {
+    bezeichnung
+    saldo()
+    einzahlen(betrag)
+}
+
+class Kunde {
+}
+
+class Privatkunde {
+    vorname
+    nachname
+}
+
+class Geschäftskunde {
+    firmenname
+}
+
+class Adresse {
+}
+
+Kunde <|-- Privatkunde
+Kunde <|-- Geschäftskunde
+
+Privatkunde "0..*" -- "1" Adresse
+Geschäftskunde "0..*" -- "1" Adresse
+
+Konto "1..*" -- "1..*" Kunde
+@enduml
+```
+
+## C4 Model
+
+- Ähnlich wie verschiedene Zoom-Stufen einer Landkarte werden Diagramme mit unterschiedlichem Umfang erstellt:
+    - System Context
+    - Container
+    - Component
+    - Code
+- Die ersten beiden Diagramme (System Context, Container) sind dabei die wichtigsten, da diese Informationen enthalten,
+  die schwer im Code sichtbar sind
+- Component und Code Diagramme sind eher selten nötig, da Information, die gut aus dem Code gelesen werden kann dupliziert
+  wird.
+
+https://c4model.com/
+
+---
+
+![](Images/C4Overview.png)
+
+
+### System Context
+
+![w:600px](Images/SystemContext.png)
+
+https://c4model.com/diagrams/system-context
+
+### Container Diagram
+
+![w:600px](Images/Container.png)
+
+### Component Diagram
+
+![w:600px](Images/Component.png)
+
+### Code Diagram
+
+![w:600px](Images/Code.png)
+
+## Architectural Decision Records
+
+```markdown
+# <!-- short title, representative of solved problem and found solution -->
+
+## Context and Problem Statement
+
+## Considered Options
+
+## Decision Outcome
+
+### Consequences
+```
+
+- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare-minimal.md
+- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare.md
+
+### Templates
+
+- Nygard:
+  https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
+- MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
+
+### Tools
+
+- https://github.com/npryce/adr-tools
+- https://github.com/opinionated-digital-center/pyadr
+
+
 # Lernen
 
 ![w:500px](Images/Wissenspiramide.png)
@@ -325,114 +439,6 @@ spec:
 > as well as simple data structures.
 >
 -- Rob Pike http://www.catb.org/~esr/writings/taoup/html/ch01s06.html
-
-# Kommunikation
-
-## UML Klassendiagramm
-
-![](Images/class.png)
-[PlantUML](https://www.plantuml.com/)
-
----
-
-![](Images/classRelationsUML.png)
-
-## PlantUML
-
-```
-@startuml
-class Konto {
-    bezeichnung
-    saldo()
-    einzahlen(betrag)
-}
-
-class Kunde {
-}
-
-class Privatkunde {
-    vorname
-    nachname
-}
-
-class Geschäftskunde {
-    firmenname
-}
-
-class Adresse {
-}
-
-Kunde <|-- Privatkunde
-Kunde <|-- Geschäftskunde
-
-Privatkunde "0..*" -- "1" Adresse
-Geschäftskunde "0..*" -- "1" Adresse
-
-Konto "1..*" -- "1..*" Kunde
-@enduml
-```
-
-## C4 Model
-
-- Ähnlich wie verschiedene Zoom-Stufen einer Landkarte werden Diagramme mit unterschiedlichem Umfang erstellt:
-    - System Context
-    - Container
-    - Component
-    - Code
-- Die ersten beiden Diagramme (System Context, Container) sind dabei die wichtigsten, da diese Informationen enthalten,
-  die schwer im Code sichtbar sind
-- Component und Code Diagramme sind eher selten nötig, da Information, die gut aus dem Code gelesen werden kann dupliziert
-  wird.
-
-![](Images/C4Overview.png)
-
-https://c4model.com/
-
-### System Context
-
-![](Images/SystemContext.png)
-
-https://c4model.com/diagrams/system-context
-
-### Container Diagram
-
-![](Images/Container.png)
-
-### Component Diagram
-
-![img.png](Images/Component.png)
-
-### Code Diagram
-
-![img.png](Images/Code.png)
-
-## Architectural Decision Records
-
-```markdown
-# <!-- short title, representative of solved problem and found solution -->
-
-## Context and Problem Statement
-
-## Considered Options
-
-## Decision Outcome
-
-### Consequences
-```
-
-- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare-minimal.md
-- https://github.com/adr/madr/blob/4.0.0/template/adr-template-bare.md
-
-### Templates
-
-- Nygard:
-  https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/locales/en/templates/decision-record-template-by-michael-nygard/index.md
-- MADR: https://github.com/adr/madr/blob/4.0.0/template/adr-template.md
-
-### Tools
-
-- https://github.com/npryce/adr-tools
-- https://github.com/opinionated-digital-center/pyadr
 
 # Komplexität
 
