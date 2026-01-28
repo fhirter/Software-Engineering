@@ -146,8 +146,20 @@ resource "google_cloudfunctions2_function" "backend" {
 - Secrets werden am Besten in [**Secret Managern**](https://cloud.google.com/security/products/secret-manager?hl=de) gespeichert
 - Secrets sollten niemals in Git eingecheckt werden. Dies kann mit Scannern **verhindert oder detektiert** werden
   - https://thoughtworks.github.io/talisman/
+  - https://trivy.dev/
   - Wenn Secrets dennoch eingecheckt werden, müssen sie **sofort geändert** werden (Rotation), am besten automatisiert.
 - Access-Keys sollten nur über die **minimal nötigen Rechte** verfügen (https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+
+---
+
+```bash
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member="serviceAccount:terraform@example.iam.gserviceaccount.com" \
+  --role="roles/storage.admin" \
+  --role="roles/cloudfunctions.admin" \
+  --role="roles/iam.serviceAccountUser" \
+  --role="roles/iam.serviceAccountAdmin"
+```
 
 # Quellen
 
