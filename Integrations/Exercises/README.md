@@ -26,9 +26,7 @@ Halte deine Erkenntnisse schriftlich fest.
    Terminals bzw in der Ausgabe des Python-MQTT-Clients.
 
 ```bash
-curl -v -X PUBLISH 'mqtt://localhost:1883/items' \
-  -H 'Content-Type: application/json' \
-  -d '{"id":1,"name":"Item 1","description":"First item"}'
+curl -v -X PUBLISH 'mqtt://localhost:1883/items' -H 'Content-Type: application/json' -d '{"id":1,"name":"Item 1","description":"First item"}'
 ```
 
 5. Implementiere nun den REST Adapter mit der `requests` Bibliothek. Der Adapter soll
