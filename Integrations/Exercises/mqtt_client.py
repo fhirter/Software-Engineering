@@ -1,4 +1,5 @@
 import paho.mqtt.client as mqtt
+import json
 
 topic = "items"
 
@@ -11,7 +12,12 @@ def on_connect(client, userdata, flags, reason_code, properties):
 
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
-    print(str(msg.payload))
+    data = json.loads(msg.payload)
+    id = data["id"]
+    name = data["name"]
+    description = data["description"]
+
+    print(f"Received item: ID={id}, Name={name}, Description={description}")
 
 mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 mqttc.on_connect = on_connect
