@@ -18,7 +18,7 @@ Löse die Aufgabe ohne KI, um einen möglichst grossen Lerneffekt zu erzielen.
 Halte deine Erkenntnisse schriftlich fest.
 
 1. Installiere ["Eclipse Mosquitto"](https://mosquitto.org/)
-2. Starte den Mosquitto MQTT Server `mosquitto -p 1883 -v`
+2. Starte den Mosquitto MQTT Server mit `mosquitto -p 1883 -v` falls er nicht schon läuft.
 3. Starte den MQTT-Client in [mqtt_client.py](mqtt_client.py) oder abonniere in einem zweiten Terminal auf ein Topic mit
    `mosquitto_sub -h localhost -p 1883 -t 'items' -v`
 4. Veröffentliche in einem dritten Terminal zum Test eine Nachricht mit cURL. Analysiere die Ausgabe in den drei
