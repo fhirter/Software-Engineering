@@ -21,13 +21,11 @@ Halte deine Erkenntnisse schriftlich fest.
 2. Starte den Mosquitto MQTT Server mit `mosquitto -p 1883 -v` falls er nicht schon läuft.
 3. Starte den MQTT-Client in [mqtt_client.py](mqtt_client.py). Die Bibliothek `paho` kann mit `pip install paho-mqtt`
    installiert werden.
-4. Veröffentliche in einem dritten Terminal zum Test eine Nachricht mit cURL. Analysiere die Ausgabe in den drei
-   Terminals bzw in der Ausgabe des Python-MQTT-Clients.
-
+4. Veröffentliche in einem weiteren Terminal zum Test eine Nachricht mit cURL.
+   Analysiere die Ausgabe des Python-MQTT-Clients.
 ```bash
 curl -v -X PUBLISH 'mqtt://localhost:1883/items' -H 'Content-Type: application/json' -d '{"id":1,"name":"Item 1","description":"First item"}'
 ```
-
 5. Implementiere nun den REST Adapter mit der `requests` Bibliothek. Der Adapter soll
     - neue Items Einträge erstellen, falls sie nicht vorhanden sind, bzw.
     - bestehende Einträge aktualisieren, falls sie schon vorhanden sind und geändert wurden.
