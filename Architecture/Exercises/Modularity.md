@@ -28,3 +28,8 @@ Erstellt zuerst das System Context Diagram und anschliessend laufend die feinere
 
 Stellt am Schluss die Architektur der Klasse mit einer Flipchart oder am Whiteboard vor.
 
+## Siehe Auch
+
+- [Domain Driven Design](DomainDrivenDesign.md) befasst sich extensiv mit der Modellierung von Software-Systemen
+- ["Ports & Adapters"](PortsAndAdapters.md) ist eine Architektur mit der sich Systeme modular gestalten
+  lassen.
