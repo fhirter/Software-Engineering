@@ -1,5 +1,14 @@
 # Übung Ports & Adapters Architektur
 
+## Lernziele
+
+Die Studierenden können folgende Architekturstile in eigenen Projekten gewinnbringend anwenden:
+
+- Layered Architecture
+- Ports & Adapters Architecture
+
+## Aufgabe
+
 Definiert in eurer Applikation die Schnittstellen (z.B. REST API, Datenbank oder Messaging System) und definiert dafür
 Ports und Adapter.
 
