@@ -25,3 +25,8 @@ Bearbeitet folgende Fragen:
 ## Quellen
 
 https://martinfowler.com/bliki/ConwaysLaw.html
+
+## Siehe auch
+
+- [Domain Driven Design](DomainDrivenDesign.md)
+- [Modularity](Modularity.md)
