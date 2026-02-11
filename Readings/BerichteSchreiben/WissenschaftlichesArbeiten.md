@@ -13,4 +13,4 @@
 Im Laufe einer Arbeit wird dieser Zyklus vielfach durchlaufen. Jeder einzelne Zyklus kann auch sehr kurz sein,
 teilweise wenige Stunden oder Minuten.
 
-Zentral ist, dass alle Aussagen mit Daten und Fakten belegt werden.
+Zentral ist, dass **alle Aussagen mit Daten und Fakten belegt werden.**
