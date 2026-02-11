@@ -15,4 +15,4 @@ Konkret sind folgende Punkte zu beachten:
 - Es sollen nur Code und Dokumente geschrieben werden, deren Funktion und Inhalt **vollständig verstanden** wurde.
 
 Besteht der Verdacht, dass Inhalte generiert wurden ohne sie zu verstehen, kann der Dozent eine mündliche Prüfung 
-durchführen um das Verständnis zu überprüfen.
+durchführen, um das Verständnis zu überprüfen.
