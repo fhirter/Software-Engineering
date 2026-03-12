@@ -36,7 +36,7 @@ Die Arbeit wird in Gruppen von 2-3 Personen durchgeführt.
 
 ## Präsentation
 
-Die Arbeit wird der Klasse präsentiert mit anschliessender Fragerunde.
+Die Arbeit wird der Klasse präsentiert mit anschliessender Fragerunde. Präsentation und Fragerunde dauern je 10min.
 
 ## Zeitplan und Abgabe
 
