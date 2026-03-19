@@ -16,7 +16,7 @@ Describe what didn't work as expected. Attach screenshots of relevant graphs or 
 
 ## Detection
 
-How and when did Atlassian detect the incident?
+How and when did we detect the incident?
 
 How could time to detection be improved? As a thought exercise, how would you have cut the time in half?
 
