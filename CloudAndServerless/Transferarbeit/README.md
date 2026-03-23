@@ -1,11 +1,11 @@
 # Transferarbeit Cloud und Serverless
 
-Die Studierenden entwerfen eine Architektur für eine eigene, bestehende oder neue Applikation, die Serverless-Technologien
+Die Studierenden entwerfen eine Architektur für eine eigene, bestehende oder neue Applikation, die
+Serverless-Technologien
 optimal nutzt.
 
-Sie analysieren die Anforderungen der Applikation an Verfügbarkeit und Resilienz, Last und Performance, Sicherheit und
-Datenschutz und Kostenrahmen. Anhand der Anforderungen wählen sie einen geeigneten Cloud-Anbieter und Cloud-Tools (
-Nutzwertanalyse).
+Sie analysieren die Anforderungen der Applikation an Last und Performance sowie Kostenrahmen. Anhand der Anforderungen
+wählen sie geeignete Cloud-Tools.
 
 Es soll ausführlich diskutiert werden, inwiefern die gewählte Architektur die Anforderungen erfüllt oder wo Kompromisse
 eingegangen wurden oder Fragen offen sind. Insbesondere soll auch dargelegt werden, wie sichergestellt wird, dass der
@@ -40,7 +40,7 @@ Die Arbeit wird der Klasse präsentiert mit anschliessender Fragerunde. Präsent
 
 ## Zeitplan und Abgabe
 
-Bis zur Semesterwoche 3 wird sollen die Kapitel "Ausgangslage und Problemstellung" und "Zielsetzung" eingereicht werden. 
+Bis zur Semesterwoche 3 wird sollen die Kapitel "Ausgangslage und Problemstellung" und "Zielsetzung" eingereicht werden.
 
 Finale Abgaben bis **Sonntag-Abend** Semesterwoche 8 als **PDF per E-Mail** an den Dozenten.
 
