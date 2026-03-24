@@ -91,10 +91,10 @@ möglichst gut verständlich und zweckdienlich eingesetzt sein.
 - Die Transferarbeit sollte nicht als Projekt angesehen werden, sondern als Startphase der Entwicklung von einem
   Softwareprodukt.
 - Der Fokus liegt auf der Software-Architektur und den Gruppenprozessen, nicht auf der Implementierung. Die im Fach
-  gelernten Inhalte sollen in Architekturdokumenten umgesetzt werden. 
+  gelernten Inhalte sollen in Architekturdokumenten umgesetzt werden.
 - Die Implementierung soll für schnelles Feedback optimiert werden:
-  - Fokus auf Einfachheit und schnellem initialen Release
-  - Technologische Entscheide sollten möglichst spät getroffen werden.
+    - Fokus auf Einfachheit und schnellem initialen Release
+    - Technologische Entscheide sollten möglichst spät getroffen werden.
 - Für die Arbeit sollte eine Git-Plattform als Kollaborationsplattform verwendet werden. Dokumente sind in Markdown zur
   verfassen und in Git zu versionieren.
 
@@ -122,7 +122,8 @@ Die einzelnen Noten werden mit $\frac{Erreichte Punkte}{Maximalpunkte}*5+1$ bere
 
 Es erhält jeweils die ganze Gruppe dieselbe Note.
 
-Der Bericht kann nach der Bewertung einmalig überarbeitet werden bis zum Ende des Semesters.
+Kapitel, bei denen weniger als 60% der Punkte erreicht wurden, können nach der Bewertung einmalig überarbeitet werden bis
+zum Ende des Semesters. Zur Überarbeitung ist ein Änderungsprotokoll einzureichen.
 
 ### Bericht
 
